@@ -1,4 +1,3 @@
-
 import os
 import glob
 from openai import OpenAI
@@ -10,15 +9,17 @@ client = OpenAI(
     api_key=os.getenv("OPENROUTER_API_KEY"),
 )
 
-# Model identifier for OpenRouter (e.g., "openai/gpt-4o" or "anthropic/claude-3.5-sonnet")
-AI_MODEL = "openai/gpt-4o"
+# Model identifier for OpenRouter
+AI_MODEL = "google/gemma-4-31b-it:free"
 
 # Paths (Relative to project root)
 NOTES_DIR = "notes"
 DOCS_DIR = "docs"
 CHRONIK_DIR = os.path.join(DOCS_DIR, "chronik")
 PERSONEN_DIR = os.path.join(DOCS_DIR, "personen")
-NPC_IMG_DIR = "img/npc"
+
+# IMPORTANT: Images are now inside the docs folder so MkDocs can see them
+NPC_IMG_DIR = os.path.join(DOCS_DIR, "img/npc") 
 
 # Target files
 NPC_FILE = os.path.join(PERSONEN_DIR, "npcs.md")
@@ -29,27 +30,38 @@ def ensure_dirs():
     """Ensure all required directories exist."""
     os.makedirs(CHRONIK_DIR, exist_ok=True)
     os.makedirs(PERSONEN_DIR, exist_ok=True)
+    # Ensure the image directory exists to avoid the FATAL ERROR
+    os.makedirs(NPC_IMG_DIR, exist_ok=True)
 
 def generate_npc_gallery():
     """
     Scans the images folder and creates a Markdown table.
-    Images are in /img/npc, page is in /docs/personen/npcs.md.
-    Relative path: ../../img/npc/image.jpg
+    Images are in /docs/img/npc, page is in /docs/personen/npcs.md.
+    Relative path for Markdown: ../img/npc/image.jpg
     """
     print("Generating NPC gallery...")
     content = "# Dramatis Personae\n\nDie bekannten Gesichter der Stadt.\n\n"
     content += "| Porträt | Name |\n| :---: | :--- |\n"
-    
+
+    # Check if directory is empty
+    if not os.listdir(NPC_IMG_DIR):
+        print("  ! Warning: No images found in docs/img/npc")
+        return
+
     # Find all common image formats
     images = [f for f in os.listdir(NPC_IMG_DIR) if f.lower().endswith((".jpg", ".jpeg", ".png"))]
-    
+
     for img in sorted(images):
         # Clean filename (e.g., "Adrian_Tepes.jpg" -> "Adrian Tepes")
         name = os.path.splitext(img)[0].replace('_', ' ')
-        # Relative path from docs/personen/ to img/npc/
-        img_path = f"../../{NPC_IMG_DIR}/{img}"
-        content += f"| ![]({img_path}) | {name} |\n"
         
+        # RELATIVE PATH: 
+        # The file is at docs/personen/npcs.md
+        # The image is at docs/img/npc/image.jpg
+        # Path: go up one level to docs/, then into img/npc/
+        img_path = f"../img/npc/{img}"
+        content += f"| ![]({img_path}) | {name} |\n"
+
     with open(NPC_FILE, "w", encoding="utf-8") as f:
         f.write(content)
     print(f"✓ NPC gallery updated: {NPC_FILE}")
@@ -64,15 +76,12 @@ def process_notes_with_ai():
     latest_session_text = ""
 
     for note_path in all_notes:
-        # Skip 'legacy.md' or other meta-files
         if "legacy" in note_path:
             continue
 
         filename = os.path.basename(note_path)
         target_path = os.path.join(CHRONIK_DIR, filename)
 
-        # Only process if the file doesn't exist in /docs/chronik yet
-        # (Saves API costs and time)
         if not os.path.exists(target_path):
             print(f"  -> Generating text for {filename}...")
             with open(note_path, "r", encoding="utf-8") as f:
@@ -83,7 +92,7 @@ def process_notes_with_ai():
                     model=AI_MODEL,
                     messages=[
                         {
-                            "role": "system", 
+                            "role": "system",
                             "content": (
                                 "You are a master chronicler of a 'Vampire: The Masquerade' campaign. "
                                 "Your task is to transform short, bullet-point notes into an atmospheric, "
@@ -97,10 +106,7 @@ def process_notes_with_ai():
                     temperature=0.7
                 )
                 text = response.choices[0].message.content
-                
-                # Generate title from filename (e.g., 2026-06-08.md -> Sitzung 2026-06-08)
                 title = f"Sitzung {os.path.splitext(filename)[0]}"
-                
                 with open(target_path, "w", encoding="utf-8") as f:
                     f.write(f"# {title}\n\n{text}")
             except Exception as e:
@@ -108,16 +114,14 @@ def process_notes_with_ai():
         else:
             print(f"  - {filename} already exists, skipping.")
 
-    # Find the latest session to create a teaser for the home page
     processed_sessions = sorted(glob.glob(os.path.join(CHRONIK_DIR, "*.md")))
     if processed_sessions:
         with open(processed_sessions[-1], "r", encoding="utf-8") as f:
             full_text = f.read()
-            # Remove the header (# Sitzung ...) and take the first 600 characters
             lines = full_text.split('\n')
-            body = "\n".join(lines[1:]) # Everything except the first line
+            body = "\n".join(lines[1:]) 
             latest_session_text = body[:600] + "..."
-            
+
     return latest_session_text
 
 def update_index(summary):
