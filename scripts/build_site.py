@@ -9,7 +9,7 @@ client = OpenAI(
     api_key=os.getenv("OPENROUTER_API_KEY"),
 )
 
-# Model identifier for OpenRouter
+# Model identifier for OpenRouter - STAYING WITH GEMMA
 AI_MODEL = "google/gemma-4-31b-it:free"
 
 # Paths (Relative to project root)
@@ -19,7 +19,7 @@ CHRONIK_DIR = os.path.join(DOCS_DIR, "chronik")
 PERSONEN_DIR = os.path.join(DOCS_DIR, "personen")
 
 # IMPORTANT: Images are now inside the docs folder so MkDocs can see them
-NPC_IMG_DIR = os.path.join(DOCS_DIR, "img/npc") 
+NPC_IMG_DIR = os.path.join(DOCS_DIR, "img/npc")
 
 # Target files
 NPC_FILE = os.path.join(PERSONEN_DIR, "npcs.md")
@@ -30,35 +30,24 @@ def ensure_dirs():
     """Ensure all required directories exist."""
     os.makedirs(CHRONIK_DIR, exist_ok=True)
     os.makedirs(PERSONEN_DIR, exist_ok=True)
-    # Ensure the image directory exists to avoid the FATAL ERROR
     os.makedirs(NPC_IMG_DIR, exist_ok=True)
 
 def generate_npc_gallery():
     """
     Scans the images folder and creates a Markdown table.
-    Images are in /docs/img/npc, page is in /docs/personen/npcs.md.
-    Relative path for Markdown: ../img/npc/image.jpg
     """
     print("Generating NPC gallery...")
     content = "# Dramatis Personae\n\nDie bekannten Gesichter der Stadt.\n\n"
     content += "| Porträt | Name |\n| :---: | :--- |\n"
 
-    # Check if directory is empty
     if not os.listdir(NPC_IMG_DIR):
         print("  ! Warning: No images found in docs/img/npc")
         return
 
-    # Find all common image formats
     images = [f for f in os.listdir(NPC_IMG_DIR) if f.lower().endswith((".jpg", ".jpeg", ".png"))]
 
     for img in sorted(images):
-        # Clean filename (e.g., "Adrian_Tepes.jpg" -> "Adrian Tepes")
         name = os.path.splitext(img)[0].replace('_', ' ')
-        
-        # RELATIVE PATH: 
-        # The file is at docs/personen/npcs.md
-        # The image is at docs/img/npc/image.jpg
-        # Path: go up one level to docs/, then into img/npc/
         img_path = f"../img/npc/{img}"
         content += f"| ![]({img_path}) | {name} |\n"
 
@@ -74,6 +63,11 @@ def process_notes_with_ai():
     print("Processing session notes with AI via OpenRouter...")
     all_notes = sorted(glob.glob(os.path.join(NOTES_DIR, "*.md")))
     latest_session_text = ""
+
+    # FIX for MkDocs Warning: Create a landing page for the chronik folder
+    chronik_index_path = os.path.join(CHRONIK_DIR, "index.md")
+    with open(chronik_index_path, "w", encoding="utf-8") as f:
+        f.write("# Die Chronik\n\nHier sind alle bisherigen Sitzungen der Kampagne aufgelistet.")
 
     for note_path in all_notes:
         if "legacy" in note_path:
@@ -115,11 +109,14 @@ def process_notes_with_ai():
             print(f"  - {filename} already exists, skipping.")
 
     processed_sessions = sorted(glob.glob(os.path.join(CHRONIK_DIR, "*.md")))
-    if processed_sessions:
-        with open(processed_sessions[-1], "r", encoding="utf-8") as f:
+    # Filter out index.md for the teaser
+    session_files = [f for f in processed_sessions if "index.md" not in f]
+    
+    if session_files:
+        with open(session_files[-1], "r", encoding="utf-8") as f:
             full_text = f.read()
             lines = full_text.split('\n')
-            body = "\n".join(lines[1:]) 
+            body = "\n".join(lines[1:])
             latest_session_text = body[:600] + "..."
 
     return latest_session_text
