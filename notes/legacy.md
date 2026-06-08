@@ -1,0 +1,1889 @@
+# Chronik in Stichpunkten
+
+### 1. Sitzung – 10.09.2025
+
+---
+
+- Speisewagen: Es gibt Blut
+- Faustkampf: Marius vs. Roxy
+- Frau an Tür der 1. Klasse → Mensch der Second Inquisition (Auftrag Deputy Director Doyle)
+- Slate hackt ihr Handy → kann 3 Leute tracken (südlich von uns)
+- Zugwaggon mit unbekanntem Inhalt aus Seattle
+- 3 Typen werden getötet
+- Angespitzte Pflöcke / Nachtsichtgeräte
+- Absender/Empfänger: „Firstlight“
+- Kiste mit UV-Licht
+- Heather Lockheart → Meisterin des Zugbegleiters
+- Frau aus Hinterzimmer bekommt Blut von Roxy → Sender im Handgelenk
+- Ausstieg aus dem Zug
+- Treffen Raven Rockwell (Empfangskomitee)
+- Fahrt ins Hochhaus
+- Prinz Victor Caruso:
+    - Gekreuzigte Person in Vitrine
+    - Samir ibn Khaldun (Sheriff)
+    - Prinz ist Tremere
+    - Primogen der Malkavianer fehlt → Ivanna Orlov (lange rote Haare, schwarze Kleidung)
+        - Oft im Club Vertigo (Downtown)
+        - Dort gab es eine Schießerei (Zusammenhang?)
+        - Frau aus Zug trifft Mrs. Lockheart
+- Jonathan Williams (Nosferatu)
+
+---
+
+### 2. Sitzung – 17.09.2025
+
+- TV im Hotel: *Die Hard*
+- Slate durchsucht Internet:
+    - Heather Lockhearts Firma in Birchbay: Copp Industries (ca. 70 Jahre alt, stellt Züge her)
+    - Kontakt zu „Tron“ (Sire?)
+    - Soll Festplatte von Nicknack Industries besorgen (#TODO)
+    - Bieterkrieg: Nicknack vs. Nestrom → Lilly Parker bekam Nicknack
+    - Informationen zu Slates Eltern: Todesakte (kein Unfall, Mordverfahren)
+- Taxi zu Heather Lockheart
+    - Empfang überredet
+    - In Raum gesperrt (ehemalige Schlachterei)
+    - Alarm → ohrenbetäubend
+    - Im Kühlschrank: Kopf der SI-Frau
+    - Treffen Heather Lockheart → eskaliert
+        - Slate darf nicht wiederkommen
+        - Marius & Slate sollen ihr nie wieder begegnen
+- Fahrt zum Club Vertigo (Downtown)
+    - Marius hat Hungerprobleme → Ärger
+    - Obdachloser gibt Hinweise:
+        - Malkavianer-Primogen angeschossen
+        - Flucht im schwarzen SUV (Kennzeichen notiert)
+        - Kugeln von Nestrom Enterprises
+- Besuch bei Nathalie Chambers
+    - Sie erwähnt Niccolò (Primogen schuldete ihm Geld)
+
+---
+
+### 3. Sitzung – 24.09.2025
+
+- Fahrt nach Sudden Valley zu Niccolò da Firenze
+    - Anwesen → Renaissance-Stil
+    - Arbeitszimmer mit alten Gemälden & Büchern
+    - Auftrag: Bild „Il Castillo D’Arno“ aus Galerie Reinhard (Besitzer Paige Lawson will nicht verkaufen)
+        - Er gibt uns Kopie des Bildes
+    - Bücher zu True Faith & Nekromantie
+    - Fragen nach Ivanna Orlov → Niccolò verschaffte ihr Penthouse (Birchstreet 13, Sudden Valley)
+    - Liora liest Zettel von Marius
+    - Angebot: Übernachtung
+        - Liora fährt heim
+        - Slate & Roxy ins Hotel → Bettenburg, Treffen mit Valentina (Frau von Niccolò, auf dem Gemälde)
+        - Marius & Alistair bleiben → bekommen Blut
+        - In Alistairs Zimmer erscheint ein Geist
+- Roxy & Slate: Nachricht von Jonathan → Einladung Galerie Reinhard (bis Mitternacht, Celina Lawson will was)
+- Treffen an Birchstreet 13 (Penthouse Ivanna Orlov)
+    - Schwarzer SUV vor Tür, leer
+    - Slate klettert über Feuerleiter rein
+    - Gebäude: halber Rohbau
+    - Loft: Tür eingetreten, verwüstet (Einschüsse, Blut, Patronen)
+        - Meist Menschenblut, wenig Vampirblut
+        - Wand durchgeschlagen (vmtl. vampirisch)
+        - Patronen von Nestrom
+    - Schlafzimmer: beschädigter Laptop
+        - Aufnahmen:
+            - SWAT-artige Truppe stürmt Loft
+            - 10 Männer ohne Markierung, ballern auf Primogen (mit Mann mit schwarzen Haaren)
+            - Kamera zerstört
+            - Einer trägt Tattoo roter Schakalskopf → Crimson Jackals (paramilitärische US-Truppe)
+    - Abstellkammer: Asche (wohl 2 Vampire)
+    - Slate sammelt Beweise, macht Fotos
+    - Liora kollabiert im Schlafzimmer
+    - Alistair findet Tagebuch mit „sinnvollen“ Einträgen (Derek, Niccolò, Toby)
+- Auftrag: Bis 30.09. klären, wer Ivanna töten ließ (Elysium an dem Tag)
+- Vor Verdacht: Derrik (Nestrom), Niccolò, Tobias „Toby“ Crane
+- Weiteres: Peter Coleman (junger Gangrel) im Video
+- Treffen Jamal Brooks (Sheriff-Kontakt, Mann fürs Grobe) → Marius legt sich mit ihm an, wird von Schattenarmen gepackt
+- Fahrt Galerie Reinhard
+    - Treffen Paige & Celina Lawson
+    - Gespräch mit Celina:
+        - Maskeradebruch (Obdachloser + Polizei)
+        - Sheriff vermutet Aufstand des Ministry (mit Anarchen) → Auftrag: untersuchen
+        - Ministry in Everson (Norden)
+        - Alternative: 5 Ressourcenpunkte zahlen
+    - Gespräch mit Paige:
+        - Celina soll sich von Sheriff Samir trennen
+        - Ihr Ex: Luciano Giovanni (Hecata)
+
+---
+
+### 4. Sitzung – 01.10.2025
+
+- Niccolò wird über Verdacht informiert (Ivanna-Tagebuch)
+    - Marius glaubt nicht wirklich an seine Schuld, warnt ihn aber
+    - Niccolò soll sich vorbereiten, falls Vergeltung droht
+    - Marius spricht privat mit Niccolò
+- Marius bietet Niccolò Dienst an → hofft auf Unterweisung in dunklen Künsten
+    - Niccolò führt ihn zu Zombies (postiert als Wächter)
+    - Zeigt ihm Arbeitszimmer mit Akten
+    - Fotos von Victor Caruso mit Bismarck & Hitler → uralt & mächtig
+- Offenbarung: Prinz Caruso hat „Zoo“ von gefangenen Vampiren (unter Wolkenkratzer)
+    - Bezieht Macht von diesen Gefangenen
+    - Niccolòs Sohn ist einer davon (gepflockt, von Rodrigo Borgia abstammend)
+    - Deal: Marius soll seinen eigenen Herrn verraten → Einsatz für Freilassung des Sohnes
+    - Gespräch darf nie den Raum verlassen
+    - Marius wird niedergedrückt, wacht später im Gästezimmer auf
+- Liora fährt zur neuen Primogen → nimmt Tagebuch mit, will mehr Infos daraus ziehen
+- Roxy, Slate & Alistair fahren zur Bar „Rusty Stake“ (Toby Crane, Brujah-Primogen)
+    - Bar fast leer, Toby nimmt Roxy ins Hinterzimmer
+    - Thema: Abstimmung im nächsten Elysium → Stadtteil der Anarchen soll Camarilla zugeschlagen werden
+        - Toby warb Ivanna für Gegenstimme
+        - Unterstützer: Ministry, Cassandra „Cass“ Baller, Elias (Ravnos), Toby selbst
+        - Verdächtigenkreis für Ivannas Tod erweitert sich
+    - Toby enthüllt:
+        - Er ist Sire von Raven Rockwell
+        - Jamal Brooks tötete eigene Leute, um bleiben zu dürfen
+    - Roxy bittet Toby, ihren Stalker zu vertreiben
+- Slate trifft Quinn Foster (Dünnblut, rothaarig), später auch Alina Whitmore
+    - Wollen sicheren Hafen für alle Vampire in Seacouver schaffen
+    - Dünnblüter werden von Silas Mercer gejagt
+    - Verabschieden sich vor Sonnenaufgang
+- Gespräche über Bau unterirdischer Zuflucht (Toby verweist auf Nate Brooks, Gangrel)
+- Gruppennachricht: Nestrom Enterprises → Tage der offenen Tür (wegen Jubiläum)
+    - Patronenhülsen in Ivannas Loft stammen von dort → beschließen, hinzugehen
+    
+    ## 28.09.2015: Treffen im Diner
+    
+    - Austausch aller Infos
+    - Verdächtige Beobachtung: Ratte
+    - Nebentisch hört zu → fast Prügelei, Slate zahlt 20 Dollar, sie verschwinden
+- Besuch Nestrom Enterprises
+    - Tarnung: „menschlich“ auftreten
+    - Slate erkundet unsichtbar obere Büros → wird von Tron ausgesperrt
+    - Rest wird sofort in Keller gebracht → offenbar erwartet
+    - Derek Sullivan (CEO) wartet dort
+        - Roxy & Slate verstehen sich mit ihm
+        - Sie kaufen sogar Waffen → Roxy will später Grund erklären
+
+---
+
+### 5. Sitzung 08.10.2025
+
+- Was Bringt uns zu Derek Sullivan?
+    - Überfälle auf wichtige Personene (bewaffnet)
+        - Wir haben Nestum Munition gefunden
+        - Er will wissen, auf wen der Anschlag war
+            - Die Info können wir ihm nicht liefern
+                - Er will wissen, wann der Anschlag war, um herauzufinden wer den Kauf getätigt haben könnte
+    - Wir gehen in sein Büro
+        - Seine Wachen sind mit im Raum
+        - Derrek geht an seinen PC
+            - Lediglich mehere Privatkunden haben Patronen gekauft
+            - Gibt Informationen über Roten Schakalskopf Tattoo weiter und will Details herausfinden
+            - Er gibt die Anfrage an Tron weiter
+        - Wir ziehen uns kurz zurück um weiteress Vorgehen zu besprechen
+            - Geben Namen Ivannas nicht preis (Anweisung vom Prinzen)
+            - Marius benutzt Sense the Unseen
+                - John ist nicht im Raum
+            - Wenn Derrek mehr wissen will, soll er das mit dem Prinzen besprechen
+            - Derek will sich mit Informationen zum Typen mit dem Tattoo an den Scherrif wenden
+            - Wir Verlassen das Büro
+            - Marius schreibt John die letzten Entwicklungen mit Derek von Nestrom
+    - Antwort auf Maruis Text
+        - “Ihr sollt den Mörder finden, tut was getan werden muss”
+        - Das ist ein Dead end,wir machen erstmal wo anders weiter
+    - Wir machen weiter mit dem möglichen Maskeradebruch um den Obdachlosen und den Polizisten weiter
+    - Im Obersten Stock von Nestrom brennt es
+        - Alisar failt Würfelwurf und sieht Bar in der Ferne, die er besonders Attraktiv findet
+        - Roxy sieht Logan Cater, der uns scheinbar Nachstellt
+        - Scheinbar brennt es doch nicht?
+            - Er hat einen Narren an Roxy gefressen
+                - Er hat ihr schonmal eine Illusion geschickt, wie den Hausbrand im obersten Stockwerk
+            - Roxy will bei ihm nachfragen, Slate hält sie zurück
+            - Maruis ist an ihm Interssiert
+                - Er findet ihn an eine Hauswand geleht in der Seitenstraße
+                    - Logan ist an “der anderen” interssiert -> An Roxy
+                    - Er ist ein Stalker, seht an seiner Hutkrempe
+                    - Roxy unterhält sich mit ihm
+                        - Er ist übergriffig und fasst in ihre Haare
+                        - Roxy fragt, was er aus der Stadt weiß, Gerüchte und Ivanna Orlov
+                            - Er kennt Ivanna
+                            - Er holt langes Rotes Haar aus seiner Tasche
+                                - Gehört Ivanna
+                                - Er hat ihr (Ivanna) nachgestellt
+                                - Er habe sie, nachdem sie Primmogen wurde, aus den Augen verloren
+                                - Er will tuschhandel Information gegen Persönliches (Haarstähne)
+                                    - Marius weiß, dass ein geüber Vampier mit Blutmagie könnte er Roxys Gehirn vollkommen zerficken
+                                    - Roxy, zurückgehalten von Slate, geht nicht auf den Deal ein
+            - Wir verlassen ihn -> Er wirft Visitenkarte und geht weg
+                - Slate will sie zerrrißen, Marius will sie vorher fangen
+                - Slate gewinnt und zerrreist die Karte aufs Kleinste
+                    - Er kann noch das Wort Puppenkabinet lesen
+            - Slate Ruft Cathrin Raynolds an
+                - Er will BLut irgendwo herbekommen
+                - Bestellt “Tisch” -> 30 Minuten bis Lieferung
+                - Slate ruft Auto und fährt zur “Lieferadresse”
+                - Ein Transporter fährt vor
+                - Vampierin (Cathrin Raynolds) steigt aus
+                - Roxy und Slate “essen”
+                - Vampirin will BLutspende von uns als Vampier gegen Ressourcenpunkte
+                - Lieferwagen fährt werg
+                - Keiner will ihr BLut spenden
+            - Wir Trennen uns
+                - Marius und Alistar suchen den Obdachlosen
+                - Roxy und Slate fahren noch einmal nach Nestrom Industries
+                    - Fahren doch nicht dort hin sondern zu NicNac Computing (Wird von Lilly Parker, einer Ventrue, die verfeindet ist mit Derek Sullivan)
+                    - Slate und Roxy haben von Tron den Auftrag bekommen von Lilly Daten zu stehlen
+    - Roxy und Slate bei NicNac Computing Campus
+        - Kleine Parkanalge mit Gärten und Teichen im Campus
+        - Plan:
+            - An Festplatte mit Infos über “ihn” kommen
+            - “Ihr” Infos (jemand will an Ihre Akte) anbieten gegen Informationen
+        - Auf dem Campus sind keine Zeichen der Nosferatur
+        - Kleines Licht zwischen Gebäuden leuchtet -> Dort ist eine Metalltür
+            - Nach klopfen kommt keine Antwort
+            - Tür geht auch klinken auf
+            - Es geht mehere Stockwerke nach oben -> Nächste Tür
+            - Tür kann geöffnet werden
+        - Im Raum dahinter Sitzen Personen -> Darunter ein Nosferatu
+            - Franklin (der Nasferatur) spielt an Technik rum
+            - Die Bude gehört Lilly
+            - Lilly ist wahrscheinlichen Oben im ihrem Büro
+            - Eine weitere Frau ist im Raum
+                - Franklin will nicht preisgeben, wer sie ist
+            - Roxy setzt sich neben die Frau beginnt ein Gespräch
+                - Die Frau hat ein dickes Buch
+                - Roxy kann nicht erkennen, welcher Titel es ist
+                - Die Frau ist schüchtern und will nichts preisgeben, ist sher zurückhaltend
+                - Die Frau steht auf und will gehen -> Roxy bietet an, zu gehen -> Frau bleibt sitzen -> Roxy geht
+            - Nosferatur hört Informationen
+                - Slate will sie haben
+                - Franklin will einen Ressourcenpunkt oder mittleren Boon für die Information
+            - Franklin erzählt über sich selbst in Gespräch mit Roxy
+                - Er sei aus der Stadt und schon länger dort
+                - Clan sehe man ihm an
+            - Slate geht zu der Frau
+                - Sie ließt weiter ihr Buch
+                - Slate stellt sich vor, er sei in der Stadt
+                - Frage nach “Speziellen” Büchern
+                    - Keine Antwort
+                - Slate geht wieder ohne wirklich etwas erreicht zu haben
+            - Slate Steckt seinen USB Stick in Franlling Laptop
+                - Slate instaliert Maleware auf seinem Rechner
+                - Er will Informationen über geheimnissvolle Frau mit dem Buch
+                    - Sie sei Nadine Monroe
+                        - Ein Kind vom Prinz
+            - Slate merkt, dass jemand relativ nahe hinter ihm steht
+                - Es ist Nadine
+                    - Sie will nach Hause gehen
+                - Er will Nadine zum bleiben motivieren
+            - Roxy gibt Nadine ihre Nummer, falls sie mal quatschen will
+            - Nadine verlässt den Raum
+                - Lächelt bei Verabschiedung
+            - Slate soll Maleware auf Laptop von Franklin entfernen
+                - Slate chekt was die Maleware gefunden hat
+                - Er findet nmichts, was mit dem Fall Orlov zu tun hat
+                - Derek Sullivan taucht auf
+                    - Oberflächliche Informationen
+                        - Ordner mit Derek Sullivan und Nestom Enterprises aber nichts spezielles
+                - Slate löscht Maleware
+            - Franklin verlässt den Raum
+            - Roxy und Slate machen sich auf den Weg ins Obergeschoss
+    - Zurück zu Maruis und Alistar
+    - Fahrt zum Culb Vertigo und in die Nebengasse
+    - Paar telt sich auf und Sucht um den Block nach dem Obdachlosem
+    - Nachricht von Slate -> Er hätte eiene “Reinigungskraft”
+    - Marius hört auf Hauptstraße Geschrei von einer Person
+        - Klingt Betrunken
+        - Alistar hört es auch
+    - Wir gehen in Richtung des Geschreies
+        - Es ist der Gesuchte Obdachlose
+        - Alistar überzeugt ihn von der neuen Geschichte
+            - Alistar habe den Obachlosen in Marius Hände geschubst und er ihn sanft hingelegt
+                - Keine Verletzung, Kein BLutsaugen, einfach nur Vorsichtsmaßnahmen, da der Obdachlose zu betrunken war
+        - Der Obachlose heißt “Der Arme Al”
+        - Der Obdachlose wird als Informant “eingestellt”
+    - Zurück zu Roxy und Slate
+        - Sie klopfen an die Tür des Obergeschosses
+        - Hinter dem Schreibtisch sitzt eine Frau
+        - Slate und Roxy bieten ihr Informationen an
+        - Mann kommt rein und versperrt Ausweg
+        - Slate will wissen, ob sie Informationen über Derrek sammelt
+            - Erster punkt von Slate:
+                - Derrek weiß von ihrer Festplatte
+                - Er weiß, dass sie Infos gegen ihn sammeln
+                - Festplatte sollte wo anders hin verlegt werden
+                - Sie spricht zu Conner -> Er sollte Festplatte doch immer sicher halten
+            - Zweiter Punkt von Roxy
+                - Roxy will Festplatte mir gefälschten Daten evtl. mit Maleware
+                - Sie zeigt Ordner über Derek und Nestom Enterprises -> Alle sind leer
+                - Kompromiss -> Ordner mit Fake Daten füllen und weiterleiten um falsche Färthe zu legen
+                - Roxy hat die Idee, eine Backdoor in Form eines Virus zu implementieren
+    - Slate frage nach Kosten für Hardware Vollausstattung
+        - Sie würde e sumsonst raugeben, wenn Slate gewährleistet, dass Derek nicht mehr CEO von Nestrom ist
+        - Der Preis wäre rund vier Ressourcenpunkte für Vollausstattung, wenn nicht Voll, dann zwei Ressourcenpunkte
+    - Die Frau will sich um die Akte kümmern
+        - Coner wird Kontakt aufnehmen, wenn der Virus bereit ist und die Frau die Akte hat
+    - Darius soll sich bei der Frau melden, wenn alles in die Wege geleitet ist
+    - Unter Slate öffnet Sich der Boden -> er landet in den Armen von Conner
+        - Conner zeigt Slate den Weg nach draußen -> “Die Lady hat euch gebeten zu gehen”
+- Wir enden die Sitzung und einer Nachricht in den Gruppenchat, was die nächsten Punkte sind und beenden die Session für den Abend
+
+---
+
+### 6. Sitzung 15.10.2025
+
+- Gruppenchat -> wir kümmern uns morgen
+- Slate und Roxy fahren zum Nosferatu Primagon Darius
+    - Slate bietet ihm Job an
+    - Primogen will sich bei Lilly melden
+    - Slate fragt nach Abstimmungsverhalten im Elysium von Darius
+        - Er will für Anarchen stimmen
+    - Slate und Roxy warten vor der Tür und werden wieder rein gebeten
+        - Slate schreibt mit Darius Software -> Arbeiten beide äußerst herrausragend
+            - Schadcode gegen Nestrum
+                - Darius ist begeistert von Slates Fähigkeiten
+            - Slate erhält Nummer von Darius
+
+## 29.09.2025 (Eine Nacht vor dem Elysium)
+
+  **Slate & Roxy**
+  - Treffen auf pöbelnden Vampir auf der Straße → stellt sich als **Tommy Lee**, Besitzer des *Red Brick Gym*, heraus
+  - Tommy fordert Roxy auf, ihn zu schlagen → sie tut es → er lacht und lädt sie ins Gym ein („Kann dir was beibringen“)
+  - Besuch bei **Lily Parker**
+  - Übergeben Kopie der Festplatte + Virus
+  - Erhalten Akte über Roxys Eltern:
+  - Mordverfahren → Bremsleitungen ihres Autos manipuliert
+  - Verdächtiger: Mafia unter **Ray Monroe** (seit Jahren verschwunden)
+  - Monroe hatte Tochter **Alice Monroe**, liiert mit Slates Vater
+  - Deren Kind: **Nadine Monroe** – „Kind des Prinzen“ → Slate ist ihr Stiefbruder
+  **Marius & Liora**
+  - Fahrt zur Polizeistation → Untersuchung einer Wasserleiche
+  - Kontaktpolizist (Lioras Verbindung) zunächst misstrauisch, lässt sie aber hinein
+  - Leiche:
+  - Keine okkulten Spuren
+  - Alte, verheilte Wunden → Hinweis auf Ghoul
+  - Teil des Gehirns fehlt → möglicher Versuch, willenlose Diener zu züchten
+  - Liora wirkt beim Anblick erleichtert, Grund unklar
+  - Nach Abschluss → Verabredung mit Gruppe vor **Derek Sullivans Büro**
+  **Treffen bei Derek Sullivan**
+  - Gesamte Gruppe eingeladen
+  - Slate & Roxy übergeben präparierte Festplatte → erhalten „Belohnung“ (identische Akte wie von Lily, Derek ahnt es nicht)
+  - Gespräch über **Crimson Jackals**
+  - Derek bleibt bei „Information gegen Information“
+  - Nennt dennoch Namen des Käufers mit Schakal-Tattoo: **Daniel Patricks** (unehrenhaft entlassener Veteran)
+  - Slate teilt per Zettel mit, dass er Orlovs Tod subtil an Tron weitergegeben hat
+  - Gruppe erhält Patricks’ Adresse → macht sich sofort auf den Weg
+  **Massaker bei Patricks’ Adresse**
+  - Geräusche von Schüssen → Ort: heruntergekommene Scheune, mehrere schwarze SUVs davor
+  - Roxy zersticht Reifen, Gruppe dringt ein
+  - Innenraum: Blut, Leichenteile, Verwesung → nur eine verschlossene Tür hinten
+  - Roxy, Slate & Kaoru (Liora?) gehen hinunter, Marius bleibt oben Wache
+  - Unten: durch Sichtfenster zwei groteske **Fleischkonstrukte** → deformierte Wesen unbekannter Art
+  - Slate versucht, Fotos an **Jonathan & Jamal** zu senden → keine Übertragung möglich
+  - Von oben: Marius scherzt („Bringt mir was zum Knabbern“) → unmittelbar danach Angriff eines Monsters
+  - Marius flüchtet in den Keller, wird vom eigenen **Biest** übermannt → will angreifen, wird von Roxy gestoppt
+  - Oben hämmert das Monster gegen die Tür, unten regt sich Bewegung → Entscheidung zur Flucht
+  - Roxy überredet Marius, durch **Gullideckel** zu entkommen
+  - Gruppe entkommt knapp – Ursprung und Art der Kreaturen unbekannt
+
+--- 
+
+### 7. Sitzung – 22.10.2025
+
+- Alistair sieht eine Kreatur am Auto  
+  - Die Kreatur schlägt das Auto um  
+    - Lässt dann vom Auto ab  
+    - Alistair entkommt aus dem Auto  
+  - Das Monster geht in die Scheune, Alistair bleibt am Eingang und beobachtet  
+
+- Zurück zu den anderen ins Schlachthaus  
+  - Slate klettert in einen engen Schacht – Abzweigung links/rechts  
+  - Slate hört aus beiden Richtungen Geräusche  
+  - Liora hört schmerzerfülltes Stöhnen einer Frau von links  
+  - Weiterer Raum mit Leichenteilen und Monstern, Gruppe sieht das durch ein Gitter  
+  - Gruppe dreht um und kriecht zurück zur Gabelung → biegt in die andere Richtung ab  
+  - Im neuen Raum ist wieder ein Monster  
+  - Marius kratzt versehentlich am Metall → Monster wird aufmerksam  
+    - Auf einmal kann Marius ohne Geräusch den Raum durchqueren (Hä?)  
+  - Roxy durchquert den Raum auch  
+    - Liora folgt  
+    - Monster schlägt auf den Schacht nach Liora  
+    - Schacht wird verbeult, schneidet Slate den Weg ab  
+    - Monster setzt erneut zum Schlag an  
+    - Liora wird von Roxy gezogen und entkommt fürs Erste  
+  - Slate dreht um und nimmt die andere Abbiegung  
+    - Kommt bei Raum mit kriechender Kreatur an  
+    - Er durchquert unbemerkt den Raum  
+    - Gelangt unter einen anderen Raum  
+      - Sieht ein Lebewesen (Kreatur?) und ein Drittel einer anderen  
+      - Tzimisce steht im Raum  
+        - Torso von Ivanna Orlov hängt an Fleischerhaken  
+          - Ivanna ist nur noch ein Torso mit Kopf  
+        - Tzimisce entnimmt Gewebe, tritt zurück und sieht sich sein Werk an  
+        - Slate filmt die Szene  
+        - Slate schickt Video und Standort an den Sheriff → kein Empfang  
+        - Tzimisce verlässt den Raum  
+        - Slate verlässt den Schacht – wird scheinbar nicht von draußen gehört  
+        - Slate geht zu Ivanna → nimmt sie samt Haken ab  
+        - Kriecht mit Ivanna in den Schacht und schließt den Deckel wieder  
+        - Sendet Nachricht an den Sheriff erneut  
+
+- Marius, Roxy und Liora  
+  - Kommen im Schacht wieder an der Gabelung an  
+  - Roxy und Liora wollen nach links in der Hoffnung, wieder zu Slate zu kommen  
+    - Schacht geht leicht nach oben  
+    - Sie hören, wie jemand durch einen anderen Schacht kriecht  
+    - Roxy klopft Erkennungszeichen für Slate, bekommt keine Antwort  
+    - Neue Abzweigung: links oder nach oben  
+      - Geräusche kommen von links  
+      - Roxy will links checken und nachsehen  
+        - Sieht nur eine weitere Abbiegung  
+        - Geräusch kommt näher → Monster erscheint, schreit und kriecht auf Roxy zu  
+      - Liora kriecht zu einer Abdeckung, öffnet diese und kracht auf den Waldboden  
+      - Monster will Roxy am Fuß packen  
+      - Liora zieht Roxy, Roxy tritt nach dem Monster und fällt auch aus dem Schacht  
+      - Roxy macht den Schacht zu und dellt ihn ein, um das Monster aufzuhalten  
+  - Marius kriecht nach rechts  
+
+- Slate und Ivanna  
+  - Ivanna ist nicht ansprechbar (daher aber auch ruhig)  
+  - Schacht führt zu einer Abbiegung – nach unten und oben  
+  - Slate nimmt Satellitenkommunikation auf (Verbindung dauert und ist langsam)  
+  - Er sieht sich um  
+    - Hört Kreischen von weiblichem Monster (rechts von ihm, erhöht, irgendwo in den Schächten)  
+    - Hört die Tür aus Ivannas Folterkeller und Schritte  
+    - Nach links unten hört er nichts  
+  - Sie kriechen nach links unten  
+
+- Marius  
+  - Kriecht den Schacht nach unten → endet in Raum mit leerem Sarg, der leicht mit Erde befüllt ist  
+  - Er verlässt den Schacht und untersucht den Raum  
+    - Findet Kiste mit Adresse aus Nordwesten Rumäniens  
+    - Im Sarg ist Erde  
+  - Öffnet die verrostete Metalltür  
+    - In dem Gang kommt jemand auf Marius zugelaufen  
+  - Er dreht um, schließt die Tür und kriecht wieder in den Schacht → in die Richtung, in die Roxy und Liora gekrochen sind  
+  - Marius sieht das Monster, das zuvor Liora und Roxy angegriffen hat  
+  - Er kriecht in den Schacht, aus dem das Monster zuerst kam  
+  - Schacht führt dann nach oben, ohne Abzweigungen → kommt an Raum an, in dem vorher zwei Kreaturen waren, der Raum ist jetzt leer  
+  - Er verlässt den Schacht, will den Raum verlassen und wird am Knöchel gepackt von einem der vermeintlich toten Söldner  
+    - Körper ist von Wunden übersät, ruft nach Hilfe  
+    - Marius saugt ihn bis auf den letzten Tropfen aus → Painful Kiss kickt, er schreit wie am Spieß  
+    - Söldner stirbt schnell, und es ist wieder Ruhe  
+
+- Liora und Roxy kommen zu Alistair  
+  - Wir drehen das Auto wieder um und probieren, ob es noch läuft  
+  - Auto läuft nicht mehr  
+  - Alistair checkt andere Autos, findet eines, in dem der Schlüssel steckt  
+  - Liora macht sich Zimmer für den Tag klar  
+
+- Slate  
+  - Schacht endet über einem Raum → Laptop, Snacks, Bier, Raum ist leer  
+  - Er checkt sein Smartphone → alle Nachrichten gehen raus  
+  - Sheriff ist unterwegs, ETA: 20 Minuten  
+  - Versteckt sich im Gang mit Orlov und nutzt Unseen Passage  
+  - Schreibt Roxy das Update  
+
+- Marius  
+  - Geht die Treppe nach oben, nimmt Waffe vom Söldner mit – Söldner hat noch Magazine, Marius nimmt diese an sich  
+  - Marius geht nach draußen  
+
+- Marius, Roxy, Liora und Alistair  
+  - Marius gibt Waffe an Alistair  
+  - Gruppe versteckt sich im Wald und beobachtet den Scheuneneingang verdeckt  
+  - Dosen aus der Scheune rascheln und schlagen gegeneinander  
+
+- Tzimisce tritt aus der Scheune und sieht uns  
+  - Stellt sich vor als Robert Montague Renfield  
+  - Verlangt nach Vorstellung von Marius und Roxy  
+  - Tzimisce habe Maskeradebruch unterbunden (Söldner mit übermenschlichen Kreaturen)  
+  - Soll Botschaft an den Prinzen überbringen  
+    - Tag der Abrechnung naht  
+    - Nichts kann den Prinzen schützen  
+    - Wir sollen uns nicht in diese jahrhundertealte Fehde einmischen  
+    - Herr ist „Sohn des Drachen“  
+      - Marius bekommt mit, dass der Beiname Vlad III., der Pfähler, ist  
+  - Tzimisce will gehen – löst sich in Schwarm von Fledermäusen auf → flattert in den Wald  
+
+- Rauch steigt auf → Roxy und Alistair rennen rein  
+- Slate geht in den Rechnerraum und sackt Laptops ein  
+  - Slate rennt Gänge entlang → kommt in Raum, der Richtung Ausgang führen sollte  
+  - Slate kommt leicht verkohlter Sheriff entgegen  
+    - Sheriff bringt Slate raus  
+      - Blutritual mit abgeschnittener Fingerkuppe  
+      - Gibt Slate zu trinken, damit er durch Flammen kommt  
+      - Macht das Gleiche bei Frau Orlov  
+      - Slate springt durch Feuer  
+- Alle verlassen das Gebäude → alles fackelt ab  
+- Sheriff nennt Ort, in dem wir schlafen können  
+- Alle updaten sich  
+- Wir kommen bei verlassenem Haus an → Fenster sind verrammelt  
+  - Auto wird in der Garage geparkt  
+
+---
+
+### 30.09.2025 – Nacht des Elysiums
+
+- Alle erwachen  
+- Ivanna nicht ansprechbar  
+- Slate ruft Blutkurier an  
+- Liora berührt Ivanna Orlov und bekommt Premonition  
+  - Sie sieht Labor, Wissenschaftler und Leute der Second Inquisition  
+- Transporter fährt in die Einfahrt  
+  - Blut wird übergeben  
+- Slate gibt Orlov Blut von vielen „Paketen“  
+- Orlov ist wieder ansprechbar und wendet sich an Slate  
+  - Will wissen, wer Slate ist und fragt, wer sie selbst sei  
+    - Sie weiß nicht, warum sie Blut trinkt  
+- Slate ruft John an  
+  - Er holt uns ab  
+- Liora erzählt Roxy von Kaoru  
+- Wir zwängen uns ins Auto von John, einen Cadillac  
+- Wir fahren zum Prinzen  
+- Treffen im Vorraum auf Raven  
+  - Liora erklärt Raven Ivanna Orlovs Zustand  
+- Dunkelhäutiger Mann mit Sonnenbrille und dunkelroter Jacke verlässt den Raum des Prinzen  
+  - Raven: „Das ist jemand, mit dem wir uns nicht anlegen sollten“ (Adrian Holt)  
+  - Das sei derjenige, der dem Prinzen nachfolgt  
+- Wir gehen in den Raum des Prinzen  
+  - Wir berichten dem Sheriff und dem Prinzen  
+    - PowerPoint von Slate  
+  - Slate untersucht die gefundenen Laptops  
+    - Orlov sollte im Darknet verkauft werden  
+    - Findet IP-Adresse zu Haus von Sam Whitfield – er ist seit 10 Jahren tot  
+      - Keine sonstigen Aktivitäten im Netz  
+  - Slate gesteht, dass er den Namen Orlov Derek bekannt gegeben hat  
+  - Sündenbock muss gefunden werden  
+  - Wir sollen uns für das Elysium neu einkleiden  
+  - Wir gehen, Roxy und Slate sollen dort bleiben  
+    - Die Akten werden angesprochen  
+    - Nadine ist vor Ort  
+- Wir erwarten gespannt das Elysium, das in einem Opernhaus der Stadt in wenigen Stunden stattfinden wird  
+
+### 8. Sitzung – 29.10.2025
+
+- Nach dem Treffen mit dem Prinzen und dem Sheriff treffen **Roxy** und **Slate** im Vorraum auf eine unbekannte Tremere  
+  - Später stellt sie sich als **Thalia Mendes**, Primogen der Tremere, heraus  
+- Beide fahren mit dem Aufzug in eine Boutique, wo der Rest der Gruppe bereits wartet  
+- Maßanfertigungen für das bevorstehende **Elysium**  
+  - Kleidung wird gestellt und alte Garderobe gereinigt zurückgegeben  
+- In der Tiefgarage wartet eine Limousine mit gekühltem Blut  
+  - Alle stoßen gemeinsam auf den bevorstehenden Abend an  
+- Fahrt durch **Seacouver**, Ankunft am Opernhaus  
+  - Fahrzeug hält am Hintereingang → diskreter Zugang  
+  - **Slate** gibt Trinkgeld, erhält Visitenkarte eines diskreten Fahrdienstes  
+- Eintritt ins Opernhaus → Empfang durch **Fiona Moreau**, Keeper of Elysium  
+  - Erklärt Regeln:  
+    - Keine Waffen  
+    - Keine Disziplinen  
+    - Keine Streitigkeiten  
+    - Nur Sheriff & Hunde dürfen bewaffnet bleiben  
+- Gruppe betritt den Barbereich  
+  - **Lily Parker**, **Paige Lawson**, **Abigail Foster** am Tisch  
+  - **Darius Crowe**, **Franklin Carter**, **Mason Ward** (Nosferatu-Gruppe) auf der anderen Seite  
+  - **Marius** belauscht beide Seiten  
+    - Nosferatu verstummen, sobald er näherkommt  
+    - Die Damen sprechen nur Oberflächliches  
+- **Slate & Paige Lawson**  
+  - Vertrauliches Gespräch: Hinweis auf kriselnde Beziehung zwischen Paige und dem **Sheriff**  
+  - Danach: Treffen mit **Darius** und **Mason Ward**  
+    - Mason spricht über Ausbau der Kanalisation und geheime Wege für den Clan  
+    - Verhandlungen mit **Fiona Moreau** über Zugang zur Oper  
+- Informationen über Aufbau des Opernhauses:  
+  - Barbereich → Opernsaal → Lounge → Dachterrasse  
+- **Alistair** betritt den Opernsaal  
+  - Setzt sich zu **Marisol Vega**, in Begleitung von **Adrian Holt** (Seneschall) und **June Gallagher** (Harpy)  
+  - Smalltalk über die Oper und Unterkunftsfrage  
+- **Roxy & Liora**  
+  - Entdecken **Logan Carter**, der Roxy fixiert  
+  - Flucht auf die Dachterrasse  
+    - Treffen dort auf **Nadine Monroe** und **Kate Reynolds**  
+    - Setzen sich jedoch zu **Niccolò da Firenze**, **Natalie Chambers** und **Nate Brooks** (Gangrel)  
+  - **Nate** vertreibt **Logan Carter**, Roxy verspricht ihm später einen Tanz  
+  - Flirt zwischen Roxy & Nate  
+    - Nate lebt im Zoo → Liora nennt ihn „König der Tiere“  
+    - Neckereien zwischen Nate und Niccolò  
+- **Slate & Marius** stoßen zur Dachterrasse  
+  - **Marius** übergibt **Niccolò** unauffällig eine Nachricht  
+  - Er erfährt: Prinz Caruso erscheint nicht persönlich  
+    - Vertretung durch **Adrian Holt** und **Sheriff Samir ibn Khaldun**  
+- Durchsage: Alle sollen sich an der Bar versammeln  
+  - **Sheriff Samir** betritt die Bühne  
+    - Ehrung der Gruppe → offizielles Aufenthaltsrecht in der Stadt  
+    - Bericht über Angriff auf **Ivanna Orlov** durch die **Crimson Jackals**  
+    - Dank an die Gruppe für die Rettung  
+- Verkündung des Täters: **Derek Sullivan**  
+  - Strafen:  
+    - Ausschluss aus der Camarilla & Ventrue-Clan (**Andrej Novak** spricht das Urteil)  
+    - Verkauf von **Nestrum Enterprise** an **Lily Parker**  
+    - Übergabe von **NicNac Computing** an **Adrian Holt**  
+    - Verlust seiner Domäne  
+  - **Derek** verlässt wutentbrannt den Saal, gefolgt von **Jonathan** (unsichtbar)  
+- Aufruf zur Abstimmung der Primogen → Pause von einer Stunde  
+- **Alistair** auf der Dachterrasse  
+  - Gespräch mit **Natalie Chambers**  
+    - Schräges Flirtspiel mit symbolischen Gesten (Raupe, Ohr)  
+    - Beobachtet von **Luciano Giovanni**, der ihn warnt  
+- **Roxy** entdeckt **June Gallagher**  
+  - Will **Slate** mit ihr bekannt machen  
+  - Mit Unterstützung von **Liora** & **Marius** wird Slate vorgestellt  
+  - **Roxy** zieht sich zurück, damit die beiden allein reden können  
+- **Nate Brooks** erscheint erneut, zählt herunter → Walzermusik beginnt  
+  - Roxy tanzt mit Nate  
+  - **Slate** überwindet sich und tanzt mit **June Gallagher**  
+  - **Liora** lehnt Tanzeinladung von **Marius** kategorisch ab  
+- Durchsage: Ergebnis der Abstimmung  
+  - Gleichstand zwischen Anarchen und Camarilla  
+  - Entscheidende Stimme: **Natalie Chambers** → stimmt für Camarilla  
+  - Bezirk **Laurel** geht offiziell an die Camarilla  
+- **Tommy Lee** (Red Brick Gym) protestiert lautstark  
+  - **Sheriff Samir** warnt → Tommy provoziert weiter  
+  - Samir schlägt blitzschnell zu → trennt Tommy den Kiefer und die Zunge ab  
+  - Stille im Saal, Gefolgsleute tragen den Brujah hinaus  
+
+---
+
+### 9. Sitzung – 05.11.2025
+- Scherrif stehe neben SCheneschall
+    - Nachdem das geklärt ist sollen alle noch den Abend genißen
+    - cya bis nächsten Monat
+- Slate wird gedrängt zur Oper zu gehen, wo auch die Harpie ist
+- Slate in der Oper
+    - Wird von Roxy zur Harpie geschubbst
+    - Sie "Flirten"
+    - Slate bekommt Zimmerkarte eines Holtels
+- Roxy, Marius und Alistar gehen auf die Dachterasse
+- Roxy bei Nate Brooks
+    - Gespräch über Abstimmung
+    - Roxy wird in den Zoo eingeladen
+- Alistar im Gesprächmit Zoe Chapmann
+    - Sie gehen in den Hive um mukke zu hören, während die Chefin nicht da ist
+- Marius wird auf die Schulter getippt
+    - Von Derrek
+    - Er ist wütend, weil wir gesagt haben sollen, er sei es gewiesen
+    - Wir haben Prinzen nur 3 Namen genannt
+        - Wie er auf Derrekt kommt weiß keiner
+    - Derek will Wut in Rache verwandeln
+    - Marius sagt Don't kill the messanger
+    - Ging so mittel aus
+- Slate in der Oper
+    - Harpie ist schon gegangen
+    - Slate geht zu Roxy auf die Dachterasse
+
+
+---------------------
+INSERT MISSING SHIT
+_____________________
+
+### 10. Sitzung – 12.11.2025
+- Vor der Gallerie Reinhard
+- Gruppe will dem Maskeradebruch nachgehen
+- Liora will zur Polizei
+    - Schreibt ihrem Kontakt, ob dieser Informationen hat und wo sie hinkommen soll
+- Alistar sucht den Armen Al
+- Roxy und Slate sichen sich Beschäftigung
+- Alistar
+     - Armer Al hat seine Anzeige "vielleicht" zurückgenommen
+     - Al will sich ein zweites Standbei mit Sangira Doughnuts aufbauen
+- Liora bkeomme Rückmeldung -> Anzeige sei zurückgenommen worden
+    - Zuständigkeit hat sich geändert
+        - Liegt jetzt bei Sergeant James Doakes in Downtown
+- Roxy und Slate
+    - Wollen zu Lily Parker (Neue Chefin von Nestrom)
+    - Wachmann lässt sie nach Rücksprache durch und geleitet sie zum Aufzug
+    - Lily Parker zeigt verstecke Miniguns im Büro
+    - Slate fragt nach Komplettpaket an technischer Asusstattung
+    - Treffen sich anschließen mit Ray
+        - Ray sieht krank aus, bekommt Blut von Roxy
+        - Bekommt Geld -> Er soll es sich bequem machen, essen und Generator besorgen
+- Alle treffen sich im Diner
+    - Slate durchsucht das Internet nach Doakes -> Findet erst nur, dass er ex Militär ist
+- Slate geht in internetCafe, um tiefer im Netz möglichst annonym zu suchen
+    - Er findet Militärvergangenheit (Marines) von Doakes -> Vor 8 Jahren entlassen (Gründe geschwärzt) - Dann zur Polizei
+    - Keine Familie außer Eltern
+    - Slate findet seine Adresse - In Laurel
+- Roxy besorgt Auto und wir treffen Slate
+- Push Benachrichtigung
+    - London steht in Flammen
+    - Straßenkämpfe in Londown - Königsfamilie geflohen
+    - Elysium steht in Flammen
+- Slate im Schrecknet
+    - London ist gefallen
+    - Darius will sich treffen - Alle Nosferatu kommen
+- Roxy schreibt Toby -> Sie soll zum treffen kommen
+- Liora schreibt Nathalie -> Sie soll zu ihr kommen
+- Alistar geht zu Marisol
+- Roxy bei Toby
+    - Er ist angespannt, weiß allerdings auch nicht viel mehr
+    - Anwesende Thinbloods bekommen Panik
+- Liora bei Nathalie Chambers
+    - Es herrscht zum Teil unzufriedenheit mit Nathalie -> Typ beschwert sich und geht
+    - Liora wird zur Vorsicht gemahnt
+    - Liora unterhält sich mit weiterer Person (Aria) im Raum
+    - Aria gibt ihr eine Premontion
+        - Liora sieht Wald aus hunterten gepfählten Körpern
+    - Aria ist erschrocken und verlässt das Apartment
+    - Liora sucht nach Haven -> Findet Wohnung in der Nähe von Alderwood
+    - Schreib ihrem Kontakt bei der Polizei und bekommt wohnung von ihm
+- Slate bei Darius
+    - Zusammenhalt unter Nasferatu wird beschworen
+    - Informationsbeschaffung durch Nosfertu wird wichtiger werden
+        - Preise sollen erhöht werden
+        - Aber die Zusammenarbeit mit der Gesamten Camarilla sei mehr wert
+- Alistar im First Class Hotel
+    - Marisol beunruhigt
+    - In Lodon wurden gezielt Primogen und Elysion angegriffen
+- Wir treffen und im Diner
+    - Problem mit dem Polizisten soll angegangern werden
+    - Absprache mit Scherriff oder einem Hund soll getroffen werden
+    - Roxy schreibt Raven und wir treffen uns
+- Wir treffen und im Vorraum des Prinzen
+    - Raven ist nicht begeistert
+    - Der Sargent habe wohl nichts mit der SI zu tun
+    - Wir sollen uns möglicht gewaltarm um ihn kümmern
+- Damit endet die Nacht
+
+---
+
+### 02.10.2025
+- Treffen in Downtown an der Wohnung des Polizisten
+    - Kein Licht, er ist scheinbar nicht da
+    - Slate killt alle Überwachungskameras
+    - Zunächst soll geprüft werden, ob er zu Hause ist
+    - Alistar fummelt mit Sschlüssel an seiner Wohnungstür rum
+
+### 11. Sitzung – 19.11.2025
+- Doakes hält Alistar eine Schrotfint vor die Nase
+- Alistar kann die Situation "Entschärfen" und geht wieder
+- Roxi und Slate wollen ihn mitnehmen
+- Roxy klopft bei ihm
+    - Hört Schritte bei ihm in der Wohnung
+    - Doakes will sie abwimmeln
+    - Er öffnet die Tür, die Kette bleibt im Schloss -> Er reicht Handy durch den Spalt
+    - Roxy drückt die Tür auf -> Kette springt raus -> Doakes stolert nach hinten
+    - Slate und Liora gehen rein -> Halten ihm Waffe an den Kopf
+    - Doakes hat Handgrate in der Hand
+    - Roxy nimmt ihm den Splitn ab und steckt ihn wieder in die Handgranate
+    - Roxy ballert ihm eine -> Er wird bewusstlos
+    - Slate untersucht die Wonhnung, findet aber keine relevanten Aktien
+    - Doakes wird in Teppich gerollt und in Van verladen
+- Wir bringen ihn zu Liora
+    - Roxy durchsucht ihn
+        - Finder Polizeimarke, Feuerzeug, Dienstwaffe
+    - Slate finet auf Handy Ordner mit Bildern
+        - Findet Bilder von Marius darauf
+        - Bild von Niccolos Anwesen ist auch darauf
+    - Doakes wird befragt
+        - Er dachte "die ganze Scheiße" sei nicht echt
+        - Alistar und Roxy schüchtern ihn nein
+            - Er hat Angst und stimmt zu, alles zu vergessen
+        - Er stimmt zu, als Informatant zu fungieren - Im Austausch für sein Leben
+        - Liora pflanzt ihm andere Erinnerungen ein
+            - Doakes nimmt an, wir seien Marines und er wird an einer Hausecke freigelassen
+- Marius bei Niccolo
+    - Er geht zu Niccolo ins Arbeitszimmer
+    - Meister von Marius rechnet mit ärger -> hat Security aufgestockt
+    - Marius will an Niccolos wissen teilhaben
+    - Unerwartet Gast kündigt sich an -> beide sehen nach ihm
+    - Es ist Jamal -> Er habe nach Marius gesucht
+        - Jonathan hat die Stadt für ein paar Tage verlassen
+        - Marius habe beim Elysium Dinge gesagt -> Prinz bitte Marius solche Aussage zu vermeiden
+            - Drohung "was mit Tommy beim Elysium passiert ist"
+            - Zur Revolution aufrufenden Aussagen können nicht ohne Konsequent bleiben
+            - Marius wird von Schattenarbmen in Position gehalten
+            - Jamal droht ihm mit Vierteilung
+                - Trennt Marius die Recht hand am Handgelenk ab
+                - Linke Hand bleibt dran dank Niccolo
+        - Jamal lässt von ihm ab und geht
+    - Niccolo gewährt keinen weitern Schutz, wenn Marius weiter gegen den Prinzen arbeitet
+- Der Rest der Gruppe trifft bei Niccolo ein
+    - Alles mit Doakes ist geregelt (er hatte Bilder vom Anwesen)
+    - Marius soll sich zurückhalten
+- Marius Haus auf dem Friedhof ist abgebrannt
+- Wir fahren zum Friedhof
+    - Haus und Keller sind schwer beschädigt
+- Wir fahren zu Raven
+    - Sie ist angepisst wie immer
+    - Findet uns doof
+- Slate ruft Darius an
+    - Slate fragt, ob er ausgeschlatetes Handy anschalten kann
+    - Kann er nicht
+- Gruppe trennt sich
+- Slate un Roxy fahren zum Zoo
+    - Nate soll sich besser schützen vor dem Sabbath
+    - Der Spitzname der Gruppe sei "Trümmertruppe", geprägt von Raven
+    - Slate geht zum Büro, um einen Block auf die Kameras zu werfen
+    - Roxy und Nate sind in Simbas gehege
+        - Simba lässt sich von Roxy streicheln
+        - Sie turteln rum und Slate sabboriert alles
+- Marius geht zu Niccolo zum Schalfen
+- Alistar kommt bei Nathalie Chambers an
+    - Er wird einer "Illusion(?)" ausgesetzt
+        - Raum dreht sich um 180°
+        - Er steht plötzlich in einer verkrümmten Stadt
+        - Er spührt den Sonnenaufgang ohne, das es ihn verlsetzt
+- Alistar schreibt kryptische Nachricht und die Gruppe trifft sich bei einem Aussichtspunkt
+- Die Gruppe fährt zum Standpunkt Alistars
+- Der Standort von Alistar wird geortet und sie finden Ihn innerhalb eines Betonblocks auf dem Dach eines Hauses
+
+---
+
+### 12. Sitzung – 26.11.2025
+
+- Gruppe kommt aus Dachterasse an und sieht den Betonblock
+    - Alistars Handy liegt neben dem Betonblock
+    - Roxy will gegen den Block schlagen -> Hat Erfolg
+    - Letzt Nachrichten auf dem Handy wurden wohl von jemand anderem geschrieben
+    - Treffen mit Nathalie Chambers wird angesetzt
+    - Drohne fliegt über der Gruppe
+         - Roxy wirft sie mit Betonstück ab
+         - Drohne stürzt ab
+    - Marius bekommt aus Premonition die Vorahnung, dass wir vor einem COntainer im Frachhaven stehen mit Raven
+        - Container ist beschriftet mit Giacomo Bellucci (der frühere Pabst Rodrigo Borgia)
+    - Gruppe verlässt das Dach und fährt nonächst zum Frachthaven
+- Gruppe kommt an Containerhaven an
+    - Der Containerhaven
+
+    # HIER FEHLEN EINTRÄGE WEIL ICH EIN DUMMES STÜCK SCHEI?E BIN
+
+### 13. Sitzung – 03.12.2025
+- Wir stehen im Red Rock Gym und hören der Rede zu
+    - Renfield sieht uns, bleibt aber nicht hängen
+    - Wir sehen, dass aus dem Boxring ein Zirkus wird (Slate sieht Illusion nicht)
+    - Personen haben siuch verändert und wirken wie Zirkuspersonal 
+        - Logan hat sich entfernt
+    - Renfield flüstert mit Tommy und ihre Blicke streifen uns
+    - Slate schickt Viedeo an den Scherrif und will, dass wir den Raum verlassen
+- Wir verlassen das Gym
+    - Alistar wird angegriffen
+    - Versammlung drin löst sich auf, anscheinend kommen Leute Richtung Tür
+    - Alistar bekommt von Unsichtbaren attacke ab
+    - Marius weiß, es handelt sich um Geister, die aber die Verfolgung abbrachen
+- Alistar wird rausgelassen und geht in seinen Haven
+- Rest der Gruppe fährt zum Haven von Roxy und Slate
+- Alistar Forscht nach
+    - Red Brick Gym war grtoße Veranstatungslokation - Boxkämpfe
+    - Später ist es in Vergessenheit geraten
+    - Wurde Verkauft an Boxer in Rente
+    - Hat das in Gym ausgebaut
+    - Alistar schließt Mitgliedschaft ab
+- Rory sitzt im Bett neben Slate
+- Marius fährt zu Niccolo
+    - Weitere Personen im Arbeitszimmer - Alte Freunde von Niccolo Elias Crane und Samantha
+    - Tochter von Niccolo hat seine Royals Roice gecrasht
+    - Sam soll seine Tochter zur Dankbarkeit überreden
+- Gruppe fährt zu Doakes
+    - Sein Handy war immer in der Wohnung und wurde ab und an aus- bzw. angeschaltet
+    - Slate nähert sich dem Gebäude, der Rest bleibt im Auto und wartet ab
+    - Slate sieht Limousine, die scheinbar den EIngang observiert
+    - Er geht über das Dach ins Treppenhaus und geht in Richtung Doakes Wohnung
+    - Roxy geht ins Haus zur Wohnung - Liora beobachtet das Auto
+    - Wohnung war Leer
+    - Handy wird gefunden, Slate hört Anrufbeantworter ab
+    - UV Licht geht an, Slate springt aus dem Fenster
+    - Passanten wollen Slate filmen, er nimmt ihnen die Handys ab
+    - SUV's fahren vor
+    - Slate und Liora verschwinden
+    - Aus den SUV's steigen bewaffnete Soldaten in SWAT Montour aus
+    - Soldaten suchen nähere Umgebung ab
+    - Gruppe trifft sich einige Straßen entfernt 
+    - Liora geht noch mal zu Doakes Wohnhaus
+        - Aus einem SUV steigt Viktor Mikhailov aus (Lioras Vater)
+        - Liora dreht um und rennt panisch weg in Richtung Sicherheit (Ihr Kontakt bei der Polizei)
+
+### 14. Sitzung – 10.12.2025
+
+### 15. Sitzung – 17.12.2025
+- Marius in Schattenfrom aufg dem Schiff
+    - Vier Kreaturen liegen auf dem Boden (scheinbar tot)
+    - Er entdeckt Patronen und Einschusslöcher auf dem Deck
+    - Marius untersucht eine Kreatur, scheinen außer Gefecht gesetzt (durch Kugeln)
+    - Er rammt seine Zähne in den Hals der Kreatur (warum auch immer er das machen sollte, der Dödel)
+    - Marius wird aus Schattenform gezwongen und nimmt Form der Kreatur an (Nur seine abgetrennte Hand fehlt)
+- Rest der Gruppe fahrt mit Motorboot richtung Yacht
+- Roxy und Alisart wollen die Kreatur angeriefen
+- Liora und Slate erkennen Marius und wollen den Rest überzeugen
+    - Beide Scheitern, Roxy und Alistat greifen die Kretur an
+- Slate geht ein Deck tiefer
+    - Er findetJonathan und andere Vampiere gepfählt
+    - Hinter einer weitern Tün findet er eine verwundete Vampierin und Artefakte
+    - Schnappt sich alles und geht wieder nach Oben
+- Roxy ist mit der Kreatur im Kampf, Alistar hat abgelassen
+    - Roxy wird vom Bord geschleudert
+- Slate bekopmmt angebot sich mit Jamal zu berbünden
+    - Jamal will Sheriff werden -> Slate soll der erste Hound werden
+    - Slate fährt mit Jetski weg und sammelt Roxy ein
+- Liora und Alistar machen sich zum Boot auf
+    - Werden von Jamal aufgehalten -> Sie sollen Leichen anbord holen
+- Roxy und Slate kommen in der Tiefgarage des Prinzen an
+    - Auf dem Weg nach oben Laden sie Jonathan ab
+    - Alistar und Liora kommen auch an
+- Beim Prinzen
+    - Geben Frau ab
+- Auf dem Weg Raus unterhält sich mit dem Hound
+    - Slate wird von Schatten überwacht und verfolgt
+    - Hound brennt ihm Schatten von der Schulter
+
+
+### 16. Sitzung – 07.01.2026
+- In der Kanalisation im Haven von Slate und Roxy (Slate, Liora und Roxy)
+    - Slate erwaacht, die Bestie in ihm übernimmt die Kontrolle. Er ist hungrig und verfällt in Raserei
+        - Er hämmert mit Kopf gegen Containerwand
+        - Liora sucht Menschen -> Roxy zapft ihnen Blut ab
+        - Slate trinkt und das Biest verschwindet
+    - Slate erläutert, was beim Prinzen bzw. danach passiert ist
+        - Er breichtet Roxy und Liora, was unter Deck auf dem Schiff passierte
+        - Jamal will Sheriff werden, in dem Zug soll auch Raven beseitigt werden
+        - Raven soll evtl. eingeweiht werden und Jamals Plan zu vereiteln
+        - Das wirtd erstmal hinten angestellt
+    - Polizeifunk wird angehört
+        - Erstaunlich wenig Verbrechen zur Zeit
+    - Die drei machen sich auf den weg zu Lily Parker
+    - Auf der Fahrt ruft Liora ihren Kontakt bei der Polizei an
+        - Er klingt schlecht (hustet viel) -> Sollte zum Arzt gehen (Er könnte die Pest haben)
+        - Er scheint zu Boden zu fallen
+        - Liora will zu ihm 
+        - Roxy und Liora nehmen das Auto, Slate geht zu Fuß zu Lily
+- Marius erwacht im Prinzenturm
+    - Er hat wieder seinen Körper zurück
+    - Mit Sense the unsees entdeckt Marius Jonathan
+    - Jonathan war in Lodon um etwas zu holen
+    - Als sie nach Seacouver einschifften wurden sie angegriffen
+    - Jonathan erzäht Marius, dass Liora seine Hand gefressen hat (Bloodbound)
+    - Treffen mit Renfield soll organisiert werden und Waffenruhe soll ausgehandelt werden
+        - Prinz will von Rennfield wissen ob Herr Hunbiadi befreit wurde in Seacouver oder ob der Pflock früher entfernt wurde
+        - Laut Prinzen dürfen wir Informationen teilen, was Jonathan und London wollte
+        - Wir sollen die Waffenruhe aushandeln obwohl wir quasi nichts anbieten können
+    - Marius verlässt den Raum
+        - Raven kommt auf ihn zu und hebt ihn in die Luft
+        - Sie zeigt Marius Chatverlauf zwischen den beiden -> Er habe obszöne gif's geschickt
+        - Jonathan habe die gifs von Marius Handy aus geschickt
+        - Raven glaubt ihm nicht und zieht ihn in richtung Fenster
+        - Marius kann glaubhaft vermitteln, dass er ihre Nummer gar nicht hat -> das zieht -> Marius geht in Richtung Aufzüge
+- Alistar 
+    - recherchiert im Netz zur Pest
+        - Social Distancing wird von der Regierung als Maßnahme ausgegeben
+    - Schiff ging in Flammen auf -> Reicher Typ habe die Yacht selbst abgefackelt
+    - Schießeri in der Straße wo Doakes wohnt
+    - Als er Hotelzimmer verlässt trifft er June Ghallegar
+    - Sie ist ihm nich besinders zugetan, will dass an der Rezeption eine Probe der "Kunst" abgegeben wird (Devourment - Molsesting the Decapitated)
+    - Gespräch bricht sie ab
+- Slate
+    - Kommt bei Nestum an, kauft waffe und Drangonbreath Munition
+    - Fährt in Richtung Prinz
+- Roxy und Liora kommen bei dem Polizisten an
+    - Er scheint bewusstlos, Liora schüttelt ihn
+    - Liora gibt ihm Blut
+- Alle treffen sich vor dem Gebäude des Prinzen
+    - Maleware und Viren sind auf Marius Smartphone
+    - Marius berichtet über den Auftrag vom Prinzen
+    - Anrufe bei Behörden werden getätigt, um auf Pest Hinzuweisen
+- Gruppe macht sich auf zum Red Bricks Gym
+    - Türsteher will nur Mitglieder reinlassen -> Alistar is Mitglied
+    - Gruppe trifft auf Tommy Lee, dieser will nur mit Roxy allein sprechen (Slate geht unsichtbar mit)
+    - Tommy und Roxy gehen zu zweit in anderen Raum
+    - Tommy will Gegenleistung für den Kontakt zu Renfield -> Er will Geld
+    - Alterativ will er jemanden "aus dem Weg geräumt" haben (er nennt drei Personen)
+        - Alia Cahn
+        - Kathrin Raynolds
+        - Niccolo da Firence
+    - Tommy bemerkt Slate
+    - Nachdem das Gespräch mit Roxy benedet wurde, schließt Tommy die Tür bevor Slate nacch draußen kann
+    - Es kommt zur Konfrontation, Slate kann entkommen während Tommy in Frenzy gerät und das Mobiliar zerlegt
+- Gruppe fährt weg und beendet den Abend mit einem heroischen High Five zwische Slate und Alistar
+
+
+### 17. Sitzung – 14.01.2026
+
+
+### 18. Sitzung – 28.01.2026 
+- Roxy und Liora fahren zum Schwarzmarkt um für Slate Materialien zu holen
+    - Schwarzmakrt ist weniger gefüllt (Ausgangssperre)
+    - Typ mit zwei Bewachern verkauft entsprechende Materialien
+    - Er ist vulgär und Roxy wird innerlich wütend, beherrscht sich aber
+    - Alles nötige wird gekauft
+- Es geht zurück in den Haven von Slate und Roxy
+    - Slate hat bereits einige Masken fertig
+    - Die drei holen Alistar ab
+- Roxy und Liora holen Alistar im Zimmer ab und übergeben die Maske
+- Die Gruppe will zum Puppenhaus (Logans Haven) fahren, braucht aber vorher einen Plan
+- Slate schlägt vor, zu Toby zu fahren und die restlichen Masken als Ware einzusetzen
+- Wir suchen Toby im Rusty Stake
+    - Der Club scheint geschlossen
+    - Roxy ruft bei Toby an -> Ausgangssperre, Club bleibt zu
+    - Treffen wird in einem Park vereinbart
+- Der Weg zum Park ist verweist, wir warten auf einer Parkbank -> Toby kommt
+    - Gefragt wird nach Freunden und Feinden von Logan
+    - Freunde gäbe es kaum, Feinde schon
+    - Toby zögert mit der Herausgabe der Informationen 
+    - Mit Verweiß auf potentielle Ausweise will Toby seine Kontakte abklappern
+    - Toby vermutet, dass Logan in den Jahren für das verschwinden einiger Vampiere verantwortlich war (keine Belege)
+- Raven soll dazugeholt werden
+    - Roxy bekommt die Rufnummer von Marius
+    - Raven ist wie immer unfassbar freundlich und charmant
+    - Roxy und Alistar gewähren großen Boon und Raven sagt zu
+    - Treffen wird für die kommende Nacht gegen neun in einem Park in der nähe des Puppenhauses abgemacht
+- Slate wird in seinen Haven gebracht, er arbeitet weiter an den Masken
+- Roxy, Liora und Slate fahren zu dem Country Club der Gangrel
+    - Ist geschlossen, Hintertür ist leicht angelehnt und wirkt marode, Alisar klopft, lässt sie aber in Ruhe, da nicht reagiert wird
+    - Typ telefoniert, er schickt Einsatzwagen zu unser Position
+    - Wir fahren weg und werden scheinbar nicht verfolgt -> Auto wird trotzdem gewechselt
+- Alistar wird in seinem Haven abgeliefert
+- Roxy und Liora fahren in die Kanalisation
+    - Liora gibt Slate ihr Telefon -> Es wurde in der Vergangenheit getrackt
+    - Slate will mit Roxy allein sprechen 
+        - Slate will wissen, warum das Telefon von der Regierung getrackt wurde
+        - Kaoru willigt ein, dass Roxy Slate einen Teil ihrer Vergangenheit offenbart
+            - Liora war ein Forschungssubjekt
+            - Kaoru war ein eigenständiger Mensch, seine Persönlichkeit wurde jedoch in Liora gepflazt als "Geist, Seele, Beschützer oder was auch immer"
+            - Liora kann isch jedoch an nichts davon erinnern
+            - Kaoru tritt in Stressituation hervor
+- Alistar sucht im Netz nach Kosequenzen für verstoß gegen Ausgangssperre
+    - Dagegen wird recht rabiat vorgegangen (Geldstrafen und sogar Haft)
+- Alle gehen schlafen
+
+### 08.10.2025
+- Liora, Roxy und Slate erwachen
+    - Slate ist weg, er hat einen Zettel hinterlassen
+        - "Ich dachte du wärst meine Schwester, nicht ihre"
+    - Roxy schreibt Slate
+        - Bekommt ablehnende Antwort -> Slate geht offline
+    - Roxy hat eine Nachricht von Toby
+        - Wir haben Toby wichtige Informationen vorenthalten und sollen uns in seinem Club nie mehr sehen lassen
+    - Liora erwacht und sieht wie sehr Roxy durch den Wind ist
+    - Roxy bekommt Nachricht von unbekannter Nummer
+        - "Der Tee wird kalt - Tick Tack"
+- Slate ist in der Kannalisation unterwegs zu Darius
+    - In einem Käfig ist Frankly Cather - von der Bestie übernommen
+    - Bei Darius
+        - Frankly war die Snitch und dient ab jetzt als Mahnmahl
+        - Slate berichtet von Logan, Nate und dem Marquis
+        - Nasferatu halten sich neutral, weder Camarilla noch Anarchen
+        - Frage nach Puppenhaus
+            - Keine Kameras, "wenige Leute gehen rein, noch weniger kommen raus"
+        - Banu Hakim könnten vielleicht Gespräch zwischen uns und dem Marquis vermitteln
+- Liora geht zu Hopkins
+- Alistar bekommt keine Antwort und bleibt im Dunkeln
+- Roxy fährt alleine zum Puppenhaus
+    - Sie schreibt Slate, entschuldigt sich
+        - Schreibt einen Text, der wie ein abschied klingt,macht das Handy aus und lässt es im Auto 
+    - Sie klingelt, Tür geht auf
+    - Sie Ruft nach Logan -> Lautsprecher antworten
+    - Nate lebe noch, Roxy soll seine spiele mitspielen
+    - Roxy betritt ein Zimmer, es ist eingerichtet wie ihr Kinderzimmer von früher
+        - Fernsehr geht an -> Slates Vater ist zu sehen mit Frau, die nicht Roxys Mutter ist
+            - Sie ist angewieder und dreht sich weg
+        - Weinen von nebenan wird lauter (Slate) -> es sind hilfeschreie
+    - Nächstes Zimmer
+        - Der junge Slate (10 oder 11 Jahre) liegt im Bett unter Decke und weint
+        - Slate macht ihr Vorwürfe, sie habe ihn betrogen
+        - Roxy sei das Monster unter dem Bett -> Ihre Arme sehen aus wie die einer Puppe
+        - Slate fängt an sich zu würgen -> krümmt sich vor Schmerzen
+        - Als Roxy ihn berührt, zerfällt er zu Staub
+    - Im Nebenzimmer streitet Roxys Mutter vom Slates Vater -> sie hört einen Schlag
+        - Roxys Mutter liegt am Boden, Slates Vater schlägt auf sie ein
+        - Roxy will intervenieren, wird selbst getroffen
+        - Vater macht Roxy nieder, Mutter ist übersäht mit Prellungen
+        - Mutter will, dass Roxy Slates Vater "für immer" aufhält
+        - Vater holt Messer raus und geht auf Roxy zu -> Sie entwaffnet ihn
+    - Aus weiteren Zimmer kommen "glückliche" Rufe von Slate
+        - Slate, Mutter und Vater sitzen da, lesen in Buch, wirken glücklich
+        - "Ohne Roxy war alles Besser" -> "Du bist Schuld"
+        - Roxy geht zurück und macht die Tür zu
+    - Roxy irrt in gefließten Flur, die Fliesen lösen sich, fliegen umher
+    - Sie setzt sich nieder, presst sich an die Wand, Hände auf die Ohren
+    - Schatten werden immer größer
+    - Umrisse von Personen werden schemenhaft sichtbar
+    - Eine Person wird sichtbar, die Schwester von Ricky Wallace
+        - Aus ihrem Mund kommt eine Flüssigkeit
+        - Weiter im Raum findet Roxy weitere Puppen mit ähnlicher Kleidung
+    - Um Roxy herum wird es dunkler, ihre Augenlieder weden schwer
+    - Roxy sieht sich selbst als Puppe vor sich -> Sie fällt zu Boden -> Fade to Black
+- Slate zeigt die Nachticht von Roxy Darius
+- Slate ruft Tarek Rashid an
+    - Er schildert, dass Roxy bei Logan im Puppenkabinet ist
+- Slate holt Alistar und Liora ab, um zum Treffpunkt mit Raven zu fahren
+- Slates Handy klingt, der Sheriff ist dran
+    - Der Marquis wird nicht weiter eingreifen
+- John wird mitgeteilt, dass der Marquis raus ist -> John sicher Unterstütztung zu
+- Toby wird angerufen -> Er unterstützt nicht
+- Tatortreinigung wird angerufen, sie will nich tpersönlich helfen -> Verrät jedoch, dass im Puppenhaus ein Nervengift über die Lüftung verteilt wird
+- Die Lawsonschwestern werden angerufen -> Sie wollen Logan auch ein auswischen
+- Treffen im Park    
+    - Mercer wird mitgeteilt, dass über Lüftung Nervengift von Thinbloods verteilt wird
+    - Mercer ignoriert Warnungen über Nervengas und geht rein
+- Slate und Sam springen aufs Dach um Lüftung umzukehren
+    - Sam schneidet Lüftungsgitter
+    - Sie verwandelt sich in einen übergroßen Vogel -> Wedelt Luft in de Lüftungsschacht
+        - Nervengas entweicht unten aus der Tür
+        - Liora und Alistar stehen (vergleichsweise sehr weit) entfernt und bekommen was ab
+- Nervengas ist vermeindlich aus dem System und alle gehen in das Haus rein
+- Sam verwandelt Sich in Großkatze -> Slate gibt ihr etwas von Roxy für eine Witterung
+- Gruppe folgt Sam und wir kommen in die einzelnen Räume, die Roxy durchlebt hat
+- Spur führt durch Krankenzimmer in Dunkelheit -> Frauen stehen wie Puppen erstarrt
+- Alistar uind Liora riechen heftiges Desinfektionsmittel
+    - Alsitar wird übermannt und orientierungslos 
+- Im letzten Raum findet die Gruppe eine Bewusstlose Roxy
+    - Durch Schlauch wird in Roxys Mund etwas gepumpt
+    - Slate rennt hin und zieht den Schlauch
+
+- Bei Niccolo und Marius
+    - 
+
+### 04.10.2025
+- Slate fragt nen Dude ob er tunnellbauen kann
+    - Preis verhabndlungssache, je länger je mehr
+    - Er fragt nach jemandenn der auch nach oben bauen kann
+    - Ryan McGinley wird als Kontakt genannt
+- Slare spricht mit Daraius, sein Sohn lebt in Rom, wir sollen ihn mitbringen
+- AListar im Hotel 
+    - Geht zur HArpie, verspricht neue Platte, Slate soll sich bei ihr melden 
+    - Ausgangsperre wird aufrecht erhalten, obwohl scheinbar nicht nötig 
+- Roxy bei Nate
+- Slate trifft vor Nicoclos Anwesen Rory
+    - Es gebe Gerüchte über Slate
+    - Gewisse Person will mit Slate sprechen
+- Roxy und Nate werden aus dem Container geholt
+- Logan wird geschultert und sie fahren richtung Niccolo
+    - An der Ampel steht ein schwarzer SUV hinter ihnen
+    - Slate klettert in den Kofferraum
+    - Eine Sirene ertönt und sie werden herausgewunken
+    - Führerschein und Fahrzeugpapiere werden verlangt
+    - Der Officer scheint besänfigt und es werden letzte tests auf das Nummernschild 
+    - Mann mit großem Kreuz um den Hanls steigt aus, mit auch noch einem weitern bewaffneten Mann
+    - Flucht nach vorne wird angetreten - Roxy fährt los
+    - Männer eröffnen das Feuer, Rückscheibe splittert, alles andere bleibt intakt
+    - Neues Auto wird gestohlen -> Logan ist im Kofferraum 
+- Bei Niccolo da Firenze
+    - Bekannter kann vielleicht das Gedächtniss wiederherstellen
+    - Niccolo wird nach Round Table in Rom gefragt
+        - Es gbit 5 Mitglieder, die in den SChatten EUropas opperrieren
+        - Mitglieder sind nur wenigen bekannt - verschlüsselte Kommunikation etc.
+        - Niccolo zeigt auf eine maskierte Puppe - so sehen die Mitglieder wahrscheinlich aus
+        - Niccolo schreibt Brief, der im Flughafen in toten Briefkasten geworfen werden soll
+    - Slate fragt nach möglichen Gefallen für Niccolo
+        - Er will die Überreste seiner Burg in einem Thal bei Rom begutachtet haben
+    - Marius eröffnet, dass ihm mit dem endgültigen Tod von Niccolo gedroht wurde
+        - Marius hat seinen Erschaffer gegen neuen Meister ausgetauscht
+        - Alter Meister liegt in Rom im Sarg -> Niccolo will, dass wir den mitbringen
+        - Wir wissen nicht, wo in Rom der Typ schlummert
+    - Marius will bei Niccolo weitere Informationen erhalten
+        - Marius SIre ist noch nciht Ausgeschaltet, wir wollen das erledigen
+- Slate will in die Kathedrale der Banu Hakim
+    - Wird von Jamal abgefangen
+    - Slate wird gefragt, ob er beim Putch dabei ist
+    - Slate schreibt in der Tasche, weiß nicht was und an wen
+    - Jamal drängt und wirkt auf ihn ein
+    - Jamal verschwindet
+    - Nachricht aus der Tasche ging an an Tariq (Hilfe! Töte Jamal!)
+    - Tariq erscheint(?)
+    - Kampf zischen Tariq und Jamal bricht aus
+    - Jamal gewinnt, Tariq liegt in Torpor
+    - Slate bringt Tariq zur Kathedrale und will die Sache zunächst alleine Regeln
+- Roxy und Alistar rufen bei Toby an, Treffen wird für die Nacht morgen angesetzt
+- Slate wird auf dem Weg zu Darius von Ghoul aufgehalten
+    - Darius scheint beschäftigt
+    - Was Slate drin bei Darius sieht, verlässt den Raum nicht
+    - In Darius Container ist Renfield 
+    - Darius und Slate wollen versuchen verdeckte aufnahmen auf Slates Handy zu finden
+- Liora wird von Hopkins abgeholt
+    - Doughnuts und Bier gibt es, dann gehts ins Bett
+
+-------
+
+- Slate bei Darius
+    - Datenrettung schlägt fehl
+    - Darius glaubt nicht, dass Jamal ein Slate einfach umbringt
+        - Der Prinz wird schon wissen, warum er eine ehemaligen Sabbath Vampir als Hund beschäftigt
+        - Darius will sich beim Sharriff für Slate einsetzen
+        - Termin mir Sheriff sich gemacht werden soll über Jonathan gemacht werden
+- In Roxys und Slates Haven 
+    - Nate und Simba kommen herein
+    - Roxy spielt mit Simba und AListar freundet sich entfertn mit dem Löwen an
+    - Slate behält die Informationen zunächst für sich
+    - Nate wird von Slate zu Jamal befragt
+        - Ihm könne mit Celerity zugesetzt werden
+
+
+### 05.10.2025
+- Liora erwacht bei Hopkins
+    - Sie verabschiedet sich von ihm und will während der Romreise in Kontakt bleiben
+- In der Kanalisation
+    - Jonathan hat sich bei Slate gemeldet (Gespräch mit dem Sheriff)
+        - Slate soll zum Prinzenturm kommen und ein Treffen wird arrangiert
+- Roxy und Alistar setzen Slate beim Turm des Prinzen ab
+- Liora wird mit eingesammtel vor dem Turm
+- Slate fährt nach oben vor den Thronsaal
+    - Gespräch mit Jonathan
+        - Jamal sei volllkommen verprügelt zum Dienst erscheinene
+            - Er sei die Treppe runtergefallen, es war ihm peinlich
+        - Slate übergibt die Liste mit Dingen, die wir in Rom gebrauchen könnte
+        - Neuigkeit bezüglich Marius -> Er wird das Anwesen von da Firrenze nicht verlassen und steht uns nicht mehr zur Verfügung
+    - SLate will mit Mrs. Brancowicht sprechen
+    - Gespräch mit dem Sheriff in seinem Büro
+        - Slate berichtet vom geplanten Verrat
+        - Die Sache mit Tariq wird offengelegt
+        - Der Sheriff scheint aufmerkmsam zu werden und Jamals Geschichte bröckelt
+        - Das Argument mit dem Schatten, welchen Tariq ausgebrant wurde, bringt den Sheriff zum nachdenken
+    - Gespräch mit Mara Brankovic vor dem Tronsaal
+        - Sie gehen in seperaten Raum
+        - Mara habe auf ihrem Smartphone Zeichen -> Morsecode
+            - Slate macht sich auf, diesen zu entschlüsseln
+- Roxy AListar und Liora fahren zu einem Bücherladen
+    - Stadtführer sollen gekauft werden
+    - Thalia Mendes - Primogen der Tremere betritt den Laden
+    - Es sind wenig Besucher dort
+    - Die Besucher scheinen zum Großen Teil Gohle und Vampire zu sein
+    - Alistar hat ein Geräch mit einer Vampirien, die sie bei Elysium gesehen haben
+        - Sie scheint einem Kuklt anzugehören
+        - Alistar bekommt ihre Nummer
+    - Alistar nimmt drei Reiseführer für Rom, Italien und das mysitsche und verbrecherische Rom
+    - Roxy sieht sich im Laden um
+        - Sie trifft auf Thalia Mendes
+            - Roxy fragt nach Bauchempfehlung für Nadine Monroe
+                - Der Kult von Sharli -> Das sei Dämon des Voids, es geht um "das ende von allem" (Darüber würden sie predigen)
+            - Nach Nadines zurückgezogenheit gefragt, wird auf ihre Vergangenheit verwiesen
+            - Nadine geht in Büchern auf, nicht in der Gegenwart von anderen Vampiren oder Lebewesen
+    - Liora sicht sich ein Buch zur russischen Folkore
+    - Bücherladen gehört Frank Reed, sollten wir was brauchen, können wir uns an ihn wenden
+        - Er ist auch Privatdetektiv 
+            - Roxy beauftragt ihn, Jamal zu beobachten
+            - Liora lässt ih nachvorschungen zu Viktor Mikhailov anstellen
+- Slate hat in der Zwischenzeit die Nachricht ("Michael") entschlüsselt
+    - Er untersucht das Telefon weiter -> Er findet Koordinaten
+- Slate wird abgeholt
+- Es geht zum Plattenladen
+    - Platte "People floating in Space" wird gekauft vin Alistar (Space Rock/Psychadelic)
+    - Roxy kauft eine Ghost Platte 
+- Wir fahren zu den Koordinaten, die Slate bekommen hat
+    - Er findet ein mystiusches Zeichen und Kontaktiert Brocowich
+    - Erzengel scheinen darin eingraviert
+    - Slate fühlt sich an entwas erinnert, er habe etwas ähnliches in der Galerie Reinhart gesehen
+    - Er macht ein Foto vom Stern mit der Inschrift
+- Wir fahren zur Galerie
+    - Eine gut gelaunte Selina Lawson kommt uns entgegen
+    - Slate zeigt das Symbol
+    - Page wüsste besser Bescheid und sie wird geholt
+    - Symbol wird wieder gezeigt
+    - Page zeigt und ein Gemälde was mit dem Symbol in Verbindung steht
+        - Es zeigt Bearbeitungsspuren, drei Engel wurden nachträglich hinzugefügt
+        - Die Farbe riecht nach Blut
+        - Page biete an, die engel zu entfernen, um zu sehen, was darunter ist
+        - Die Farbe wird aufgelöst -> Liora nimmt eine Probe mit
+        - Unter den Engeln sind Begrifflichkeiten und Symbole
+        - Die Symbole Neben Saturn, Mercur und Mars auf Slates Inschrift kommen zu Tage
+        - Es gibt in der Stadt unternehmen, die diese Begriffe im Namen haben
+            - Saturnus Inc (Bildschirme), Mas Mars (Lebensmittel), Mercur Industrial (Industrieteile)
+            - Die Standorte der Unternehemen in der Stadt spiegeln die Position im Symbol
+- Angekommen bei dem Mittelpunkt Koordinaten
+    - Slate nutzt Cloak the Gathering und Unseen Passage
+    - Gemälde mit ähnlicher Symbolik wird gefunden
+    - Hinweise auf den Keller finden sich
+    - Im Keller ist ein Wartungsschacht mit einer gesicherten Tür
+    - Slate bekommt die Tür gehacked 
+    - Ein Raum offenbart sich, indem Bücher unter Vitrieren lagern
+    - Typ mit drei Augen erscheint
+
+### Sitzung Nr. 1999999
+- Gespräch armer al
+    - salubri (Hexe) gesehen
+    - Boot im Hafen annabeth
+        - ist nach süden mit dem boot gefahren
+
+25.03.2025
+- Wir kommen beim Haven von Roxy und Slate an
+    - Die Vetter sollen dagelassen werden, damit sie auf den Haven aufpassen
+    - Vetter sind in Federstift, Flachmann und Buch gebunden
+    - An die drei Zugänge zum Haven werden die Vetter verteilt
+- Roxy will zu Toby, um die Wogen zu glätten, nachdem sie und Alistar ihn versetzt hatten
+    - Wird auf später verschoben, da vor dem Abflug keine Zeit mehr ist
+- Slate ruft Toby an
+    - Treffen im Park wird vereinbart
+- Treffen im Park mit Toby -> Liora wartet im Auto
+    - Alsiar erklärt, warum das eigentlich Treffen nciht zu stande kam und kassiert dafür eine Faust ins Gesicht
+    - Toby hört es sich an und will sich um Raven kümmern
+    - Roxy und AListar stehen in seiner Schuld, sind jedoch wieder in seiner Bar willkommen
+- Den Salubis wird mitgeteilt, was der Arme Al zu berichten hatte
+- Die Gruppe fährt zum FLughafen und wird an Privathanger weitergleitet
+    - Ghoul weißt den Weg in Richtung eines schicken Privatjets
+    - Alex (Ventrue, Flugbegleiter/Pilot?) wird während des Aufenthalts in Rom in der Nähe des Flugzeugs bleiben, dieses Sichern und für den Abflug bereitstellen
+    - Elsebeth Morrison (Reisebegleitung)
+        - Hekata
+        - Kennt sich in Rom aus und auch mit den örtlichen Kainskindern
+- Der Flug verläuft reibungslos
+    - 19.30 wachen alle auf, 30 Minuten vor der Landung
+    - Blut wird verteilt
+- Nach der Landung rollt das Flugzeug in einen Hanger
+    - Koffer werden entladen in schwarzen SUV 
+- Nach der Anmelung geht es in die rustikal, schicke Unterkunpft
+- Die Nacht steht zur freien Verfügung
+- DIe Gruppe fährt zum Cesars Forum, um Slates aufgabe von Darius nachzugehen
+    - Slate finder Nosfertuzeichen, welches in eine dunkle Gasse führt und in der Kanlisation mündet
+    - In der Kanalisation scheint Musik zu laufen
+    - Im Zentrum der Musik sitzt eine Nosfertu inmitten von stapelweise Büchern hinter einem Laptop
+    - Als sie uns wahrnimmt, wird sie unsichtbar
+    - Alistar geht in der Musik voll auf, woraufhin die Nosferatu Dame hinter ihm erscheint und ihm eine Schrotflinte an den Kopf hält
+    - Slate erklärt, dass Darius ihn schickt, um seine Tochter zurückzuholen
+    - Sie glaubt es zunächst nicht
+    - Slate nennt ihren Namen (Fiona Mathis) - Sie will weitere Details als Beweis
+    - Nach etwas hin und her erscheint Matty - Fiona und er wollen aus der Stadt - Fiona kommt nur mit, wenn wir auch Matty mitnehmen
+    - Slate ruft Johns Gouhl an, die Anfrage (beide mitnehmen) wird weitergeleitet
+    - Fiona und Matty wollen an einen sicheren Ort - Können wir nicht bieten
+    - Auf Fionas laptop erscheint ein Vampier (Beluci) mit einem gläsernen Sarg, indem die gehörnte Figur (Adrian Tepisch, Sohn von Vlad Tebpisch) liegt 
+    - Roxy hört, dass sich tiefer in der Kanalisation ca 10 Personen nähern
+    - Die beiden werden eingesackt und die Kanalisation wird verlassen
+
+    - Gruppe geht richtung Ausgang 
+        - Slate mache alle unsichtbar
+        - Wir gehen aber nicht raus, sondern verstecken uns
+        - Typ kommt um die Ecke, geht an die Leiter und 7 weitere Personen (Ghule) folgen ihm
+        - Es wird trotzdem ein anderer Ausgang gewählt - Nach 15 Minuten stehen wir an einer anderen Leiter
+- Die Gruppe kommt in einer ruhigen Straße raus
+- Fiona und Slate verschwinden in Internetcafe, um Fionas Hardware zu checken
+    - Roxy, Liora und Alistar bleiben draußen und beobachten die Umgebung
+    - Trojaner wird auf Fionas Laptop gefunden
+    - Gefäschte GPS Daten werden eingespeist, die suggerrieren, Fiona hätte die Stadt verlassen
+- Elsbeth wird Zwecks Blut angeschrieben
+- Wir laufen mit den Beiden zur Unterkunpft
+- Matty und Fiona sollen Huckepack in das AirBnB getragen werden
+- Air BnB wird nach Wanzen und Kameras druchsucht und auch zahlrieche Objekte gefunden
+- Signale werden wohl in Richtung XYZ geschickt
+    - Slate schreibt Trojaner -> ein Hackback
+- Es klingelt an der Tür, Roxy öffnet
+- Lucretia Bougiani stellt sich vor  
+    - Sie begrüßt uns in Rom - Sie nennt einige Ort (Auch die, an denen wir waren in der Richtigen Reihenfolge)
+    - Sie spricht Einladung von Giacomo Bellucci - Rodrigo Borgia aus im Vaticanmuseum
+    - Lucretia benutzt Fähigkleit, um alle zu Überreden - Alistar wiedersteht und wiederspricht wehement
+    - Sie will Slate als Pfand mitnehmen - Er kommt frei, lässt es sie aber nicht wissen
+    - Lucretia wird vor die Tür gesetzt
+- Elsbeth kommt herein
+    - Wir bleiben in der Wohnung, Ausweichmöglichkeit wäre zu kurzfristig
+    - Round Table wird sich um unsere Sicherheit kümmern - Aber nicht heute, wird schon passen
+    - Sie holt Blut - Wirft Liora menschliches Herz zu
+- Alle gehen zu Bett
+
+## 26.03.2015 - Erste Nacht in Rom 
+
+- Aus dem Fenster sind vermeindliche Wachen zu sehen
+- Slate bekommt von unbekannter nummer den Hinweis "Netter Trojaner, beim nächsten Mal kommst du nicht so davon"
+    - Nachrichten gehen hin und her
+    - Nosferatu der Stadt wollten uns abhören
+- Roxy bekommt Nachricht von Elsbeth
+    - Treffen an Adresse wird übermittelt bei einer Burk oder einem Schloss
+    - Weitere Mitteilung kommt mit Adresse, an die wir vorher kommen sollten - Vaticanmuseum
+- Anruf bei Elsbeth - Lucretia geht ran - Elsbeth ist in ihrer Hand -> Wir sollen hinkommen
+- Slate und Fiona hacken sich in Kameras des Vatican Museums - Lucretica und Elsbeth sind zu sehen
+- Liora gibt Alex Bescheid - 
+- Slate ruft bei Niccolós Ghoul an - Dringlichkeit wird verstanden
+    - Frau von Niccoló ruft zurück
+    - Ob sie hilft, wird nicht wirklich klar
+- Wir fahren zu Museum
+    - Slate und Liora gehen unsitbar mit
+    - Roxy muss Waffe abgeben
+- Im Raum mit Lucretia und Elsbeth
+    - Bellucci will mit uns sprechen
+    - Elsbeth wird Richtung eingang in die Freiheit abgeführt - Slate geht unsichtbar mit
+- Roxy und Alistar werden zu Belucci geführt - Es geht unter die Erde durch karge Gänge
+- Giacoomo Belluci erscheint im Gang
+
+### Sitzung 08.04.2026
+- Belucci geht im Gang spazieren, wir folgen
+- Liora zeichnet Kate der Gänge mit, sie ist unsichtbar
+- Slate mit Elsebeth
+    - Elsbeth will beim Round Table Alex unterstützen
+- Slate will wieder ins Museum rein
+    - Er geht um das Museum, Dame tritt hervor, sieht in aber nicht, im nächstem Moment ist sie nicht mehr zu sehen
+        - An der Mauer ist nichts zu sehen, scheinbar massiv
+- Belluci geht die Gänge entlang
+    - Er kennt unsere Aufgabe
+    - Gespräche dreht sich um Rom
+    - Er will ein Spiel spielen auf leben und TOd
+- Liora schreibt Slate den Standort und das bevorstehende "Spiel"
+    - Sie geht wieder in Richtung von Roxy und Slate
+- Slate geht mit ShHotgun bereit zum Haupteingang
+    - Ghoule zücken Meschienengewehre
+    - Slate droht GEmälnde zu zerstören, wenn Roxy und Alistar nicht rauskommen
+- Liora hat Alistar und Roxy verloren
+- Belucci, Roxy, Alistar und das "Spiel"
+    - Mit Nachfragen sollte der Name erkannt werden (Gaius Aelius Scipio)
+    - Alistar bekommt das mit seinen Büchern hin
+    - Belucci meint das Imperium Roms wunrde lediglich pausiert
+    - Rom ist Zivilisation, Ordnung und Macht -> Belucci sieht Macht wegbröckeln
+    - Belucci: "Ich bin Rom und ich werde es zu neuem Glanz leiten"
+- Wir kommen bei einer Tür an, die in Dunkelheit endet
+    - Wir scheinen auf Empore zu stehen
+    - Untote befinden sich anscheinend unter uns
+    - Belucci präsenteirt und "Rom! Die Legionen kehren zurück!"
+- Slate
+    - Unterhaltung mit dem "Jäger" aus der Kanalisation
+    - Slate macht einen "Deal"
+- Liora in der Kanalisation
+    - Frau, die bereits Slate gesehen hat, erscheint und geht einen Gang entlang
+- Roxy, Belucci, Lucretia und Alistar auf der Emphore
+    - Alistar kann sein GEbutrsdatum einGrenzen über die Verschollene Legion und den Hadrianswall
+    - Belucci war in der Schlacht Legat und emipfing ein Embrace
+    - Teile seiner Legion sind heute in der Armee auf Untoten
+- Slate erscheint mit dem Jäger
+- Slate unterbreitet Belucci den Deal
+- Weitere Person soll mit uns Sprechen Belucci zeigt auf Tür
+- Wir treten durch die Tür
+- Der Raum ist prunkvoll eingerichtet - Ein Mann steht mit dem Rücken zu uns
+- Er durchdringt Liora und sie wird sichtbar
+- Er stellt sich als Vlad Tepisch vor (Drakula, der Pfähler)
+    - Der Prinz von Seacouver sei nur einer Marionette von Sultan Mehmed II.
+        - Dieser leige im Torpor unterhalb des Prinzenturms
+    - Vlad und Mehmed sind sich überhaupt nicht knusper -> Blad soll es ein Endszenario geben
+    - Menschheit soll radikal reduziert werden und der Rest versklavt
+    - Er habe nachvorschungen angesetellt
+        - Liora habe einst anderen Namen getragen, sie wurde von ihrer Familie gequält
+            - Vlad kann ihr Helfen, verdrängte Erinnerungen wiederzuerlangen
+            - Er behauptet wissen über Kaoru sei nicht vollsändig
+                - Es seien nicht zwei Persönlichkeiten sondern eine, erwachsen aus Beschützerinstinkt
+        - Außerhalb von Seacouver läge im Westen eine Insel, auf der Liora antworten finden sollte
+        - Liora erkennt duch ihn ihren richtigen Namen
+    - Slate fragt Vlad, ob er an ein Leben ach dem Tod glaubt
+        - Er will wissen, ob seine Frau die exterminierung gutheißen würde
+        - Vlad hebt Slate an einem Arm hoch
+    - Der Raum beginnt vor unseren Augen zu verschwimmen
+- Wir stehen wieder in der Kanalisation
+- Freundin von Valentina offenbart uns wie wichtig wir doch für die Zukunft und das Schicksal sein werden
+    - Sie ist wohl weder Humanoid noch Vampier
+    - Sie sei ein Wraith, der nach dem Tod in Körper zurückgekehrt ist
+    - Nennt sich "Risen"
+    - Sie gehört nicht zu Belucci, sondern zu Valentina, sie sollte uns helfen
+    - Sie geleitet uns durch die Gänge und in die stadtische Kanalisation
+- Slate kauft antike Rüstung
+- Zurück im AirBnB wird erstmal geduscht
+- Elsbeth erscheint in der Wohnung
+    - Wir setzen sich in Bild über die Anwesenheit Vlads
+    - Über ihre Entführung sollen wir schweigen bewahren
+    - In der Rüstung hinter Slate ist ein Geist
+        - Der Geist steckt im Schwert und er will Rom verlassen
+        - Wenn wir ihn mitnehmen, wird er sich erkenntlich zeigen
+
+### Sitzung 15.04.2026
+
+#TODO Steffi Fragen
+
+### Sitzung 29.04.2026
+- In der Kanalisation 
+    - Mattis Asche wird in seinem alten Schuh zusamengekratzt
+    - Überlegungen werden angestellt in die Toskana zu fahren, um für Niccolo die Videos zu machen
+        - Würde zu lange dauern -> wird auf morgen Nacht verschoben
+    - Zunächst soll heute noch bei einem Waffenhändler halt gemacht werden
+- Wir verlassen die Kanalisation in Richtung Straße
+- Wir gehen zu den Spanischen Treppen -> Laden der Tee verkauft
+    - Im Laden ist ein Typ hinterm Counter, Atmet nicht und irgendwas ist komisch an dem
+    - Roxy fragt nach der "anderen" Ware -> Der Manager (Alexy Smirnov) erscheint
+    - Wir werden in Hinterzimmer geführt -> Waffen sind ausgestellt
+    - Liora erkennt seinen fake russischen Akztent
+    - Alistar sucht sich einen Revolver aus
+    - Slate frage nach Dragonbreth Munition
+    - Roxy sucht nach eine automatischen Waffe
+    - Er bietet uns Waffenaresenal an mit Granatan, RPG, Gefächtswagen bisd hin zu einem Appache
+    - Liora will Wurfmesser
+    - Er will immer weiter alles Mögliche verkaufen
+    - Die Waffen sollen einen Ressourcenpunkt kosten und einen kleinen Boon
+    - Slate kauft nichts und will auch für den Boon nicht verantwortlich sein
+    - Statt des Boons werden zwei Ressourcenpunkte ausgegeben
+- Angekommen im neuen AirBnB
+    - Liora und Roxy führen Gespräch unter vier Augen
+        - Liora erzählt, was Vlad ihrt offenbart hat
+    - Liora schreibt Hopkins 
+    - Roxy spricht mit Nate über Entwicklungen in Seacouver
+    - Slate füllt etwas von Mattis Asche in einen Anhänger, den Fiona sich umhängen kann
+- Alle gehen zu Bett
+- Nächste Nacht
+    - Elsbeth will wissen, was wir machen -> Sie will mit nach val d'arno
+- Slate und Alistar fahren noch mal zm Waffenhänder
+    - Der Nosferatu soll überzeuzgt werden, mit nach Seacouver zu kommen
+    - Er willigt ein
+    - Slate kauft 10 Brandgranaten und Dragonbreath Munition (soll von SPesenkonto gedeckt werden)
+- Liora und Roxy schnappen sich Fiona und wollen sie am Flughafen abliefern
+    - Auf dem Weg wird ein Gefäß für Mattis Asche gekauft
+    - Fiona wird beim Flugzeug abgeliefert
+- Liora und Roxy holen Elsbeth ab -> Roxy fährt
+    - Slate und Alistar werden abgeholt
+- Während der Fahrt wird das weitere VOrgehen besprochen
+    - Elsbeth sieht sich den magischen Pflock an
+        - Es gibt möglichkeiten gegen den Pflock zu wehren
+        - Wenn ein Splitter im Arm ist und er abgehackt wird, geht es nicht
+        - Wenn das Herz nicht im Körper ist, gehts nich
+    - Die Tagesodnungspunkte werden Diskutiert
+        - Wohin zu Erst?
+            - Erst oin Rom um Belucci kümmern
+            - Danach die Sache in Neapel erledigen
+        - Wie mit Belucci umgehen
+            - Weitere Informationen zu sienem Netzwerk sollen eingeholt werden
+            - Alexaj soll gefragt werden
+- Wir kommen am Castello von Niccolo an
+    -Slate macht Fotos
+    - Auf Infotafeln wird Niccolos Schreckensherrschaft beschrieben
+        - Er wird als Blutfürst beschrieben
+    - Niccolo und seine Frau wurden Enthauptet
+    - Nach dem Tod Niccolos word von Missernten und Flüchen geschrieben
+    - Neben einem Gemälde entdecken Roxy und Slate einen Geist (Luca dan Tonio, Hauptmann der Wache)
+        - Der Geist sei noch im Castello, um seinen vermeintlich gestorbenen Herren zu Schützen
+        - Dem Geist wird offenbart, das Niccolo in Seacouver lebt
+        - Der Geist will bleiben und wir sonnen Niccolo berichten, dass in Italien weiter über sein ehemaliges Anwesen gewacht wird
+    - Es werden noch videos von der Umgebung und Ruinen gemacht (gundmauern etc.)
+    - Slate findet einen Weg in den Keller
+        - Er findet ein Grab von Ordenritter St. Peter (1370 - 1425)
+        - Auf dem Sarg ist abgebildet, wie ein Ordenritter 2 geflügelten Dämonen den Kopf ab
+        - Bist in Slate öffnet den Sarg -> Darin befindet sich ein Schwert (Mit dem vermutlich Niccolo uns seiner Frau der Kopf abgeschlagen wurde)
+        - Die Scheide liegt auch im Grab -> Slate Sacke alles ein
+        - Bei weiterer Untersuchung findet Slate einen weiteren Geheimraum
+            - Der Raum scheint Jahrhunderte nicht geöffnet worden zu sein
+            - Er findet ein Gemälde von Niccolo und seiner Frau
+            - Weiterhin eine Kiste mit Wertsachen (4 Ressourcenpunkte) 
+        - Roxy wurde hinzugezogen
+
+### Sitzung 06.05.2026
+- Weiter im Kellerraum des Castellos
+    - Roxy sieht sich das Schert an -> Darauf ist eine Inschrift
+        - Matthäus 10.34 steht drauf -> "Ihr sollt nicht meinen, dass ich gekommen bin, Frieden zu bringen auf die Erde. Ich bin nicht gekommen, Frieden zu bringen, sondern das Schwert."
+    - Die Netzwerk technologie ist extream veraltet -> Kameras wird ein Loop vorgespielt
+    - Slate hat Zeit und sucht im Schrecknet nach infos und vor asllen Gegenspielers zu Belucci
+        - Kapital G (Bruhja, etws älter, nicht zu schwach) wurde von Belucci blosgestellt vor versammelter Mannschaft
+            - Elsbeth soll gefragt werden
+    - Roxy geht zum Auto um eine Tasche zu holen für den ganzen Loot
+    - Wertsachen werdne eingesagt und diskutiert, ob wir das Bild mitnehmen wollen
+        - Bild past ins Auto und soll mitgenommen werden
+- Alle sind im AUto
+    - Alistar fällt auf, dass irgendwas an Slate sonderbar ist
+    - Slate fragt Elsbeth nach Kapital G
+        - Kapital G wolle Rapper werden, sehr schlecht und beschissen aber keiner Sagt ihm das
+            - Er neigt zur Gewallt
+    - Weiters Vorgehen zur Belucci wird wird diskutiert
+        - Feinde Beluccis sollen gefunden und vervündet werden
+        - Alsistar erläutert seine Gedanken zu Belucci
+            - Absolutistischer Anspruch: Beluccis Aussage „Rom bin ich!“ ist eine direkte Absage an die kollektive Autorität des Round Table.
+            - Er strebt die Wiedererrichtung eines Römischen Reiches an, was die Souveränität aller bestehenden italienischen Domänen und des Rates beenden würde.
+                - Warum sollte er nach dem Italienische großreich aufhören? das kann eine globlae gefahr werden.
+            - Er befehligt eine wachsende Armee aus Untoten in den Katakomben, die nicht der Verteidigung, sondern der Eroberung dient.
+            - Pakt mit dem Erzfeind: Vlad Tepes wurde direkt in Beluccis Räumlichkeiten angetroffen.
+                - Belucci gewährt demjenigen Zuflucht, der die gesamte bestehende Ordnung der Ahnen und des Round Table vernichten will.
+                - Durch diese Verbindung macht sich Belucci zum Wegbereiter für Vlads radikale Pläne zur Umgestaltung der Welt.
+                    -Vlad plant die radikale Dezimierung der Menschheit.
+                        - Ohne eine ausreichende menschliche Population bricht die Lebensgrundlage aller Vampire zusammen, was zu unkontrollierbaren Kriegen um Blut führen würde.
+                - Die Kombination aus Vlads Massensterben und Beluccis offener Legion macht die Geheimhaltung der vampirischen Existenz unmöglich und ruft die Inquisition auf den Plan.
+            - Wir hatten den Kontakt mit  Beiden und damit das wissen; wir könnten externe Kräfte nutzen und ressourcen in bewegung setzen, die unsere Aufgabe mit der Bestrafung quasi mit übernehmen, um eigne Interssen durchsetzen
+        - Jonathan soll Kontaktiert werden und erklärt, was wir denken
+    - Elsbeth sieht sich das Schwert, was Slate gefunden hat, an
+    - Alistar leißt mit Src the Soul Slates Zustand
+        - Das Schwert ist heilige Magie
+        - Kann gegen Dominate und so helfen
+        - Gläube können aber Visionen vom Schwert, dessen Träger und groben Standort bekommen
+        - Elsbeth wendet ein, dass die Träume (Standort) verzögert eintreten
+            - Wir sollten uns mal an eine Tremere wenden, die kann evtl. helfen
+    - Das Schwert wird erstmal behalten
+    - Einiger Schmuck wird verteilt ans Elsbeth und Liora
+    - Schmuck kann in Rom vielleicht an eine Nadia verkauft werden
+    - Bild soll vorher zum Flughafen gebracht werden 
+-Beim Flughafen
+    - Zweites Flugzeug steht neben unserem -> es gehört scheinbar Alexey
+    - ALexsy liefert Informationen zu den Örtliche machverhältnissen
+        - Er berichtet von Konflikt zwischen Round Table, Prinz und Round table
+        - Prinz weitestgehend machtlos und isoliert
+        - Primogen Roms untergetaucht oder Tod (bis auf ashley)
+        - Waffenstillstand wurd erzwungen
+- Zurück im AirBnB
+    - Liora ist unfassbar angepisst und geht ins Bett
+    - Jonathan wird angerufen
+        - Er ist außerhalb Seacouvers auf einer Mission mit schweren Gefächten
+        - Wir Brifen ihn, er will alles an den Prinzen weiterleiten
+        - Alistar schickt ihm eine Zusammenfassung
+        - WIr könnten uns an Raven wenden
+    - Telefonat mit Raven
+        - Wolfsgeheul ist im Hintergrund
+        - Sie ist freundlich, kooperativ und besticht mit ihrere lebhaften Art
+        - Sie wird auch gebrieft
+        - Wir sollen uns bei Jamal melden, sie git die Nummer (Machen wir nicht, weil jamal ein dummer arschkopp is)
+    - Slate ruft Darius an
+        - Liefert Informationen zu den neuen Entwicklungen bezüglich der neuen Nosferatu (Alexey, Fiona)
+        - Fionas Brustkorb ist von bedeutung, Darius hat darin etwas versteckt
+        - Fiona selbst ist vollkommen egal, es geht um den Inhalt des Brustkorbs
+        - Darius wird auch gebrieft, was die Pläne Vlads angeht
+        - Es wird angewägt, ob die Nosferatur ihre Neutralität lange aufrecht erhalten können in anbetracht der neuen Informationen
+        - Der Prinz überlegt wohl, einen weiteren Sheriff zu ernennen
+        - Ausgangsperre wegen der Pest ist etwas gelockert worden
+    - Roxy will sich mit Liora unterhalten, die komisch ist und und angepisst
+        - Kaouru ist im drücker, aufgebracht und wütend
+        - "Liora habe den Stecker gezogen", daher ist er am drücker
+        - Kaoru stellt sich Alistar (der auf der couch daneben saß) vor, der vorher nichts wusste
+            - Nach einem schlchten start werden die Fronten geklärt und die Wogen geglättet
+            - Kaoru erzählt Alistar alles, was Roxy und zum Teil Slate auch schon weiß
+                - Sohn von Victor Micaelov
+                - Persönlichkeiten und instabilität
+                - Experimente und Misshandlungen
+                - Echter Name Tatijana Michaelov
+                - Liora hat drei Geschwister (2 Schwestern, 1 Bruder)
+    - Slate kommt aus dem Band und teilt mit, was er mit Darius besprochen hat -> Nur die Informationen, die "für die Gruppe" bestimmt sind
+        - Wir sollten verhindern, dass Jamal Sherriff wird
+    - Alle gehen zu BEtt
+
+## 17.10.2015
+    - Jonathan meldet sich mit Bild von Totem
+        - Sieht nach Regierungsbeamten aus
+    - Kaoru schreibt Hoppkins
+        - "Alles in Ordnung, arbeit war anstrengend"
+        - Ist untypisch für ihn -> Nachricht "Ich bins, Hoppkins" -> Kaoru wird wütend und schließt den Chat
+    - Alistar sucht nach infos zu den Kämpfen bei Jonathan (Hintergrundgeräscueh beim telefonat gestern)
+        - Artikel zum Umland Seacouvers erscheinen 
+        - In klner Stadt schießerei, unzaählige Totde
+        - Kampf Mafia gegen Biker -> Das ist Bullshit
+    - Liora ruft Hoppkins an
+        - Es sie überarbeitet, habe sich mit seinem sohn getroffen und sei einfach fertig
+        - Ausgangssperre sei verhärtet wurden, man würde beim Bruch direkt inhaftiert
+        - Der schluss liegt nahe, dass das nicht hoppkins ist
+        - Es wird aufgelegt
+    - Liora ruft hoppkins sohn an
+        - Es gab kein treffen mit dem Sohn -> Contradiction nummer 2
+    - An HOppkins wird maleware geschickt, um u.a. kamerazugriff zu erhalten
+        - Hoppkins und zwei weitere Personen sind zu sehen
+            - Nach den Personen wird gesucht
+                - Blake Harrison, Private invseitagor
+                - von der anderen Person wird nichts gefunden
+    - Slate, Roxy und Alistar gehen jagen
+    - Alistar macht einen abstrcher in einen Plattenladen und kauft "ricchi e poveri" mit "e penso a te"
+    - Wir Fahren zur Elsbeths Kontakt (Nadija), um die Wertsachen aus dem Castilo zu verklingeln
+        - Elsbeth geht rein und kündigt uns an
+        - Die Händlerin biete 3 Ressourcenpunkte an, Roxy und Alistar handeln sie auf 4 hoch
+        - Slate muss das geschäft beanden, ihn in die augen sehen und die hand geben, fällt der süßmaus etwas schwer
+        - Ein unfreiwillig komischer Flirt entsteht, Slate bekommt ihre Nummer
+    - Alistar kauf 2 alte Nokia Handys, eine Wegwerfsim um 50 Euro Guthaben
+    - Wir fahren zu Elsbeths Kontakt, um das Schwert loszubekommen, in der nähe der spanischen Treppen
+        - Elsbeth hat uns angekündigt ->> wir sollen bei Brancini klingeln
+        - Sie hat scheinbar ein Problem mit Elsbeth und will Alsitar eine Ohrfeige geben, er weicht aus
+        - Dem SCchwert soll der Ortungsmechanismus entzogen werden
+        - Die Händlerin will das Schwert zunächst testen, an einem Subjekt, welches für sie keinen WErt mehr hat
+        - WIr fahren mit dem aufzug unter die Erde
+            - Hinter einem schlichten, fast klinischen Flur kommen nach weiteren Treppen in einem Raum mit Blut an den Wänden, generell ist es unangenehm, erinnert an einen Folterkeller
+            - Ein Salubri ist im Raum, angeblich ein sabbath anhänger, der weg kann
+                - Ring und Mittelfinger werden abgehackt -> Um die wunde wird es aschefarben und schwarz -> das breitet sich weiter aus -> die hand zerfällt zu staub
+                - Kaoru trennt mit einem Beil den Arm an der Schulter ab -> Der abgetrennte arm zerfällt binnen sekunden zu staub -> Extreme schmerzenschreie werden laut
+                - Frage ist: führt das zum finael tod?
+                - Was passiert bei bloßer berührung? -> haut wird schwarz, er schreib vor qualen, es zerfällt aber nix zu staub
+                - Anderer Arm wird abgetrennt -> schwarz ausbreitung geht auf den ganzen körper -> er zerfällt zu staub
+                - Experiment geglückt, daten gesammelt
+            - Als wir wieder im BUro an
+
+
+## Sitzung 20.06.2026
+- Slate ist aus der Frienzy raus -> da er mit Alia geschrieben hat
+- Die Nacht ist bald vorbei -> Slate sucht in der Kanalisation einen Schlafplatz
+    - Slate baut für seine Geräte einen trockenen Unterschlupf
+    - Er sucht im Schrecknet nach Ashwood Abbey
+        - Gegründet 1855; Zusammenschluss von Jägern aus Schottland; in Einflussreichen Jagdtclub für Übbernatürliches entwickelt
+        - Vor allem alter Adel jagdt nach Trophähen
+        - Bekannt für fragwürdige Vorgehensweisen an übernatürlichen Wesen
+    - Nachricht von Jonathan
+        - Wir sollen Anwesend bleiben, bis Folgen der Taten bewiesen werden können
+        - Wir müssen Belucci irgendwie bestrafen und sollen halt zusehen, wie wir das machen
+- Liora, Roxy und Alistar
+    - Elsbeth wird an der Straße rausgelassen
+    - Rest fährt ins AirBnB
+    - Roxy schreibt Slat
+# Nächste Nacht
+    - Liora und Alistar jagen -> Werden von Roxy unterstützt
+- Slate in der Kanalisation
+    - Er medlet sich bei Roxy
+    - Er wird das Schwert abholen während der Rest zum Round Table fährt
+- Im AirBnB
+    - Vorbereitungen für das Treffen mit dem Round Table
+        - Liora und Roxy ziehen sich um und machen sich fertig
+        - Alistar zieht sich um
+        - Alte Klamotten werden in den Kofferraum geladen
+- Elsbeth wird eingesammelt und die Gruppe fährt zum Round Table
+- Slate begibt sich zur Tremere Violeta Brancini, um das Schwert zu holen
+    - Irgendetwas ist komisch
+    - Slate wird Blut angeboten und sehr gedrängelt es zu trinken
+    - Er trinkt, wenn er von ihr eine Lifeboon bekommt
+    - Sie wird beobachtet, irgendwer weiß von dem Schwert (Die Nachricht war im Blut eingebettet)
+    - Slate gibt ihr den Wanzenditektor
+    - Treffpunkt zur Übergabe wird via Zettel und Stift mitgeteilt
+    - Slate bemerkt, dass die Signale der Abhörtechnik Richtung Vatikan senden
+- Roxy, Liora, Alistar und Elsbeth im Auto
+    - Slate ruft Roxy an; ist auf Lautsprecher; Neuigkeiten zum Schwert und Violeta werden durchgegeben
+- Slate macht sich unsichtbar und geht wieder rein
+- Kaoru soll Slate unterstüzten; wir lassen ihn raus, erzieht sich um
+- Roxy gibt Slate bescheid, dass Kaoru zur unterstützung komme
+- Roxy und Alistar beim Round Table
+    - Kapital G hat sich noch nicht gemeldet
+    - Alistar führt seine Gedanken zur Globalen Gefahr aus
+        - Andere Domönen einzubeziehen dauert wohl lange -> Vertrauen aufbauen, stimmt es überhaupt, was wir sagen
+    - Roxy schlägt vor, zunachst mit Beluccis Tochter zu beginnen
+        - Round table wird sich am Vorhaben beteiligen
+        - Idee des Neutralen Ortes für ein Treffen mit allen Parteien wird vorgebracht
+            - Colloseum als Ort wird abgehakt
+            - Kapital G wollte sich um Organisatorische Belange bis Morgen nacht Kümmern
+            - Pfand soll den Parteien gegenseitig gegeben werden
+            - Round Table stimmt dem Teffen zu
+- Slate im Flur vor Brancinis Flur
+    - Nach kurzer Zeit geht unten eine Tür auf
+    - Unauffälliger Mann betritt das Haus und kommt die Treppen hoch
+    - Typ klopft an der Tür von Brancini
+        - Er gibt sich als Lieferdienst aus
+        - Lieferung sei schon bezahlt, er stellt die Lieferung ab und geht aus dem Haus
+        - Slate nimmt die Lieferung und schafft sie weg
+- Liora kommt bei Brancini an
+    - Vor dem Haus stehen mehrere Vans ohne Nummernschild
+    - Liefertyp geht in Richtung eines Vans
+    - Liora schreibt Slate mit Fotos der Vans; er solle vorsichtig sein, wie er dfas Haus verlässt
+- Rauchgranate wird in das Gebäude geworfen
+    - Slate wirft Brandkranate zum Hauseingang
+    - Er betätigt Feueralarm
+    - Slate schnappt sich Brancini
+- Liora hört den Feueralarm
+    - Aus den Vans steigen Personen aus
+    - Liora fotogrphiert alles
+    - Priester betet vor sich hin
+    - Sie nutzt Mesmerize und will, dass ein Soldat seine Verbündeten umbringt
+    - Liora wird im Zuge Sichtbar
+    - Ein Soldat schießt auf Liora
+- Slate im Flur
+    - Er geht zu Brancinis Tür und geht rein
+    - Die SI ist hier -> Im Keller gibt es einen Notausgang
+    - Slate will, dass sie das Schwert zerstört -> Schwert ist nicht in dem Haus gelagert
+    - Aufzug kommt nicht -> Aufzugtüren sollen aufgeschoben werden 
+- Liora vor dem Gebäude
+    - Sie schreibt Roxy
+    - Wird in Deckung unsichtbat und geht zu Fuß vom Ort des Geschehens weg
+- Slate schießt ins Treppenhaus
+    - Gegen die Wand ins Treppenaus wird etwas geworfen
+    - Brancini verschucht die Türen aufzuschieben
+    - Türen gehen auf -> Cloak the Gathering wir genutzt
+    - Flashbang detoniert in der Nähe, beide sind geflashed aber unsichtbar
+    - Schritte kommen näher -> 8 Soldaten -> 2 Bleiben im Treppenhaus -> 4 Stürmen in Brancinis Wohnung
+    - Ein Soldat gibt Clearance für das Stockwerk, Kardinal kann hochgeschickt werden
+    - Ein Soldat klettert die Leiter im Aufzugschacht runter
+    - Um dem Kardinal zu entkommen, Klettern Slate und Brancini dem SOladen hinterer in Richtung Kellers
+    - Die Beiden warten in einer Kule ab
+    - Der Kardinal ist im Haus zu hören, wie er Lateinische Gesänge rezitiert
+    - Slate hört, dass der Kardinal oben angekommen ist 
+- Alistar und Roxy bekommen im Auto Lioras Nachricht
+    - Roxy will ungebdingt hin
+    - Slate schaltet sich in den Chat ein -> wir sollen fern bleiben
+- SLate und Brancini sind noch im Aufzugsschacht
+    - Slate will die Kmaeras manipulieren, sodass Brancini das Haus verlässt mit dem Schwert
+    - Soldat um Aufzugsschaft bekommt den Befehl, wieder nach Oben zu klettern
+    - Slate und Brancini klettern auf das Aufzugsdach
+        - Im Aufzug steckt ein Italienisches Seniorenpaar fest
+        - Über das Heimnetz lässt er in einem obernen Stockwerk Schussgeräusche über einen Rechner abspielen
+        - Über das Netz lässt Slate den Aufzug hochfahren und zwischen Zwei Etagen stoppen
+    - Weg nach unten ist damit offen
+    - Beide klettern bis in den Keller
+    - 2 Wachen stehen im Keller und Bringen Gerät an der Wand an
+    - Brancini will eine Wache erledigen, Slate die andere
+        - Beide Wachen werden getötet
+    - Durch die Kellerräume gelangen Beide zur magischen Tür von Brancini
+    - Walkitalki gibt durch, dass 2 Männer fehlen und das der Keller durchsucht werden soll
+    - Brancini benutzt ein Portal
+
+# Hier fehlt was
+
+# Sitzung 03.06.2026
+    - Im Club vom Prinzen
+        - Lucretia pricht uns an
+        - Roxy fragt den Prinzen, ob man einen Wand zertrümmern könnte und in die Freiheit kommt
+        - Prinz weiß von nichts
+        - Lucretia will wahrscheinlich den Prinzen
+        - Roxy schlägt die Decke ein
+        - Lucretia gibt den Angriffsbefehl
+        - Prinz wird Huckepack genommen von Roxy und es geht raus
+        - Die anderen 2 Damen springen raus
+        - Alistar klettert die Stange hoch
+        - Liora rutscht von der Stange ab
+        - Slate wirft Lucretia den Pin der Brandgranate entgegen und die Granate auf die Treppe
+        - Lucretia und Marco wenden sich vom Feuer ab
+        - Slate ruft Alexey an
+            - Evakuirung wird geregelt
+            - In 30 Minuten kann er kommen
+        - Wir gehen 2 Häuser weiter, die übers Dach erreichbar waren
+        - Es wird vom Dach gesprungen
+        - Slate nutzt Cloak the Gathering
+        - Wir gehen Richtung Taxistand
+        - Helicopter von von Alexey
+            - Er lässt eine Leiter Runter
+            - Er hat Militäruniformen
+        - Elsbeth wird angerufen
+            - Sie soll beim Round Table bescheid geben, dass wir kommen
+            - Prinz soll geschützt werden, will nicht biem Round Table bleiben
+            - Wir übvernachten am Flughafen
+        - Wir fliegen mit Prinz und Anhang zum Flughafen
+        - Slate bekommt Nachricht von Marco
+            - Wenn wir uns das nächste mal sehen, sterben wir
+    - Am Flughafen
+        - Konten vom Prinzen sind gesperrt
+        - Slate ruft ChinChan an
+            - Wird weitergegeben an ChinCan
+        - Gespräch mit Lina und Luna
+            - Ehefrauen/Bodyguards was auch immer
+            - SItuation seit Monaten angespannt
+                - Belucci hat sich von der Camerill abgewandt und seine Macht demonstriert
+                - Round Table war in Aufruhr; Primogen auch
+        - Wir gebeen uns  in eine Lounge
+        - Liora fällt auf, dass Roxy etwas an sich hat
+            - Alistar bemerkt, dass es irgendwas mit Marco zu tun hat
+            - Elsbeth wird angerufen, sie kann den Schatten ausbrennen
+        - Liora und Alistar legen dem Prinzen den Plan Bleuccis offen
+            - Er will einfach fliehen
+            - Liora und Alistar überzeugen ihn
+            - Falls etwas schief geht sollen wir Lina und Luna in Sicherheit bringen
+        - Elsbeth nähert sich - Wird von Roxy gesehen
+            - Ruhiger Raum wird gesucht
+            - Roxy legt sich mit dem Bauch auf den Tisch
+            - Arme werden unter dem Tisch mit Handschellen fixiert
+            - Flammender Schmerz auf dem Rücken
+            - Schmerz läst nach - Sollte restlos weggebrannt sein
+        - Slate bkeommt nachricht von Alia
+            - In Seacouver herrt komische Stille - Die Ruhe vor dem Sturm
+            - Bei Lily Parker geht keiner ran
+            - Darius wird angerufen
+            - Niccolo wird angerufen
+                - Er will sich nächste nach mit weiteren Informationen melden
+        - Roxy schreibt mir Nate
+            - Allen gehts gut
+            - SImba säubert Haven von Ratten
+            - Im Haven ist alles ruhig
+        - Alle legen sich hin
+    ## Nächster Tag
+        - Alle gehen jagen
+        - Nachricht bekommt viele Nachrichten von Alia über nacht
+            - Alle eingänge wurden verriegelt
+            - Schüsse sind gefallen
+            - Ghoule sind schon tot
+            - Sie haben sich in die Katakomben zurückgezogen
+            - Sie hat sich zwischen Gräbern versteckt
+            - Schüsse haben aufgehört
+            - Sie hört Lateinische Codes
+            - Sie kann sie hören
+            - Sie sind auf der anderen Seite der wand
+            - 21.55 "Slate"
+            - 21.56 "Sie kommen näher"
+            - 21.57 "Ohh Gott"
+            - Danach Ruhe
+        - Roxy merkt ans Slates verhalten, dass etwas nicht stimmt
+        - Slate zeigt ihr die Nachrichten
+        - Slate ruft Johnathan an
+            - Ghoul geht ran
+            - Ghoul will Bericht zusenden
+                - Es gab einen Raid auf die Kirche
+                - Primogen hat überlebt; Rest vermisst oder tot
+            - Suche läuft noch
+            - Auf Anweisung des Sherriffs sollen alle nach den Bahnu Harkim aussau halten in der stadt
+        - Es geht auf in Richtung Colloseum
+        - ChinChan wird angerufen
+            - Er untersuchte das Event via Premonition
+                - Ashley hat scheiße gemacht
+                - Sie habe noch mal in die Zukunpft gesehen und alles lief gut
+        - Wir kommen zum Collosemum
+            - Lina, Luna, Ashley, Prinz, Nadja
+        - Alistar umreißt die Eckpunkte
+        - Ahley will nur Technische Hilfe leisten
+            - Slate überredet sie,auch manpower zu stellen
+        - Alle sind gewillt beizutragen
+        - Pause wird gemacht, damit sich alle Besprechen können
+        - Slate bespricht sich mit Ashley
+        - Roxy geht zum Vertreter des Round Table
+        - Abstimmung folgt zu den Szenarien
+            - Beluccis Armee angreifen
+            - Beluccis umfeld zu attakieren
+            - Armee und Umfeld angreifen
+            - Mehrheit will Option drei
+        - Slate wird sicheren Onlinekanal für die Kommikation erstellen
+        - Shley wird informationen zum Umfeld und Orten zusammenstellen
+        - Mehrheit für einen Schlag noch diese Nacht
