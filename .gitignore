@@ -1,0 +1,76 @@
+
+# ===== PYTHON =====
+venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ===== FASTAPI / UVICORN =====
+*.db
+*.db.gz
+test_*.db
+logs/
+*.log
+nohup.out
+
+# ===== ENVIRONMENT =====
+.env
+.env.local
+.env.*.local
+.vscode/settings.json
+
+# ===== IDE =====
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ===== OS =====
+.DS_Store
+.AppleDouble
+.LSOverride
+*.sublime-project
+*.sublime-workspace
+
+# ===== MkDocs =====
+site/
+docs_bak/
+
+# ===== NOTION EXPORT (optional - nur wenn du ihn nicht brauchst) =====
+# data/notion_export/  <- Auskommentiert, da Import-Quelle
+
+# ===== BACKUPS =====
+*.backup
+*.bak
+data/*.backup.*
+
+# ===== PYTEST =====
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ===== TEMP FILES =====
+*.tmp
+.cache/

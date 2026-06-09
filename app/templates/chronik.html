@@ -1,0 +1,59 @@
+
+{% extends "base.html" %}
+
+{% block title %}Chronik - Seacouver by Night{% endblock %}
+
+{% block content %}
+<section class="chronik">
+    <h2>📜 Chronik</h2>
+    
+    <p class="session-count">{{ total_sessions }} Sessions insgesamt</p>
+    
+    {% if sessions %}
+    <div class="sessions-list">
+        {% for session in sessions %}
+        <article class="session-card">
+            <header class="session-header">
+                <h3>{{ session.title or "Session vom " + session.date }}</h3>
+                <time datetime="{{ session.date }}">📅 {{ session.date }}</time>
+            </header>
+            
+            {% if session.ingame_date %}
+            <p class="in-game-date"><strong>In-Game:</strong> {{ session.ingame_date }}</p>
+            {% endif %}
+            
+            {% if session.summary %}
+            <p class="summary">{{ session.summary }}</p>
+            {% endif %}
+            
+            {% if session.plain_notes %}
+            <details>
+                <summary>Notizen anzeigen</summary>
+                <pre>{{ session.plain_notes }}</pre>
+            </details>
+            {% endif %}
+        </article>
+        {% endfor %}
+    </div>
+    
+    <!-- Pagination -->
+    {% if total_pages > 1 %}
+    <nav class="pagination">
+        {% if current_page > 1 %}
+        <a href="/chronik?page=1" class="btn btn-small">« Erste</a>
+        <a href="/chronik?page={{ current_page - 1 }}" class="btn btn-small">‹ Zurück</a>
+        {% endif %}
+        
+        <span class="page-info">Seite {{ current_page }} von {{ total_pages }}</span>
+        
+        {% if current_page < total_pages %}
+        <a href="/chronik?page={{ current_page + 1 }}" class="btn btn-small">Weiter ›</a>
+        <a href="/chronik?page={{ total_pages }}" class="btn btn-small">Letzte »</a>
+        {% endif %}
+    </nav>
+    {% endif %}
+    {% else %}
+    <p class="no-content">Noch keine Sessions eingetragen.</p>
+    {% endif %}
+</section>
+{% endblock %}

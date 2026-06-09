@@ -1,4 +1,5 @@
-name: Deploy Vampire Site
+
+name: Deploy FastAPI to Webspace
 
 on:
   push:
@@ -11,32 +12,130 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v4 # Aktualisiert von v3 auf v4
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
-        uses: actions/setup-python@v5 # Aktualisiert von v4 auf v5
+        uses: actions/setup-python@v5
         with:
-          python-version: '3.10'
+          python-version: '3.12'
 
-      - name: Install Dependencies
+      - name: Install dependencies
         run: |
-          pip install mkdocs mkdocs-material openai
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
 
-      - name: Run AI and Gallery Generator
-        env:
-          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
-        run: python scripts/build_site.py
+      - name: Initialize database
+        run: |
+          python scripts/db_manager.py
+          echo "✓ Database initialized"
 
-      - name: Build Static Site
-        run: mkdocs build
+      - name: Import Notion export
+        run: |
+          python scripts/import_notion_md.py
+          echo "✓ Notion data imported"
 
-      - name: Deploy to Server via SCP
+      - name: Import sessions
+        run: |
+          python scripts/import_sessions.py
+          echo "✓ Sessions imported"
+
+      - name: Prepare database for transfer
+        run: |
+          gzip -c data/campaign.db > data/campaign.db.gz
+          echo "✓ Database compressed"
+
+      - name: Deploy application files via SCP
         uses: appleboy/scp-action@master
         with:
           host: ${{ secrets.SSH_HOST }}
           username: ${{ secrets.SSH_USER }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           port: 22
-          source: "site/*" 
-          target: "/www/htdocs/w016db5f/seacouver-by-night.de/"
-          strip_components: 1
+          source: |
+            app/
+            scripts/
+            docs/
+            data/campaign.db.gz
+            requirements.txt
+            .env.example
+          target: "/www/htdocs/w016db5f/seacouver-by-night"
+          strip_components: 0
+
+      # ===== SMART SETUP - OHNE VENV FALLBACK =====
+      - name: Setup and restart application on server
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.SSH_HOST }}
+          username: ${{ secrets.SSH_USER }}
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          port: 22
+          script: |
+            set -e
+            
+            cd /www/htdocs/w016db5f/seacouver-by-night
+            
+            echo "📦 Setting up environment..."
+            
+            # Erstelle logs Verzeichnis
+            mkdir -p logs
+            
+            # Datenbank decompressen
+            if [ -f data/campaign.db.gz ]; then
+              gunzip -f data/campaign.db.gz
+              echo "✓ Database decompressed"
+            fi
+            
+            echo "🔍 Checking Python setup..."
+            
+            # Versuche venv Weg
+            if [ -d venv ]; then
+              echo "✓ venv already exists, using it"
+              source venv/bin/activate
+              pip install --upgrade pip > /dev/null 2>&1
+              pip install -r requirements.txt > /dev/null 2>&1
+            else
+              echo "⚠️  venv not found, trying to create..."
+              if python3.12 -m venv venv 2>/dev/null; then
+                echo "✓ venv created successfully"
+                source venv/bin/activate
+              else
+                echo "⚠️  venv creation failed, using global Python (fallback)"
+                python3.12 -m pip install --user --upgrade pip > /dev/null 2>&1
+                python3.12 -m pip install --user -r requirements.txt > /dev/null 2>&1
+              fi
+            fi
+            
+            echo "✓ Dependencies installed"
+            
+            # Alte uvicorn Prozesse killen
+            pkill -f "uvicorn app.main:app" || true
+            sleep 2
+            
+            # App im Hintergrund starten
+            if [ -d venv ]; then
+              source venv/bin/activate
+              nohup uvicorn app.main:app --host 0.0.0.0 --port 8000 --workers 4 > logs/uvicorn.log 2>&1 &
+            else
+              export PYTHONPATH="/www/htdocs/w016db5f/seacouver-by-night:$PYTHONPATH"
+              nohup python3.12 -m uvicorn app.main:app --host 0.0.0.0 --port 8000 --workers 4 > logs/uvicorn.log 2>&1 &
+            fi
+            
+            echo "✓ Application started"
+            sleep 3
+            
+            # Health Check
+            if curl -s http://127.0.0.1:8000/ > /dev/null; then
+              echo "✅ Deployment successful - Application is running"
+            else
+              echo "⚠️  Health check failed, but app was started"
+              echo "📋 Check logs manually: tail -f logs/uvicorn.log"
+            fi
+
+      - name: Deployment Summary
+        if: success()
+        run: |
+          echo "✅ Deployment completed!"
+          echo "🌐 App should be available at: https://seacouver-by-night.de"
+          echo "📝 To check logs: ssh to server and tail -f logs/uvicorn.log"

@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Seacouver by Night{% endblock %}</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🦇 Seacouver by Night</h1>
+            <p class="tagline">Ein Vampire: The Masquerade Abenteuer</p>
+        </header>
+
+        <div class="main-content">
+            <!-- Sidebar -->
+            <aside class="sidebar">
+                <nav>
+                    <section class="sidebar-section">
+                        <h3>Navigation</h3>
+                        <ul>
+                            <li><a href="/">🏠 Home</a></li>
+                            <li><a href="/chronik">📜 Chronik</a></li>
+                            <li><a href="/characters">👥 Charaktere</a></li>
+                        </ul>
+                    </section>
+
+                    <section class="sidebar-section">
+                        <h3>Spieler-Charaktere</h3>
+                        <ul>
+                            {% for pc in pcs %}
+                            <li>
+                                <a href="/character/{{ pc.slug }}">
+                                    {% if pc.image_path %}
+                                    <img src="/{{ pc.image_path }}" alt="{{ pc.name }}" class="sidebar-thumbnail">
+                                    {% endif %}
+                                    {{ pc.name }}
+                                </a>
+                            </li>
+                            {% endfor %}
+                        </ul>
+                    </section>
+
+                    <section class="sidebar-section">
+                        <h3>NPCs</h3>
+                        <ul class="npc-list">
+                            {% for npc in npcs[:10] %}
+                            <li>
+                                <a href="/character/{{ npc.slug }}">{{ npc.name }}</a>
+                            </li>
+                            {% endfor %}
+                            {% if npcs|length > 10 %}
+                            <li><a href="/characters">... und {{ npcs|length - 10 }} mehr</a></li>
+                            {% endif %}
+                        </ul>
+                    </section>
+                </nav>
+            </aside>
+
+            <!-- Main Content -->
+            <main class="content">
+                {% block content %}{% endblock %}
+            </main>
+        </div>
+    </div>
+</body>
+</html>

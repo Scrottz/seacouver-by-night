@@ -1,0 +1,50 @@
+
+{% extends "base.html" %}
+
+{% block title %}Home - Seacouver by Night{% endblock %}
+
+{% block content %}
+<section class="hero">
+    <h2>Letzter Eintrag</h2>
+    
+    {% if session %}
+    <article class="session-card">
+        <header class="session-header">
+            <h3>{{ session.title or "Session vom " + session.date }}</h3>
+            <time datetime="{{ session.date }}">{{ session.date }}</time>
+        </header>
+        
+        {% if session.ingame_date %}
+        <p class="in-game-date"><strong>In-Game Date:</strong> {{ session.ingame_date }}</p>
+        {% endif %}
+        
+        {% if session.summary %}
+        <section class="session-summary">
+            <h4>Zusammenfassung</h4>
+            <p>{{ session.summary }}</p>
+        </section>
+        {% endif %}
+        
+        {% if session.plain_notes %}
+        <section class="session-notes">
+            <h4>Notizen</h4>
+            <pre>{{ session.plain_notes }}</pre>
+        </section>
+        {% endif %}
+        
+        {% if session.narrative %}
+        <section class="session-narrative">
+            <h4>Narrative</h4>
+            <div class="narrative-text">{{ session.narrative }}</div>
+        </section>
+        {% endif %}
+    </article>
+    
+    <div class="navigation">
+        <a href="/chronik" class="btn btn-secondary">Zur Chronik →</a>
+    </div>
+    {% else %}
+    <p class="no-content">Noch keine Sessions eingetragen.</p>
+    {% endif %}
+</section>
+{% endblock %}

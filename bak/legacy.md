@@ -1035,7 +1035,7 @@ _____________________
     - Dagegen wird recht rabiat vorgegangen (Geldstrafen und sogar Haft)
 - Alle gehen schlafen
 
-### 08.10.2025
+### 19. Sitzung – 08.10.2025
 - Liora, Roxy und Slate erwachen
     - Slate ist weg, er hat einen Zettel hinterlassen
         - "Ich dachte du wärst meine Schwester, nicht ihre"
@@ -1123,7 +1123,7 @@ _____________________
 - Bei Niccolo und Marius
     - 
 
-### 04.10.2025
+### 20. Sitzung – 04.10.2025
 - Slate fragt nen Dude ob er tunnellbauen kann
     - Preis verhabndlungssache, je länger je mehr
     - Er fragt nach jemandenn der auch nach oben bauen kann
@@ -1198,7 +1198,7 @@ _____________________
         - Ihm könne mit Celerity zugesetzt werden
 
 
-### 05.10.2025
+### 21. Sitzung – 05.10.2025
 - Liora erwacht bei Hopkins
     - Sie verabschiedet sich von ihm und will während der Romreise in Kontakt bleiben
 - In der Kanalisation
@@ -1277,13 +1277,11 @@ _____________________
     - Ein Raum offenbart sich, indem Bücher unter Vitrieren lagern
     - Typ mit drei Augen erscheint
 
-### Sitzung Nr. 1999999
+### 21. Sitzung – Sitzung 25.03.2025
 - Gespräch armer al
     - salubri (Hexe) gesehen
     - Boot im Hafen annabeth
         - ist nach süden mit dem boot gefahren
-
-25.03.2025
 - Wir kommen beim Haven von Roxy und Slate an
     - Die Vetter sollen dagelassen werden, damit sie auf den Haven aufpassen
     - Vetter sind in Federstift, Flachmann und Buch gebunden
@@ -1379,7 +1377,7 @@ _____________________
 - Roxy und Alistar werden zu Belucci geführt - Es geht unter die Erde durch karge Gänge
 - Giacoomo Belluci erscheint im Gang
 
-### Sitzung 08.04.2026
+### 22. Sitzung – Sitzung 08.04.2026
 - Belucci geht im Gang spazieren, wir folgen
 - Liora zeichnet Kate der Gänge mit, sie ist unsichtbar
 - Slate mit Elsebeth
@@ -1454,11 +1452,11 @@ _____________________
         - Der Geist steckt im Schwert und er will Rom verlassen
         - Wenn wir ihn mitnehmen, wird er sich erkenntlich zeigen
 
-### Sitzung 15.04.2026
+### 23. Sitzung 15.04.2026
 
 #TODO Steffi Fragen
 
-### Sitzung 29.04.2026
+### 24. Sitzung 29.04.2026
 - In der Kanalisation 
     - Mattis Asche wird in seinem alten Schuh zusamengekratzt
     - Überlegungen werden angestellt in die Toskana zu fahren, um für Niccolo die Videos zu machen
@@ -1531,7 +1529,7 @@ _____________________
             - Weiterhin eine Kiste mit Wertsachen (4 Ressourcenpunkte) 
         - Roxy wurde hinzugezogen
 
-### Sitzung 06.05.2026
+### 25. Sitzung - 06.05.2026
 - Weiter im Kellerraum des Castellos
     - Roxy sieht sich das Schert an -> Darauf ist eine Inschrift
         - Matthäus 10.34 steht drauf -> "Ihr sollt nicht meinen, dass ich gekommen bin, Frieden zu bringen auf die Erde. Ich bin nicht gekommen, Frieden zu bringen, sondern das Schwert."
@@ -1662,7 +1660,7 @@ _____________________
             - Als wir wieder im BUro an
 
 
-## Sitzung 20.06.2026
+## 26. Sitzung - 20.06.2026
 - Slate ist aus der Frienzy raus -> da er mit Alia geschrieben hat
 - Die Nacht ist bald vorbei -> Slate sucht in der Kanalisation einen Schlafplatz
     - Slate baut für seine Geräte einen trockenen Unterschlupf
@@ -1775,7 +1773,7 @@ _____________________
 
 # Hier fehlt was
 
-# Sitzung 03.06.2026
+# 28. Sitzung - 03.06.2026
     - Im Club vom Prinzen
         - Lucretia pricht uns an
         - Roxy fragt den Prinzen, ob man einen Wand zertrümmern könnte und in die Freiheit kommt
@@ -1885,5 +1883,5 @@ _____________________
             - Armee und Umfeld angreifen
             - Mehrheit will Option drei
         - Slate wird sicheren Onlinekanal für die Kommikation erstellen
-        - Shley wird informationen zum Umfeld und Orten zusammenstellen
+        - Ashley wird informationen zum Umfeld und Orten zusammenstellen
         - Mehrheit für einen Schlag noch diese Nacht

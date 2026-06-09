@@ -1,0 +1,96 @@
+
+{% extends "base.html" %}
+
+{% block title %}{{ char.name }} - Seacouver by Night{% endblock %}
+
+{% block content %}
+<article class="character-detail">
+    <div class="character-header">
+        <div class="character-images">
+            {% if char.image_path %}
+            <img src="/{{ char.image_path }}" alt="{{ char.name }}" class="main-image">
+            {% endif %}
+            
+            {% if images %}
+            <div class="gallery">
+                {% for img in images %}
+                <img src="/{{ img }}" alt="{{ char.name }}" class="gallery-image">
+                {% endfor %}
+            </div>
+            {% endif %}
+        </div>
+        
+        <div class="character-info">
+            <h1>{{ char.name }}</h1>
+            
+            {% if char.aliases %}
+            <p><strong>Aliases:</strong> {{ char.aliases }}</p>
+            {% endif %}
+            
+            <dl>
+                {% if char.type %}
+                <dt>Typ:</dt>
+                <dd>{{ "🎭 Spieler-Charakter" if char.type == "PC" else "🕷️ NPC" }}</dd>
+                {% endif %}
+                
+                {% if char.clan %}
+                <dt>Clan:</dt>
+                <dd>{{ char.clan }}</dd>
+                {% endif %}
+                
+                {% if char.affiliation %}
+                <dt>Zugehörigkeit:</dt>
+                <dd>{{ char.affiliation }}</dd>
+                {% endif %}
+                
+                {% if char.player_name %}
+                <dt>Spieler:</dt>
+                <dd>{{ char.player_name }}</dd>
+                {% endif %}
+                
+                {% if char.status %}
+                <dt>Status:</dt>
+                <dd>{{ char.status }}</dd>
+                {% endif %}
+                
+                {% if char.contact %}
+                <dt>Kontakt:</dt>
+                <dd>{{ char.contact }}</dd>
+                {% endif %}
+            </dl>
+        </div>
+    </div>
+    
+    {% if char.biography %}
+    <section class="biography">
+        <h2>Biographie</h2>
+        <p>{{ char.biography }}</p>
+    </section>
+    {% endif %}
+    
+    {% if char.friends_raw %}
+    <section class="relations">
+        <h3>Freunde</h3>
+        <p>{{ char.friends_raw }}</p>
+    </section>
+    {% endif %}
+    
+    {% if char.foes_raw %}
+    <section class="relations">
+        <h3>Feinde</h3>
+        <p>{{ char.foes_raw }}</p>
+    </section>
+    {% endif %}
+    
+    {% if char.notes %}
+    <section class="notes">
+        <h3>Notizen</h3>
+        <p>{{ char.notes }}</p>
+    </section>
+    {% endif %}
+    
+    <div class="back-link">
+        <a href="/characters">← Zurück zu Charakteren</a>
+    </div>
+</article>
+{% endblock %}
