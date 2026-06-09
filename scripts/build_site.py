@@ -62,6 +62,7 @@ def process_notes_with_ai():
     """
     print("Processing session notes with AI via OpenRouter...")
     all_notes = sorted(glob.glob(os.path.join(NOTES_DIR, "*.md")))
+    print(all_notes)
     latest_session_text = ""
 
     # FIX for MkDocs Warning: Create a landing page for the chronik folder
