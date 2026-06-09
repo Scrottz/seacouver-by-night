@@ -1,4 +1,3 @@
-
 name: Deploy FastAPI to Webspace
 
 on:
@@ -55,99 +54,80 @@ jobs:
           mkdir -p logs
           mkdir -p data
           
-          # Datenbank komprimieren
+          # Datenbank komprimieren falls vorhanden
           if [ -f data/campaign.db ]; then
             gzip -c data/campaign.db > data/campaign.db.gz
             echo "✓ Database compressed"
-          else
-            echo "⚠️  No campaign.db found, creating empty"
-            touch data/campaign.db
-            gzip -c data/campaign.db > data/campaign.db.gz
           fi
           
+          # Dummy-Datei in leere Verzeichnisse für SCP
+          touch docs/img/npc/.keep
+          touch docs/img/pc/.keep
+          
           echo ""
-          echo "📋 Files ready for upload:"
-          find app scripts requirements.txt data/campaign.db.gz -type f 2>/dev/null | sort
-          echo ""
-          echo "Total size:"
-          du -sh app scripts requirements.txt data/campaign.db.gz 2>/dev/null | tail -1
+          echo "✓ Deployment package ready"
 
-      # ===== DEBUG: SHOW FILES =====
-      - name: Debug - List files
-        run: |
-          echo "🔍 Checking files before SCP..."
-          ls -lah app/ 2>/dev/null | head -5 || echo "app/ not found"
-          ls -lah scripts/ 2>/dev/null | head -5 || echo "scripts/ not found"
-          ls -lah data/campaign.db.gz 2>/dev/null || echo "data/campaign.db.gz not found"
-          ls -lah requirements.txt 2>/dev/null || echo "requirements.txt not found"
-
-      # ===== APP ZUM WEBSPACE KOPIEREN =====
-      - name: Deploy files via SSH
-        uses: appleboy/ssh-action@master
+      # ===== APP ZUM WEBSPACE KOPIEREN (VEREINFACHT) =====
+      - name: Deploy app directory
+        uses: appleboy/scp-action@master
         with:
           host: ${{ secrets.SSH_HOST }}
           username: ${{ secrets.SSH_USER }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           port: 22
-          script_stop: true
-          script: |
-            set -e
-            
-            # Erstelle Zielverzeichnis
-            mkdir -p /www/htdocs/w016db5f/seacouver-by-night
-            cd /www/htdocs/w016db5f/seacouver-by-night
-            
-            echo "📥 Ready for file transfer..."
-            echo "Target: $(pwd)"
-            echo ""
+          source: "app"
+          target: "/www/htdocs/w016db5f/seacouver-by-night"
+          strip_components: 0
+          overwrite: true
 
-      # ===== FILE UPLOAD VIA RSYNC (BESSER FÜR VERZEICHNISSE) =====
-      - name: Upload via rsync
-        run: |
-          mkdir -p ~/.ssh
-          
-          # SSH Key vorbereiten
-          echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/deploy_key
-          chmod 600 ~/.ssh/deploy_key
-          
-          # SSH Config
-          cat > ~/.ssh/config << EOF
-          Host deploy
-            HostName ${{ secrets.SSH_HOST }}
-            User ${{ secrets.SSH_USER }}
-            IdentityFile ~/.ssh/deploy_key
-            StrictHostKeyChecking no
-            UserKnownHostsFile=/dev/null
-          EOF
-          chmod 600 ~/.ssh/config
-          
-          # rsync - viel besser für Verzeichnisse!
-          echo "📤 Uploading via rsync..."
-          rsync -avz \
-            --delete \
-            -e "ssh -o StrictHostKeyChecking=no" \
-            app/ \
-            "${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/www/htdocs/w016db5f/seacouver-by-night/app/"
-          
-          rsync -avz \
-            --delete \
-            -e "ssh -o StrictHostKeyChecking=no" \
-            scripts/ \
-            "${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/www/htdocs/w016db5f/seacouver-by-night/scripts/"
-          
-          rsync -avz \
-            -e "ssh -o StrictHostKeyChecking=no" \
-            requirements.txt \
-            "${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/www/htdocs/w016db5f/seacouver-by-night/"
-          
-          if [ -f data/campaign.db.gz ]; then
-            rsync -avz \
-              -e "ssh -o StrictHostKeyChecking=no" \
-              data/campaign.db.gz \
-              "${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/www/htdocs/w016db5f/seacouver-by-night/data/"
-          fi
-          
-          echo "✓ Upload complete"
+      - name: Deploy scripts directory
+        uses: appleboy/scp-action@master
+        with:
+          host: ${{ secrets.SSH_HOST }}
+          username: ${{ secrets.SSH_USER }}
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          port: 22
+          source: "scripts"
+          target: "/www/htdocs/w016db5f/seacouver-by-night"
+          strip_components: 0
+          overwrite: true
+
+      - name: Deploy docs directory
+        uses: appleboy/scp-action@master
+        with:
+          host: ${{ secrets.SSH_HOST }}
+          username: ${{ secrets.SSH_USER }}
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          port: 22
+          source: "docs"
+          target: "/www/htdocs/w016db5f/seacouver-by-night"
+          strip_components: 0
+          overwrite: true
+
+      - name: Deploy requirements.txt
+        uses: appleboy/scp-action@master
+        with:
+          host: ${{ secrets.SSH_HOST }}
+          username: ${{ secrets.SSH_USER }}
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          port: 22
+          source: "requirements.txt"
+          target: "/www/htdocs/w016db5f/seacouver-by-night"
+          strip_components: 0
+          overwrite: true
+
+      - name: Deploy database
+        uses: appleboy/scp-action@master
+        if: hashFiles('data/campaign.db.gz') != ''
+        with:
+          host: ${{ secrets.SSH_HOST }}
+          username: ${{ secrets.SSH_USER }}
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          port: 22
+          source: "data/campaign.db.gz"
+          target: "/www/htdocs/w016db5f/seacouver-by-night"
+          strip_components: 0
+          overwrite: true
 
       # ===== APP AUF SERVER STARTEN =====
       - name: Setup and restart application on server
@@ -177,13 +157,12 @@ jobs:
             echo ""
             
             # Datenbank decompressen
-            echo "💾 Decompressing database..."
+            echo "💾 Handling database..."
             if [ -f data/campaign.db.gz ]; then
               gunzip -f data/campaign.db.gz
               echo "✓ Database decompressed"
-            else
-              echo "⚠️  No compressed database found (creating empty)"
-              sqlite3 data/campaign.db "SELECT 1;" > /dev/null 2>&1 || true
+            elif [ ! -f data/campaign.db ]; then
+              echo "⚠️  No database found, it will be created on first run"
             fi
             echo ""
             
@@ -281,3 +260,4 @@ jobs:
           echo "❌ Deployment failed!"
           echo "📝 Check logs above for details"
           exit 1
+
