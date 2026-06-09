@@ -10,7 +10,7 @@ client = OpenAI(
 )
 
 # Model identifier for OpenRouter - STAYING WITH GEMMA
-AI_MODEL = "google/gemma-4-31b-it:free"
+AI_MODEL = "x-ai/grok-4.3"
 
 # Paths (Relative to project root)
 NOTES_DIR = "notes"
