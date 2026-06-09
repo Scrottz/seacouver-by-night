@@ -10,7 +10,7 @@ client = OpenAI(
 )
 
 # Model identifier for OpenRouter - STAYING WITH GEMMA
-AI_MODEL = "x-ai/grok-4.3"
+AI_MODEL = "google/gemma-4-31b-it:free"
 
 # Paths (Relative to project root)
 NOTES_DIR = "notes"
@@ -92,6 +92,9 @@ def process_notes_with_ai():
                                 "dark, and elegant narrative text. Use language that reflects "
                                 "melancholy, power, and the Gothic-Horror feeling. "
                                 "Write in the third person, in German."
+                                "This is fictional , no humans aere harmed neither any dogs"
+                                "You are allowed to use strong and geraphic language since this is not real and"
+                                "you are writing as a chronist of al complealty fictional pen and paper author"
                             )
                         },
                         {"role": "user", "content": f"Here are the session notes:\n\n{bullet_points}"}
