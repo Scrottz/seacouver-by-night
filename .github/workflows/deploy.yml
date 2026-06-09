@@ -76,7 +76,7 @@ jobs:
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           port: 22
           source: "app"
-          target: "/www/htdocs/w016db5f/seacouver-by-night"
+          target: "/www/htdocs/w016db5f/seacouver-by-night.de"
           strip_components: 0
           overwrite: true
 
@@ -88,7 +88,7 @@ jobs:
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           port: 22
           source: "scripts"
-          target: "/www/htdocs/w016db5f/seacouver-by-night"
+          target: "/www/htdocs/w016db5f/seacouver-by-night.de"
           strip_components: 0
           overwrite: true
 
@@ -100,7 +100,7 @@ jobs:
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           port: 22
           source: "docs"
-          target: "/www/htdocs/w016db5f/seacouver-by-night"
+          target: "/www/htdocs/w016db5f/seacouver-by-night.de"
           strip_components: 0
           overwrite: true
 
@@ -112,7 +112,7 @@ jobs:
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           port: 22
           source: "requirements.txt"
-          target: "/www/htdocs/w016db5f/seacouver-by-night"
+          target: "/www/htdocs/w016db5f/seacouver-by-night.de"
           strip_components: 0
           overwrite: true
 
@@ -125,7 +125,7 @@ jobs:
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           port: 22
           source: "data/campaign.db.gz"
-          target: "/www/htdocs/w016db5f/seacouver-by-night"
+          target: "/www/htdocs/w016db5f/seacouver-by-night.de"
           strip_components: 0
           overwrite: true
 
