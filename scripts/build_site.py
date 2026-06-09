@@ -71,8 +71,6 @@ def process_notes_with_ai():
         f.write("# Die Chronik\n\nHier sind alle bisherigen Sitzungen der Kampagne aufgelistet.")
 
     for note_path in all_notes:
-        if "legacy" in note_path:
-            continue
 
         filename = os.path.basename(note_path)
         target_path = os.path.join(CHRONIK_DIR, filename)
