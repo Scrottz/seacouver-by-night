@@ -1,3 +1,4 @@
+# .gitignore
 
 # ===== PYTHON =====
 venv/
@@ -24,10 +25,18 @@ wheels/
 .installed.cfg
 *.egg
 
-# ===== FASTAPI / UVICORN =====
-*.db
-*.db.gz
+# ===== DATABASE =====
+# Ignoriere nur Test-Dbs
 test_*.db
+test_campaign.db
+
+# Ignoriere komprimierte Backups
+*.db.gz
+
+# ABER: campaign.db ist unsere Source of Truth!
+!data/campaign.db
+
+# ===== FASTAPI / UVICORN =====
 logs/
 *.log
 nohup.out
@@ -58,13 +67,9 @@ Thumbs.db
 site/
 docs_bak/
 
-# ===== NOTION EXPORT (optional - nur wenn du ihn nicht brauchst) =====
-# data/notion_export/  <- Auskommentiert, da Import-Quelle
-
 # ===== BACKUPS =====
 *.backup
 *.bak
-data/*.backup.*
 
 # ===== PYTEST =====
 .pytest_cache/
@@ -74,3 +79,7 @@ htmlcov/
 # ===== TEMP FILES =====
 *.tmp
 .cache/
+
+# ===== GENERATED =====
+public/
+
