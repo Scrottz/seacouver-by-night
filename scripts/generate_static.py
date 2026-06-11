@@ -95,7 +95,7 @@ def generate_static():
     
     static_pages = [
         ("index.html", "index.html", {"session": latest_session}),
-        ("characters.html", "characters.html", {"pcs": pcs, "npcs": npcs}),
+        ("characters.html", "characters/index.html", {"pcs": pcs, "npcs": npcs}),
         ("chronik.html", "chronik/index.html", {
             "sessions": get_safe_list(db.get_all_sessions(limit=5, offset=0)),
             "total_sessions": total_sessions,

@@ -26,7 +26,6 @@ class DatabaseManager:
         with self.get_connection() as conn:
             cursor = conn.cursor()
 
-            # Characters table with all fields
             cursor.execute('''
                 CREATE TABLE IF NOT EXISTS characters (
                     id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -49,7 +48,6 @@ class DatabaseManager:
                 )
             ''')
 
-            # Character Images table
             cursor.execute('''
                 CREATE TABLE IF NOT EXISTS character_images (
                     id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -59,7 +57,6 @@ class DatabaseManager:
                 )
             ''')
 
-            # Sessions table
             cursor.execute('''
                 CREATE TABLE IF NOT EXISTS sessions (
                     id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -72,7 +69,6 @@ class DatabaseManager:
                 )
             ''')
 
-            # Tasks table
             cursor.execute('''
                 CREATE TABLE IF NOT EXISTS tasks (
                     id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -82,6 +78,29 @@ class DatabaseManager:
                     FOREIGN KEY(session_id) REFERENCES sessions(id)
                 )
             ''')
+            
+            cursor.execute('''
+                CREATE TABLE IF NOT EXISTS character_logs (
+                    id INTEGER PRIMARY KEY AUTOINCREMENT,
+                    character_id INTEGER,
+                    session_id INTEGER,
+                    log_entry TEXT,
+                    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+                    FOREIGN KEY(character_id) REFERENCES characters(id),
+                    FOREIGN KEY(session_id) REFERENCES sessions(id)
+                )
+            ''')
+
+            cursor.execute('''
+                CREATE TABLE IF NOT EXISTS session_npcs (
+                    session_id INTEGER,
+                    character_id INTEGER,
+                    PRIMARY KEY(session_id, character_id),
+                    FOREIGN KEY(session_id) REFERENCES sessions(id),
+                    FOREIGN KEY(character_id) REFERENCES characters(id)
+                )
+            ''')
+
             conn.commit()
 
     def _generate_slug(self, name):
@@ -156,11 +175,53 @@ class DatabaseManager:
             conn.commit()
             return char_id
 
-    def add_character_image(self, character_id, image_path):
+
+    def set_character_images(self, character_id, image_paths):
+        """
+        Setzt die Bilder für einen Character - ersetzt alte Bilder.
+        Verhindert Duplikate.
+        """
         with self.get_connection() as conn:
-            conn.execute("INSERT INTO character_images (character_id, image_path) VALUES (?, ?)", (character_id, image_path))
+            cursor = conn.cursor()
+            
+            # Alte Bilder löschen
+            cursor.execute(
+                "DELETE FROM character_images WHERE character_id = ?",
+                (character_id,)
+            )
+            
+            # Neue Bilder hinzufügen
+            for image_path in image_paths:
+                cursor.execute(
+                    "INSERT INTO character_images (character_id, image_path) VALUES (?, ?)",
+                    (character_id, image_path)
+                )
+            
             conn.commit()
 
+    def add_character_image(self, character_id, image_path):
+        """
+        Fügt ein Bild hinzu - verhindert aber Duplikate.
+        """
+        with self.get_connection() as conn:
+            cursor = conn.cursor()
+            
+            # Check: Bild bereits vorhanden?
+            cursor.execute(
+                "SELECT id FROM character_images WHERE character_id = ? AND image_path = ?",
+                (character_id, image_path)
+            )
+            
+            if cursor.fetchone():
+                # Bereits vorhanden - nix tun
+                return
+            
+            # Neu - hinzufügen
+            cursor.execute(
+                "INSERT INTO character_images (character_id, image_path) VALUES (?, ?)",
+                (character_id, image_path)
+            )
+            conn.commit()
     def get_all_characters(self, char_type=None):
         """Gibt alle Charaktere als echte Dictionaries zurück."""
         with self.get_connection() as conn:
@@ -226,61 +287,17 @@ class DatabaseManager:
                 "SELECT image_path FROM character_images WHERE character_id = ? ORDER BY id",
                 (character_id,)
             )
-            # ✓ Als echte Liste von strings zurückgeben
             return [row["image_path"] for row in cursor.fetchall()]
 
 
-# TEST BLOCK
-if __name__ == "__main__":
-    print("Testing DatabaseManager...")
-    # Clean start for testing
-    if os.path.exists("data/test_campaign.db"):
-        os.remove("data/test_campaign.db")
+    def get_session_by_date(self, date):
+       with self.get_connection() as conn:
+           cursor = conn.cursor()
+           cursor.execute("SELECT * FROM sessions WHERE date = ?", (date,))
+           return self._row_to_dict(cursor.fetchone())
 
-    db = DatabaseManager(db_path="data/test_campaign.db")
-
-    # Test adding a PC with all new fields
-    pc_id = db.add_character(
-        name="Liora Mikhailov",
-        char_type="PC",
-        clan="Malkavian",
-        player_name="Josi",
-        aliases="Whisper",
-        friends_raw="Alistar Ionman, Marius Raimondi",
-        foes_raw="Victor Caruso",
-        biography="Liora has discovered the secret of the Prince's basement.",
-        location="Seacouver"
-    )
-    db.add_character_image(pc_id, "img/pc/liora_mikhailov_1.png")
-    db.add_character_image(pc_id, "img/pc/liora_mikhailov_2.png")
-
-    # Test adding an NPC
-    npc_id = db.add_character(
-        name="Victor Caruso",
-        char_type="NPC",
-        clan="Tremere",
-        affiliation="Camarilla",
-        status="Alive",
-        notes="The Prince of Seacouver.",
-        aliases="The Prince",
-        friends_raw="Silas Mercer",
-        foes_raw="The Anarchs",
-        location="Seacouver"
-    )
-    db.add_character_image(npc_id, "img/npc/victor_caruso_1.png")
-
-    print(f"Success: Added Liora (ID: {pc_id}) and Victor (ID: {npc_id}).")
-
-    print("\n--- Retrieving all characters ---")
-    all_chars = db.get_all_characters()
-    for c in all_chars:
-        print(f"- ID: {c['id']}, Name: {c['name']}, Type: {c['type']}, Location: {c['location']}")
-
-    print("\n--- Retrieving character by slug ---")
-    char_by_slug = db.get_character_by_slug("victor_caruso")
-    if char_by_slug:
-        print(f"Found by slug: {char_by_slug['name']} (Clan: {char_by_slug['clan']}, Location: {char_by_slug['location']})")
-    else:
-        print("Character not found by slug.")
-
-    print("\nDatabaseManager tests completed successfully!")
+    def update_session_ai_content(self, date, title, narrative, summary):
+       with self.get_connection() as conn:
+           conn.execute("UPDATE sessions SET title = ?, narrative = ?, summary = ? WHERE date = ?", 
+                        (title, narrative, summary, date))
+           conn.commit()
