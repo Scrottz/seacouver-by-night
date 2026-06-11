@@ -3,7 +3,7 @@
 <html lang="de">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content, java-device-width, initial-scale=1.0">
     <title>{% block title %}Seacouver by Night{% endblock %}</title>
     <link rel="stylesheet" href="/static/style.css">
 </head>
@@ -15,15 +15,14 @@
         </header>
 
         <div class="main-content">
-            <!-- Sidebar -->
             <aside class="sidebar">
                 <nav>
                     <section class="sidebar-section">
                         <h3>Navigation</h3>
                         <ul>
                             <li><a href="/">🏠 Home</a></li>
-                            <li><a href="/chronik/">📜 Chronik</a></li>
-                            <li><a href="/characters/">👥 Charaktere</a></li>
+                            <li><a href="/chronik/index.html">📜 Chronik</a></li>
+                            <li><a href="/characters/index.html">👥 Charaktere</a></li>
                         </ul>
                     </section>
 
@@ -47,9 +46,7 @@
                         <h3>NPCs</h3>
                         <ul class="npc-list">
                             {% for npc in npcs[:10] %}
-                            <li>
-                                <a href="/characters/{{ npc.slug }}/index.html">{{ npc.name }}</a>
-                            </li>
+                            <li><a href="/characters/{{ npc.slug }}/index.html">{{ npc.name }}</a></li>
                             {% endfor %}
                             {% if npcs|length > 10 %}
                             <li><a href="/characters/index.html">... und {{ npcs|length - 10 }} mehr</a></li>
@@ -59,7 +56,6 @@
                 </nav>
             </aside>
 
-            <!-- Main Content -->
             <main class="content">
                 {% block content %}{% endblock %}
             </main>
