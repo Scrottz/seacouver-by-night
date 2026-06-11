@@ -12,7 +12,7 @@
         <h3>🎭 Spieler-Charaktere ({{ pcs|length }})</h3>
         <div class="character-grid">
             {% for pc in pcs %}
-            <a href="/character/{{ pc.slug }}" class="character-card">
+            <a href="/characters/{{ pc.slug }}" class="character-card">
                 {% if pc.image_path %}
                 <img src="/{{ pc.image_path }}" alt="{{ pc.name }}" class="character-image">
                 {% else %}
@@ -35,7 +35,7 @@
         <h3>🕷️ NPCs ({{ npcs|length }})</h3>
         <div class="character-grid">
             {% for npc in npcs %}
-            <a href="/character/{{ npc.slug }}" class="character-card">
+            <a href="/characters/{{ npc.slug }}" class="character-card">
                 {% if npc.image_path %}
                 <img src="/{{ npc.image_path }}" alt="{{ npc.name }}" class="character-image">
                 {% else %}

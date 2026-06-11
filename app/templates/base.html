@@ -32,7 +32,7 @@
                         <ul>
                             {% for pc in pcs %}
                             <li>
-                                <a href="/character/{{ pc.slug }}">
+                                <a href="/characters/{{ pc.slug }}">
                                     {% if pc.image_path %}
                                     <img src="/{{ pc.image_path }}" alt="{{ pc.name }}" class="sidebar-thumbnail">
                                     {% endif %}
@@ -48,7 +48,7 @@
                         <ul class="npc-list">
                             {% for npc in npcs[:10] %}
                             <li>
-                                <a href="/character/{{ npc.slug }}">{{ npc.name }}</a>
+                                <a href="/characters/{{ npc.slug }}">{{ npc.name }}</a>
                             </li>
                             {% endfor %}
                             {% if npcs|length > 10 %}

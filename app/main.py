@@ -1,145 +1,171 @@
-
-import sys
-import os
-import math
-
-# Damit Python die scripts/db_manager.py findet
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-
-from fastapi import FastAPI, Request
+from fastapi import FastAPI
 from fastapi.staticfiles import StaticFiles
+from fastapi.responses import HTMLResponse
 from fastapi.templating import Jinja2Templates
+from fastapi import Request
+import os
+import sys
+
+# Import Database Manager
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)) + "/..")
 from scripts.db_manager import DatabaseManager
 
+# Initialisiere FastAPI
 app = FastAPI()
 
-# Mount static files for images and CSS
+# Datenbank
+db = DatabaseManager()
+
+# Templates
+templates = Jinja2Templates(directory="app/templates")
+
+# Statische Dateien
 app.mount("/static", StaticFiles(directory="app/static"), name="static")
 app.mount("/img", StaticFiles(directory="docs/img"), name="img")
 
-templates = Jinja2Templates(directory="app/templates")
-db = DatabaseManager(db_path="data/campaign.db")
 
-# Konfiguration
-SESSIONS_PER_PAGE = 2
+# ============== HELPER FUNCTIONS ==============
+def get_safe_dict(value):
+    """Konvertiert sqlite3.Row oder andere Objekte zu dict."""
+    if value is None:
+        return None
+    if isinstance(value, dict):
+        return value
+    try:
+        return dict(value)
+    except (TypeError, ValueError):
+        return value
 
 
-# ===== CONTEXT PROCESSOR =====
-# Diese Funktion wird vor jedem Template aufgerufen
-def _get_sidebar_data():
-    """
-    Lädt die Sidebar-Daten (PCs und NPCs).
-    """
-    pcs = db.get_all_characters(char_type="PC")
-    npcs = db.get_all_characters(char_type="NPC")
-    return {
+def get_all_pcs_safe():
+    """Holt alle Spieler-Charaktere als echte Dicts."""
+    chars = db.get_all_characters(char_type="PC")
+    return [get_safe_dict(c) for c in chars]
+
+
+def get_all_npcs_safe():
+    """Holt alle NPCs als echte Dicts."""
+    chars = db.get_all_characters(char_type="NPC")
+    return [get_safe_dict(c) for c in chars]
+
+
+# ============== ROUTES ==============
+
+@app.get("/", response_class=HTMLResponse)
+async def index(request: Request):
+    """Home-Seite mit letztem Session."""
+    latest_session = db.get_latest_session()
+    
+    context = {
+        "request": request,
+        "session": get_safe_dict(latest_session),
+        "pcs": get_all_pcs_safe(),
+        "npcs": get_all_npcs_safe()
+    }
+    
+    return templates.TemplateResponse("index.html", context)
+
+
+@app.get("/characters", response_class=HTMLResponse)
+async def characters(request: Request):
+    """Alle Charaktere - Übersichtsseite."""
+    pcs = get_all_pcs_safe()
+    npcs = get_all_npcs_safe()
+    
+    context = {
+        "request": request,
         "pcs": pcs,
         "npcs": npcs
     }
-
-
-# Überschreibe die TemplateResponse um Context Processor zu nutzen
-original_template_response = templates.TemplateResponse
-
-def custom_template_response(request, name, context=None, **kwargs):
-    """
-    Wrapper um TemplateResponse, der automatisch Sidebar-Daten hinzufügt.
-    """
-    if context is None:
-        context = {}
     
-    # Sidebar-Daten immer hinzufügen
-    sidebar_data = _get_sidebar_data()
-    context.update(sidebar_data)
-    context["request"] = request
+    return templates.TemplateResponse("characters.html", context)
+
+
+@app.get("/characters/{slug}", response_class=HTMLResponse)
+async def character_detail(slug: str, request: Request):
+    """
+    Charakter-Detailseite.
     
-    return original_template_response(
-        request=request,
-        name=name,
-        context=context,
-        **kwargs
-    )
-
-
-# Ersetze die original TemplateResponse Methode
-templates.TemplateResponse = custom_template_response
-
-
-@app.get("/")
-async def index(request: Request):
+    URL: /characters/liora_mikhailov
     """
-    Homepage: Zeigt den letzten Session-Eintrag.
-    """
-    latest_session = db.get_latest_session()
-    return templates.TemplateResponse(
-        request=request, 
-        name="index.html", 
-        context={"session": latest_session}
-    )
+    # Character aus DB laden
+    char = db.get_character_by_slug(slug)
+    
+    # Wenn nicht gefunden → 404
+    if not char:
+        return {"error": "Character not found"}, 404
+    
+    # Sicher zu dict konvertieren
+    char = get_safe_dict(char)
+    
+    # Bilder für Galerie
+    images = db.get_character_images(char.get("id", 0))
+    
+    context = {
+        "request": request,
+        "char": char,
+        "images": images,
+        "pcs": get_all_pcs_safe(),
+        "npcs": get_all_npcs_safe()
+    }
+    
+    return templates.TemplateResponse("character_detail.html", context)
 
 
-@app.get("/chronik")
+@app.get("/chronik", response_class=HTMLResponse)
 async def chronik(request: Request, page: int = 1):
     """
-    Chronik: Alle Sessions mit Pagination.
+    Session-Chronik mit Pagination.
+    
+    URL: /chronik?page=1
     """
-    total_sessions = db.get_sessions_count()
-    total_pages = math.ceil(total_sessions / SESSIONS_PER_PAGE)
+    # Pagination
+    items_per_page = 5
+    offset = (page - 1) * items_per_page
     
-    # Sicherstellen, dass page gültig ist
-    if page < 1:
-        page = 1
-    if page > total_pages and total_pages > 0:
-        page = total_pages
+    # Sessions laden
+    sessions = db.get_all_sessions(limit=items_per_page, offset=offset)
+    total_count = db.get_sessions_count()
+    total_pages = max(1, (total_count + items_per_page - 1) // items_per_page)
     
-    offset = (page - 1) * SESSIONS_PER_PAGE
-    sessions = db.get_all_sessions(limit=SESSIONS_PER_PAGE, offset=offset)
+    # Sicherstellen, dass page valid ist
+    page = max(1, min(page, total_pages))
     
-    return templates.TemplateResponse(
-        request=request, 
-        name="chronik.html", 
-        context={
-            "sessions": sessions,
-            "current_page": page,
-            "total_pages": total_pages,
-            "total_sessions": total_sessions
-        }
-    )
+    # Alle zu echten dicts konvertieren
+    sessions = [get_safe_dict(s) for s in sessions]
+    
+    context = {
+        "request": request,
+        "sessions": sessions,
+        "total_sessions": total_count,
+        "current_page": page,
+        "total_pages": total_pages,
+        "pcs": get_all_pcs_safe(),
+        "npcs": get_all_npcs_safe()
+    }
+    
+    return templates.TemplateResponse("chronik.html", context)
 
 
-@app.get("/characters")
-async def characters(request: Request):
-    """
-    Zeigt alle Spieler-Charaktere und NPCs.
-    """
-    pcs = db.get_all_characters(char_type="PC")
-    npcs = db.get_all_characters(char_type="NPC")
+# ============== STARTUP EVENT ==============
+@app.on_event("startup")
+async def startup_event():
+    """Wird beim Starten ausgeführt."""
+    print("🦇 Vampire: The Masquerade PBP Server")
+    print("=" * 50)
+    print(f"📍 http://localhost:8000")
+    print()
     
-    return templates.TemplateResponse(
-        request=request, 
-        name="characters.html", 
-        context={"pcs": pcs, "npcs": npcs}
-    )
-
-
-@app.get("/character/{slug}")
-async def character_profile(request: Request, slug: str):
-    """
-    Character-Detail-Seite.
-    """
-    char = db.get_character_by_slug(slug)
-    if not char:
-        return templates.TemplateResponse(
-            request=request,
-            name="404.html",
-            status_code=404
-        )
+    # Datenbank-Stats
+    all_chars = db.get_all_characters()
+    pcs = [c for c in all_chars if c.get("type") == "PC"]
+    npcs = [c for c in all_chars if c.get("type") == "NPC"]
+    sessions_count = db.get_sessions_count()
     
-    # Zusatzbilder laden
-    images = db.get_character_images(char["id"])
-    
-    return templates.TemplateResponse(
-        request=request, 
-        name="character_detail.html", 
-        context={"char": char, "images": images}
-    )
+    print(f"📊 Datenbank-Status:")
+    print(f"   ✓ Characters geladen: {len(all_chars)}")
+    print(f"   ✓ PCs: {len(pcs)}")
+    print(f"   ✓ NPCs: {len(npcs)}")
+    print(f"   ✓ Sessions: {sessions_count}")
+    print()
+    print("=" * 50)

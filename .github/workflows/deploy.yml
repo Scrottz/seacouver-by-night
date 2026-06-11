@@ -1,4 +1,5 @@
-name: Deploy FastAPI to Webspace
+# .github/workflows/deploy.yml
+name: Deploy Static Site to Webspace
 
 on:
   push:
@@ -25,103 +26,62 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Initialize database
+      - name: Generate static site
         run: |
-          python scripts/db_manager.py
-          echo "✓ Database initialized"
+          echo "🏗️  Generating static site..."
+          python scripts/generate_static.py
+          echo ""
+          echo "✅ Static site generated"
 
-      - name: Import Notion export
-        run: |
-          python scripts/import_notion_md.py
-          echo "✓ Notion data imported"
-
-      - name: Import sessions
-        run: |
-          python scripts/import_sessions.py
-          echo "✓ Sessions imported"
-
-      - name: Prepare deployment package
+      - name: Prepare deployment
         run: |
           echo "📦 Preparing deployment files..."
-          mkdir -p docs/img/npc docs/img/pc
-          mkdir -p logs
+          
+          # Check generated files
+          echo ""
+          echo "📊 Generated files:"
+          find public -type f -name "*.html" | wc -l | xargs echo "   HTML files:"
+          find public -type f -name "*.css" | wc -l | xargs echo "   CSS files:"
+          find public/img -type f 2>/dev/null | wc -l | xargs echo "   Images:"
+          
+          # Ensure data directory exists
           mkdir -p data
           
-          # Datenbank komprimieren falls vorhanden
+          echo ""
           if [ -f data/campaign.db ]; then
-            gzip -c data/campaign.db > data/campaign.db.gz
-            echo "✓ Database compressed"
+            ls -lh data/campaign.db | awk '{print "   Database size: " $5}'
+          else
+            echo "   ⚠️  Warning: No database found!"
           fi
           
-          # Dummy-Dateien in leere Verzeichnisse für SCP
-          touch docs/img/npc/.keep
-          touch docs/img/pc/.keep
-          
           echo ""
-          echo "✓ Deployment package ready"
+          echo "✅ Deployment package ready"
 
-      - name: Deploy app directory
+      - name: Deploy static site
         uses: appleboy/scp-action@master
         with:
           host: ${{ secrets.SSH_HOST }}
           username: ${{ secrets.SSH_USER }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           port: 22
-          source: "app"
+          source: "public/*"
           target: "/www/htdocs/w016db5f/seacouver-by-night.de"
-          strip_components: 0
+          strip_components: 1
           overwrite: true
 
-      - name: Deploy scripts directory
+      - name: Deploy database (reference)
         uses: appleboy/scp-action@master
         with:
           host: ${{ secrets.SSH_HOST }}
           username: ${{ secrets.SSH_USER }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           port: 22
-          source: "scripts"
-          target: "/www/htdocs/w016db5f/seacouver-by-night.de"
+          source: "data/campaign.db"
+          target: "/www/htdocs/w016db5f/seacouver-by-night.de/data"
           strip_components: 0
           overwrite: true
 
-      - name: Deploy docs directory
-        uses: appleboy/scp-action@master
-        with:
-          host: ${{ secrets.SSH_HOST }}
-          username: ${{ secrets.SSH_USER }}
-          key: ${{ secrets.SSH_PRIVATE_KEY }}
-          port: 22
-          source: "docs"
-          target: "/www/htdocs/w016db5f/seacouver-by-night.de"
-          strip_components: 0
-          overwrite: true
-
-      - name: Deploy requirements.txt
-        uses: appleboy/scp-action@master
-        with:
-          host: ${{ secrets.SSH_HOST }}
-          username: ${{ secrets.SSH_USER }}
-          key: ${{ secrets.SSH_PRIVATE_KEY }}
-          port: 22
-          source: "requirements.txt"
-          target: "/www/htdocs/w016db5f/seacouver-by-night.de"
-          strip_components: 0
-          overwrite: true
-
-      - name: Deploy database
-        uses: appleboy/scp-action@master
-        if: hashFiles('data/campaign.db.gz') != ''
-        with:
-          host: ${{ secrets.SSH_HOST }}
-          username: ${{ secrets.SSH_USER }}
-          key: ${{ secrets.SSH_PRIVATE_KEY }}
-          port: 22
-          source: "data/campaign.db.gz"
-          target: "/www/htdocs/w016db5f/seacouver-by-night.de"
-          strip_components: 0
-          overwrite: true
-
-      - name: Setup and restart application on server
+      - name: Verify deployment
         uses: appleboy/ssh-action@master
         with:
           host: ${{ secrets.SSH_HOST }}
@@ -134,107 +94,68 @@ jobs:
             cd /www/htdocs/w016db5f/seacouver-by-night.de
             
             echo "╔════════════════════════════════════╗"
-            echo "║ 🚀 SEACOUVER BY NIGHT - DEPLOYMENT ║"
+            echo "║ 🦇 SEACOUVER BY NIGHT - DEPLOYMENT ║"
             echo "╚════════════════════════════════════╝"
             echo ""
             
-            # Erstelle notwendige Verzeichnisse
-            echo "📁 Creating directories..."
-            mkdir -p logs
-            mkdir -p docs/img/npc
-            mkdir -p docs/img/pc
-            mkdir -p data
-            echo "✓ Directories created"
+            echo "🔍 Verifying deployment..."
             echo ""
             
-            # Datenbank decompressen
-            echo "💾 Handling database..."
-            if [ -f data/campaign.db.gz ]; then
-              gunzip -f data/campaign.db.gz
-              echo "✓ Database decompressed"
-            elif [ ! -f data/campaign.db ]; then
-              echo "⚠️  No database found, it will be created on first run"
-            fi
-            echo ""
+            # Check HTML files
+            HTML_COUNT=$(find . -maxdepth 2 -name "*.html" -type f 2>/dev/null | wc -l)
+            echo "   📄 HTML files: $HTML_COUNT"
             
-            echo "🔍 Setting up Python environment..."
+            # Check images
+            IMG_COUNT=$(find img -type f 2>/dev/null | wc -l)
+            echo "   🖼️  Images: $IMG_COUNT"
             
-            # Immer venv neu erstellen (sauberer & zuverlässig)
-            rm -rf venv 2>/dev/null || true
+            # Check static files
+            CSS_COUNT=$(find static -type f 2>/dev/null | wc -l)
+            echo "   🎨 Static assets: $CSS_COUNT"
             
-            if python3.12 -m venv venv 2>/dev/null; then
-              echo "✓ venv created"
-              source venv/bin/activate
-              python3.12 -m pip install --upgrade pip > /dev/null 2>&1
-              python3.12 -m pip install -r requirements.txt > /dev/null 2>&1
-              echo "✓ Dependencies installed"
-              USE_VENV=true
-            else
-              echo "⚠️  venv creation failed - using global Python"
-              python3.12 -m pip install --user --upgrade pip > /dev/null 2>&1 || true
-              python3.12 -m pip install --user -r requirements.txt > /dev/null 2>&1 || true
-              USE_VENV=false
-            fi
-            echo ""
-            
-            # Alte Prozesse killen
-            echo "🔄 Stopping old processes..."
-            lsof -t -i :8000 2>/dev/null | xargs kill -9 2>/dev/null || true
-            sleep 2
-            echo "✓ Old processes stopped"
-            echo ""
-            
-            # App im Hintergrund starten
-            echo "🚀 Starting application..."
-            if [ "$USE_VENV" = true ]; then
-              source venv/bin/activate
-              nohup uvicorn app.main:app \
-                --host 0.0.0.0 \
-                --port 8000 \
-                --workers 4 \
-                --access-log \
-                > logs/uvicorn.log 2>&1 &
-            else
-              export PYTHONPATH="/www/htdocs/w016db5f/seacouver-by-night.de:$PYTHONPATH"
-              nohup python3.12 -m uvicorn app.main:app \
-                --host 0.0.0.0 \
-                --port 8000 \
-                --workers 4 \
-                --access-log \
-                > logs/uvicorn.log 2>&1 &
+            # Check database
+            if [ -f data/campaign.db ]; then
+              DB_SIZE=$(du -h data/campaign.db | cut -f1)
+              echo "   💾 Database: $DB_SIZE"
             fi
             
-            APP_PID=$!
-            echo "✓ Application started (PID: $APP_PID)"
             echo ""
+            echo "✅ Key pages:"
             
-            sleep 3
+            # Check key pages exist
+            PAGES=(
+              "index.html"
+              "characters.html"
+              "chronik/index.html"
+              "characters/liora_mikhailov/index.html"
+              "characters/alistar_ionman/index.html"
+              "characters/marius_raimondi/index.html"
+            )
             
-            echo "🏥 Health check..."
-            if curl -s http://127.0.0.1:8000/ > /dev/null 2>&1; then
-              echo "✅ Application is running and responding"
-              echo ""
-              echo "╔════════════════════════════════════╗"
-              echo "║ ✅ DEPLOYMENT SUCCESSFUL           ║"
-              echo "╚════════════════════════════════════╝"
-              echo ""
-              echo "🌐 Available at: https://seacouver-by-night.de"
-              echo "📋 Logs: tail -f logs/uvicorn.log"
-            else
-              echo "⚠️  Health check inconclusive, but app was started"
-              echo "📋 Check logs: tail -f logs/uvicorn.log"
-              echo ""
-              echo "Last 10 log lines:"
-              tail -10 logs/uvicorn.log || echo "No logs yet"
-            fi
+            for page in "${PAGES[@]}"; do
+              if [ -f "$page" ]; then
+                echo "   ✓ $page"
+              else
+                echo "   ✗ $page (MISSING!)"
+              fi
+            done
+            
+            echo ""
+            echo "╔════════════════════════════════════╗"
+            echo "║ ✅ DEPLOYMENT SUCCESSFUL           ║"
+            echo "╚════════════════════════════════════╝"
+            echo ""
+            echo "🌐 Live at: https://seacouver-by-night.de"
+            echo ""
 
       - name: Deployment Summary
         if: success()
         run: |
           echo ""
           echo "✅ Workflow completed successfully!"
-          echo "🌐 App URL: https://seacouver-by-night.de"
-          echo "📊 Check deployment in 1-2 minutes"
+          echo "🦇 Website: https://seacouver-by-night.de"
+          echo "⚡ 100% static - no server needed"
+          echo ""
 
       - name: Deployment Error
         if: failure()
