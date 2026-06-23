@@ -1,7 +1,7 @@
 # .gitignore
 
 # ===== PYTHON =====
-venv/
+.venv/
 env/
 ENV/
 __pycache__/
