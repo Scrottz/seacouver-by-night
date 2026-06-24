@@ -1,5 +1,4 @@
 import re
-import unicodedata
 from pathlib import Path
 
 
@@ -18,25 +17,20 @@ def extract_slug(file_path: Path) -> str:
     """
     return re.sub(r'_\d+$', '', file_path.stem)
 
-def slugify_string(text: str) -> str:
-    """Konvertiert alles in einen standardisierten ASCII-Slug."""
-    # Wandelt 'ò' in 'o' um etc.
-    s = unicodedata.normalize('NFKD', text).encode('ascii', 'ignore').decode('ascii')
-    # Dann dein bisheriges Slugify
-    s = s.lower().strip().replace('"', '__').replace(' ', '_')
-    s = re.sub(r'[^a-z0-9_]', '_', s)
-    return re.sub(r'_+', '_', s).strip('_')
-
 def derive_name_from_slug(slug: str) -> str:
-    """
-    Converts a slug to a name.
-    Rule: '__' -> '"', '_' -> ' '
-    """
-    name = slug.replace('__', '"').replace('_', ' ')
+    parts = slug.split('__')
 
-    # Capitalize words carefully
-    words = name.split()
-    return " ".join(word.capitalize() for word in words)
+    formatted = [p.replace('_', ' ').strip().title() for p in parts]
+
+    if len(formatted) == 1:
+        return formatted[0]
+    elif len(formatted) == 2:
+        return f'{formatted[0]} "{formatted[1]}"'
+    else:
+        first = formatted[0]
+        last = formatted[-1]
+        nicks = ' '.join([f'"{n}"' for n in formatted[1:-1]])
+        return f'{first} {nicks} {last}'
 
 def validate_path(path_str: str) -> bool | str:
     if Path(path_str).exists():

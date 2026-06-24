@@ -7,7 +7,7 @@ from lib.db_manager import DatabaseManager
 from lib.logging import get_logger
 from lib.utils import derive_name_from_slug, extract_slug, validate_path
 
-logger = get_logger("npc_importer")
+logger = get_logger("character_importer")
 
 CLAN_CHOICES = [
     "Banu Haqim", "Brujah", "Gangrel", "Hecata", "Lasombra",
@@ -47,10 +47,11 @@ def import_characters(img_dirs: list[Path], backup_file: Path) -> list[str]:
 
             if old_data:
                 # Case A: Found in backup -> Silent Import
-                logger.info(f"Auto-importing from backup: {slug}")
+                logger.info(f"Auto-importing from backup: repr {repr(slug)}")
                 name = old_data['name']
                 char_id = db.add_character(
                     name=name,
+                    slug=slug,
                     char_type=old_data.get("type", "NPC"),
                     clan=old_data.get("clan", ""),
                     biography=old_data.get("biography", ""),
@@ -60,7 +61,8 @@ def import_characters(img_dirs: list[Path], backup_file: Path) -> list[str]:
             else:
                 # Case B: Completely new -> Interactive Prompt
                 logger.info(f"New character, no backup for {slug}")
-                name = questionary.text("Name:", default=derive_name_from_slug(slug)).ask()
+                default_name = derive_name_from_slug(slug)
+                name = questionary.text("Name:", default=default_name).ask()
                 char_type = questionary.select("Type:", choices=["NPC", "PC"], default="NPC").ask()
                 clan = questionary.autocomplete(
                     "Clan:",
@@ -71,14 +73,11 @@ def import_characters(img_dirs: list[Path], backup_file: Path) -> list[str]:
                 ).ask()
 
 
-                char_id = db.add_character(name=name, char_type=char_type, clan=clan)
+                char_id = db.add_character(name=name,slug=slug, char_type=char_type, clan=clan)
 
             # Add to list of new imports
             new_chars.append(name)
             char = db.get_character_by_id(char_id)
-
-        else:
-            logger.info(f"Existing character: {char['name']}")
 
         # 2. Process images
         for file in files:

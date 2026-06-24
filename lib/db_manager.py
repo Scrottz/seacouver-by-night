@@ -1,6 +1,7 @@
 import os
 import re
 import sqlite3
+import unicodedata
 
 from lib.logging import get_logger
 
@@ -89,21 +90,17 @@ class DatabaseManager:
                 )
             ''')
             conn.commit()
-    def _generate_slug(self, name):
-        return re.sub(r'[^a-z0-9]', '_', name.lower().strip())
 
-    def add_character(self, name, char_type="NPC", **kwargs):
-        slug = self._generate_slug(name)
+
+    def add_character(self, name, slug, char_type="NPC", **kwargs):
         with self.get_connection() as conn:
             cursor = conn.cursor()
 
-            # Fetch existing character data if available
-
-            cursor.execute("SELECT * FROM characters WHERE name = ? COLLATE NOCASE", (name,))
+            # Wir suchen jetzt primär über den Slug, da der einzigartig sein soll
+            cursor.execute("SELECT * FROM characters WHERE slug = ? COLLATE NOCASE", (slug,))
             existing_char = cursor.fetchone()
             existing_dict = self._row_to_dict(existing_char)
 
-            # Prepare values for insert/update, using kwargs or existing data
             values = {
                 "name": name,
                 "slug": slug,
@@ -124,26 +121,24 @@ class DatabaseManager:
             }
 
             if existing_dict:
-                # Update existing character
                 update_query = '''
                     UPDATE characters SET
-                    slug=?, type=?, player_name=?, clan=?, affiliation=?, contact=?,
+                    name=?, type=?, player_name=?, clan=?, affiliation=?, contact=?,
                     status=?, notes=?, biography=?, image_path=?, aliases=?, friends_raw=?, foes_raw=?,
                     location=?, cause_of_death=?
-                    WHERE name=?
+                    WHERE slug=?
                 '''
                 params = (
-                    values["slug"], values["type"], values["player_name"], values["clan"],
+                    values["name"], values["type"], values["player_name"], values["clan"],
                     values["affiliation"], values["contact"], values["status"], values["notes"],
                     values["biography"], values["image_path"], values["aliases"],
                     values["friends_raw"], values["foes_raw"],
                     values["location"], values["cause_of_death"],
-                    name
+                    slug
                 )
                 cursor.execute(update_query, params)
                 char_id = existing_dict["id"]
             else:
-                # Insert new character
                 insert_query = '''
                     INSERT INTO characters
                     (name, slug, type, player_name, clan, affiliation, contact, status, notes, biography, image_path, aliases, friends_raw, foes_raw, location, cause_of_death)
@@ -161,7 +156,6 @@ class DatabaseManager:
 
             conn.commit()
             return char_id
-
 
     def set_character_images(self, character_id, image_paths):
         """
@@ -225,6 +219,7 @@ class DatabaseManager:
             cursor.execute("SELECT * FROM characters WHERE slug = ? COLLATE NOCASE", (slug,))
             row = cursor.fetchone()
             return self._row_to_dict(row)
+
     def get_latest_session(self):
         """Holt den neuesten Session-Eintrag."""
         with self.get_connection() as conn:

@@ -8,6 +8,11 @@ eggs/
 wheels/
 *.egg-info/
 *.egg
+__pycache__/
+data/*.db
+*.pyc
+*.pyo
+*.pyd
 
 # ===== FASTAPI / UVICORN =====
 logs/
@@ -23,5 +28,7 @@ nohup.out
 # ===== BACKUPS =====
 *.backup
 *.bak
+
+# ===== DB =====
 
 
