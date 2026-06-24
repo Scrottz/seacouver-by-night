@@ -1,0 +1,18 @@
+F..
+======================================================================
+FAIL: test_derive_name_from_slug (tests.test_utils.TestUtils.test_derive_name_from_slug)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/keilholz/code/seacouver-by-night/tests/test_utils.py", line 31, in test_derive_name_from_slug
+    self.assertEqual(derive_name_from_slug("roxanne__roxy__cross"), 'Roxanne "Roxy" Cross')
+AssertionError: 'Roxanne"roxy"cross' != 'Roxanne "Roxy" Cross'
+- Roxanne"roxy"cross
+?         ^    ^
++ Roxanne "Roxy" Cross
+?        + ^    ^^
+
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.001s
+
+FAILED (failures=1)
