@@ -2,39 +2,12 @@
 
 # ===== PYTHON =====
 .venv/
-env/
-ENV/
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
 build/
-develop-eggs/
-dist/
-downloads/
 eggs/
 .eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
 wheels/
 *.egg-info/
-.installed.cfg
 *.egg
-
-# ===== DATABASE =====
-# Ignoriere nur Test-Dbs
-test_*.db
-test_campaign.db
-
-# Ignoriere komprimierte Backups
-*.db.gz
-
-# ABER: campaign.db ist unsere Source of Truth!
-!data/campaign.db
 
 # ===== FASTAPI / UVICORN =====
 logs/
@@ -47,39 +20,8 @@ nohup.out
 .env.*.local
 .vscode/settings.json
 
-# ===== IDE =====
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
-.DS_Store
-Thumbs.db
-
-# ===== OS =====
-.DS_Store
-.AppleDouble
-.LSOverride
-*.sublime-project
-*.sublime-workspace
-
-# ===== MkDocs =====
-site/
-docs_bak/
-
 # ===== BACKUPS =====
 *.backup
 *.bak
 
-# ===== PYTEST =====
-.pytest_cache/
-.coverage
-htmlcov/
-
-# ===== TEMP FILES =====
-*.tmp
-.cache/
-
-# ===== GENERATED =====
-public/
 
