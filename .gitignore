@@ -9,7 +9,6 @@ wheels/
 *.egg-info/
 *.egg
 __pycache__/
-data/*.db
 *.pyc
 *.pyo
 *.pyd
@@ -23,12 +22,8 @@ nohup.out
 .env
 .env.local
 .env.*.local
-.vscode/settings.json
 
 # ===== BACKUPS =====
 *.backup
 *.bak
-
-# ===== DB =====
-
-
+data/*.db
