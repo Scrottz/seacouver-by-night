@@ -7,7 +7,7 @@ from lib.utils import print_summary
 
 logger = get_logger("import_runner")
 
-BACKUP_FILE = Path("data/full_backup.json")
+BACKUP_FILE = Path("data/db.json")
 NOTES_PATH = Path("res/notes")
 IMAGES_DIRS = [Path("res/img/npc"), Path("res/img/pc")]
 

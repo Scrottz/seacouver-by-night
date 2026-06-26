@@ -11,28 +11,22 @@ chronicle_generator:
     Previous Narrative: {prev_narrative}
     Current Session Notes: {notes}
     Known NPCs: {npc_list}
-    Last Ingame Date: {last_date}
-
+    
     CONSTRAINTS:
-    1. NO HALLUCINATIONS...
-    2. NO OUTLOOKS...
-    3. HARD STOP...
-    4. NO META-TALK...
+    1. NO HALLUCINATIONS: Do not invent events/dialogues/twists not in the raw notes.
+    2. NO OUTLOOKS: No epilogues, no summaries of future events, no cliffhangers.
+    3. HARD STOP: End the narrative exactly where the raw notes end.
+    4. NO META-TALK: No introductory or concluding remarks.
 
     TASKS:
-    1. NARRATIVE: ...
-    2. DATE_CALCULATION:
-       - If the notes mention a "night has passed" or a specific time jump, calculate the new Ingame Date based on {last_date}.
-       - If no time jump is mentioned, the date remains {last_date}.
-       - Format: ISO 8601 (YYYY-MM-DD).
-    3. SUMMARY: ...
-    4. TASKS: ...
-    5. NPC_UPDATES: ...
+    1. NARRATIVE: Transform notes into atmospheric Gothic Horror. Use [Name](npc:slug) for NPCs.
+    2. SUMMARY: A short, punchy teaser for the landing page (2-3 sentences).
+    3. TASKS: Extract open goals/mysteries as a list.
+    4. NPC_UPDATES: Extract any status changes (Alive/Torpor/Dead) and a short log entry of what happened to the NPC in this session.
 
     OUTPUT FORMAT (Strict JSON):
     {{
       "title": "String",
-      "ingame_date": "YYYY-MM-DD",
       "summary": "String",
       "narrative": "String",
       "tasks": ["Task 1", "Task 2"],

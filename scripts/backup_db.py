@@ -5,7 +5,7 @@ from lib.logging import get_logger
 
 logger = get_logger("backup")
 
-def backup_all_to_json(output_file="data/full_backup.json"):
+def backup_all_to_json(output_file="data/db.json"):
     db = DatabaseManager()
 
     # Data collection

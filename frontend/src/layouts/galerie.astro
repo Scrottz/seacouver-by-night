@@ -1,0 +1,70 @@
+
+---
+import Layout from '../layouts/Layout.astro';
+import data from '../../../data/db.json';
+
+const pcs = data.characters.filter(c => c.type === 'PC');
+const npcs = data.characters.filter(c => c.type === 'NPC');
+
+// Alle Bilder finden
+const allImages = import.meta.glob('/public/res/img/**/*.{jpg,jpeg,png,webp}');
+
+// Funktion: Findet alle Bilder für einen Charakter (z.B. aaliyah_khan_1, aaliyah_khan_2...)
+const getGallery = (char) => {
+    const slug = char.slug;
+    const folder = char.type.toLowerCase();
+    const pattern = `/public/res/img/${folder}/${slug}_`;
+
+    return Object.keys(allImages)
+        .filter(path => path.startsWith(pattern))
+        .sort()
+        .map(path => path.replace('/public', ''));
+};
+
+const groupedNpcs = npcs.reduce((acc, npc) => {
+    const clan = npc.clan || "Unbekannt";
+    if (!acc[clan]) acc[clan] = [];
+    acc[clan].push({ ...npc, gallery: getGallery(npc) });
+    return acc;
+}, {} as Record<string, any[]>);
+
+const sortedClans = Object.keys(groupedNpcs).sort();
+const pcsWithGallery = pcs.map(pc => ({ ...pc, gallery: getGallery(pc) }));
+---
+
+<Layout title="Galerie | Seacouver">
+    <h1 class="text-4xl font-bold mb-12 text-red-700 uppercase tracking-widest">Character Galerie</h1>
+
+    <section class="mb-16">
+        <h2 class="text-2xl font-bold mb-6 border-b border-gray-700 pb-2">Player Characters</h2>
+        <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
+            {pcsWithGallery.map(pc => (
+                <div data-character={JSON.stringify(pc)} class="bg-gray-900 border border-gray-800 p-2 rounded hover:border-red-500 transition-all cursor-pointer">
+                    <div class="relative w-full aspect-[2/3] overflow-hidden rounded-t">
+                        <img src={pc.gallery[0] || '/placeholder.jpg'} alt={pc.name} class="absolute inset-0 w-full h-full object-cover object-top" />
+                    </div>
+                    <h3 class="text-xs font-bold text-center mt-3 truncate">{pc.name}</h3>
+                </div>
+            ))}
+        </div>
+    </section>
+
+    <section>
+        <h2 class="text-2xl font-bold mb-8 border-b border-red-900 pb-2">Non-Player Characters</h2>
+        {sortedClans.map(clan => (
+            <div class="mb-10">
+                <h3 class="text-sm font-semibold text-red-800 mb-4 uppercase tracking-widest">{clan}</h3>
+                <div class="grid grid-cols-4 md:grid-cols-6 lg:grid-cols-8 gap-3">
+                    {groupedNpcs[clan].map(npc => (
+                        <div data-character={JSON.stringify(npc)} class="bg-gray-900 border border-gray-800 p-1.5 rounded hover:border-red-800 transition-all cursor-pointer">
+                            <div class="relative w-full aspect-[2/3] overflow-hidden rounded">
+                                <img src={npc.gallery[0] || '/placeholder.jpg'} alt={npc.name} class="absolute inset-0 w-full h-full object-cover object-top" />
+                            </div>
+                            <h3 class="text-[10px] font-bold text-center mt-2 truncate">{npc.name}</h3>
+                        </div>
+                    ))}
+                </div>
+            </div>
+        ))}
+    </section>
+</Layout>

@@ -1,0 +1,15 @@
+
+@import "tailwindcss";
+
+@theme {
+  --color-brand-bg: #030712; /* Gray 950 */
+  --color-brand-text: #f1f5f9; /* Slate 100 */
+}
+
+@layer base {
+  body {
+    background-color: var(--color-brand-bg);
+    color: var(--color-brand-text);
+    min-height: 100vh;
+  }
+}

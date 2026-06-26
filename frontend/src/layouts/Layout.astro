@@ -1,0 +1,94 @@
+
+---
+import '../styles/global.css';
+interface Props { title: string; }
+const { title } = Astro.props;
+---
+<!doctype html>
+<html lang="de">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>{title}</title>
+    </head>
+    <body class="flex min-h-screen bg-gray-950 text-slate-100">
+
+        <aside class="w-64 border-r border-gray-800 p-8 flex flex-col gap-8 shrink-0">
+            <h1 class="text-2xl font-bold text-red-700 uppercase tracking-widest">Seacouver by Night</h1>
+            <nav class="flex flex-col gap-4 text-gray-200 text-xl">
+                <a href="/" class="hover:text-red-500 transition-colors">Chronik</a>
+                <a href="/galerie" class="hover:text-red-500 transition-colors">Galerie</a>
+            </nav>
+        </aside>
+
+        <main class="flex-1 p-12 text-lg"><slot /></main>
+
+        <div id="character-modal" class="fixed inset-0 bg-black/60 hidden z-50">
+            <div id="modal-panel" class="absolute right-0 top-0 h-full w-full md:w-2/5 bg-gray-950 border-l border-red-900 p-12 shadow-2xl transform translate-x-full transition-transform duration-300 ease-out overflow-y-auto">
+                <button id="close-modal" class="absolute top-6 left-6 text-6xl text-gray-400 hover:text-white">×</button>
+                <div id="modal-content" class="flex flex-col gap-10 mt-12"></div>
+            </div>
+        </div>
+        <script is:inline>
+            const modal = document.getElementById('character-modal');
+            const panel = document.getElementById('modal-panel');
+            const content = document.getElementById('modal-content');
+            const closeBtn = document.getElementById('close-modal');
+
+            function closeModal() {
+                panel.classList.add('translate-x-full');
+                setTimeout(() => modal.classList.add('hidden'), 300);
+            }
+
+            // Klick-Logik für das gesamte Dokument
+            document.addEventListener('click', (e) => {
+                const card = e.target.closest('[data-character]');
+                const isModal = e.target.closest('#modal-panel');
+                const isCloseBtn = e.target.closest('#close-modal');
+
+                // 1. Wenn auf eine Karte geklickt wurde: Öffnen
+                if (card) {
+                    const char = JSON.parse(decodeURIComponent(card.getAttribute('data-character')));
+                    const gallery = char.gallery || [];
+                    const mainImage = gallery.length > 0 ? gallery[0] : (char.image_path ? '/' + char.image_path.replace(/^\//, '') : '/placeholder.jpg');
+
+                    const excluded = ['id', 'name', 'biography', 'image_path', 'type', 'slug', 'player_name', 'gallery'];
+                    const fields = Object.entries(char)
+                        .filter(([k, v]) => !excluded.includes(k) && v !== null && v !== "")
+                        .map(([k, v]) => `
+                            <li class="flex justify-between border-b border-gray-800 py-5">
+                                <span class="text-gray-400 capitalize text-base">${k.replace('_', ' ')}</span>
+                                <span class="text-white font-medium text-right text-base">${v}</span>
+                            </li>`).join('');
+
+                    content.innerHTML = `
+                        <div class="w-full h-96 bg-black rounded-lg border border-red-900/30 flex items-center justify-center overflow-hidden">
+                            <img id="main-display" src="${mainImage}" class="max-w-full max-h-full object-contain" />
+                        </div>
+                        ${gallery.length > 1 ? `<div id="thumb-container" class="flex gap-3 flex-wrap">${gallery.map(url => `<img src="${url}" class="w-24 h-24 object-cover rounded border border-gray-700 cursor-pointer hover:border-red-500" />`).join('')}</div>` : ''}
+                        <div>
+                            <h2 class="text-4xl font-bold text-red-600 mb-6">${char.name}</h2>
+                            <p class="text-gray-200 italic mb-8 text-lg leading-relaxed">${char.biography || ""}</p>
+                            <ul class="bg-gray-900 rounded-lg p-6 border border-gray-800">${fields}</ul>
+                        </div>
+                    `;
+
+                    if (document.getElementById('thumb-container')) {
+                        document.getElementById('thumb-container').addEventListener('click', (ev) => {
+                            if (ev.target.tagName === 'IMG') document.getElementById('main-display').src = ev.target.src;
+                        });
+                    }
+
+                    modal.classList.remove('hidden');
+                    setTimeout(() => panel.classList.remove('translate-x-full'), 10);
+                    return; // Wichtig: Hier abbrechen, damit er nicht sofort wieder schließt
+                }
+
+                // 2. Wenn das Modal offen ist UND der Klick NICHT im Panel war: Schließen
+                if (!modal.classList.contains('hidden') && !isModal && !isCloseBtn) {
+                    closeModal();
+                }
+            });
+        </script>
+    </body>
+</html>
