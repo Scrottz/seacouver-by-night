@@ -4,6 +4,7 @@ from pathlib import Path
 import questionary
 
 from lib.db_manager import DatabaseManager
+from lib.llm_processor import LLMProcessor
 from lib.logging import get_logger
 
 logger = get_logger("session_importer")

@@ -293,6 +293,22 @@ class DatabaseManager:
                         (title, narrative, summary, date))
            conn.commit()
 
+    def get_open_tasks_by_session(self, session_id):
+        """Holt alle offenen Tasks einer spezifischen Sitzung."""
+        with self.get_connection() as conn:
+            cursor = conn.cursor()
+            cursor.execute("SELECT description FROM tasks WHERE session_id = ? AND status = 'Open'", (session_id,))
+            return [row["description"] for row in cursor.fetchall()]
+
+    def get_previous_session(self, current_date):
+        """Holt die chronologisch letzte Sitzung vor dem aktuellen Datum."""
+        with self.get_connection() as conn:
+            cursor = conn.cursor()
+            cursor.execute(
+                "SELECT * FROM sessions WHERE date < ? ORDER BY date DESC LIMIT 1",
+                (current_date,)
+            )
+            return self._row_to_dict(cursor.fetchone())
 
     def delete_record(self, table: str, record_id: int):
         """
@@ -309,3 +325,15 @@ class DatabaseManager:
             conn.execute(f"DELETE FROM {table} WHERE id = ?", (record_id,))
             conn.commit()
             logger.info(f"Deleted record {record_id} from {table}")
+
+    def get_recent_sessions(self, limit=2):
+        """Holt die letzten N Sitzungen, sortiert von alt nach neu."""
+        with self.get_connection() as conn:
+            cursor = conn.cursor()
+            cursor.execute(
+                "SELECT * FROM (SELECT * FROM sessions ORDER BY date DESC LIMIT ?) ORDER BY date ASC",
+                (limit,)
+            )
+            return [self._row_to_dict(row) for row in cursor.fetchall()]
+
+
