@@ -4,7 +4,7 @@ from pathlib import Path
 import questionary
 
 from lib.db_manager import DatabaseManager
-from lib.logging import get_logger
+from lib.log_utils import get_logger
 from lib.utils import derive_name_from_slug, extract_slug, validate_path
 
 logger = get_logger("character_importer")
@@ -48,15 +48,20 @@ def import_characters(img_dirs: list[Path], backup_file: Path) -> list[str]:
             if old_data:
                 # Case A: Found in backup -> Silent Import
                 logger.info(f"Auto-importing from backup: repr {repr(slug)}")
+
+                old_aliases = old_data.get("aliases", [])
+                if isinstance(old_aliases, str):
+                    old_aliases = [a.strip() for a in old_aliases.split(",")] if old_aliases else []
                 name = old_data['name']
                 char_id = db.add_character(
                     name=name,
                     slug=slug,
+                    aliases=old_aliases,
                     char_type=old_data.get("type", "NPC"),
                     clan=old_data.get("clan", ""),
                     biography=old_data.get("biography", ""),
                     affiliation=old_data.get("affiliation", ""),
-                    status=old_data.get("status", "")
+                    status=old_data.get("status", ""),
                 )
             else:
                 # Case B: Completely new -> Interactive Prompt

@@ -8,7 +8,7 @@
             "player_name": "",
             "clan": "Banu Haqim",
             "affiliation": "Camarilla",
-            "contact": "yes",
+            "contact": "",
             "status": "alive",
             "notes": "",
             "biography": "Cleaner in Seacouver, lebt in der alten Kirche der Banu Haqim?",
@@ -100,10 +100,10 @@
             "name": "Albert Hitchens",
             "slug": "albert_hitchens",
             "type": "PCB",
-            "player_name": "Franz",
+            "player_name": "",
             "clan": "Venture",
             "affiliation": "",
-            "contact": "yes",
+            "contact": "",
             "status": "alive",
             "notes": "",
             "biography": "",
@@ -122,7 +122,7 @@
             "player_name": "",
             "clan": "Ventrue",
             "affiliation": "",
-            "contact": "yes",
+            "contact": "",
             "status": "",
             "notes": "",
             "biography": "",
@@ -160,7 +160,7 @@
             "player_name": "",
             "clan": "Nosferatu",
             "affiliation": "",
-            "contact": "yes",
+            "contact": "",
             "status": "alive",
             "notes": "",
             "biography": "",
@@ -195,10 +195,10 @@
             "name": "Alistar Ionman",
             "slug": "alistar_ionman",
             "type": "PC",
-            "player_name": "Franz",
+            "player_name": "",
             "clan": "Toreador",
             "affiliation": "Camarilla",
-            "contact": "yes",
+            "contact": "",
             "status": "alive",
             "notes": "",
             "biography": "Geboren in Leipzig und sozialisiert in der Jazz- und Avantgardeszene  in Berlin der 1920er Jahre, emigrierte er in die USA nach Chicago.  Gelangweilt nach jahrzehnte langer Arbeit in der lokalen Musikszene als Barbetreiber sucht er neue Aufgaben und Inspiration in Seacouver.",
@@ -236,7 +236,7 @@
             "player_name": "",
             "clan": "Nosferatu",
             "affiliation": "",
-            "contact": "yes",
+            "contact": "",
             "status": "alive",
             "notes": "",
             "biography": "Pimogen der Nosferatur in Rom",
@@ -293,7 +293,7 @@
             "player_name": "",
             "clan": "Banu Haqim",
             "affiliation": "",
-            "contact": "yes",
+            "contact": "",
             "status": "alive",
             "notes": "",
             "biography": "",
@@ -369,7 +369,7 @@
             "player_name": "",
             "clan": "Malkavian",
             "affiliation": "",
-            "contact": "yes",
+            "contact": "",
             "status": "dead",
             "notes": "",
             "biography": "",
@@ -407,7 +407,7 @@
             "player_name": "",
             "clan": "Nosferatu",
             "affiliation": "?",
-            "contact": "yes",
+            "contact": "",
             "status": "alive",
             "notes": "",
             "biography": "Der Primogen der Nosferatu",
@@ -426,7 +426,7 @@
             "player_name": "",
             "clan": "Human",
             "affiliation": "",
-            "contact": "yes",
+            "contact": "",
             "status": "alive",
             "notes": "",
             "biography": "",
@@ -445,7 +445,7 @@
             "player_name": "",
             "clan": "Ventrue",
             "affiliation": "",
-            "contact": "yes",
+            "contact": "",
             "status": "alive",
             "notes": "",
             "biography": "Ehemaliger CEO von Nestrum Enterprises, Verdächtiger im Fall Ivanna Orlov. Anscheinend mit Slate und Roxy bekannt? Hat beim Elysium Clanzugehörigkeit und seine Firma verloren. Nestrum Enterprises ging an Lily Parker, die Firma von Lily ging an den Seneschall Adrian Holt.",
@@ -540,7 +540,7 @@
             "player_name": "",
             "clan": "Hecata",
             "affiliation": "Camarilla",
-            "contact": "yes",
+            "contact": "",
             "status": "alive",
             "notes": "",
             "biography": "Reisebeleiterin für Rom",
@@ -559,7 +559,7 @@
             "player_name": "",
             "clan": "Brujah",
             "affiliation": "",
-            "contact": "yes",
+            "contact": "",
             "status": "",
             "notes": "",
             "biography": "",
@@ -616,7 +616,7 @@
             "player_name": "",
             "clan": "Toreador",
             "affiliation": "Camarilla",
-            "contact": "yes",
+            "contact": "",
             "status": "alive",
             "notes": "",
             "biography": "Keeper of Elysium und leitet das Opernhaus",
@@ -749,7 +749,7 @@
             "player_name": "",
             "clan": "Ventrue",
             "affiliation": "Camarilla",
-            "contact": "yes",
+            "contact": "",
             "status": "alive",
             "notes": "",
             "biography": "Besitzerin des Zugunternehmens",
@@ -806,7 +806,7 @@
             "player_name": "",
             "clan": "Lasombra",
             "affiliation": "Camarilla",
-            "contact": "yes",
+            "contact": "",
             "status": "alive",
             "notes": "",
             "biography": "Hund des Sheriffs, sehr gewalttätig",
@@ -882,7 +882,7 @@
             "player_name": "",
             "clan": "Toreador",
             "affiliation": "Camarilla",
-            "contact": "yes",
+            "contact": "",
             "status": "alive",
             "notes": "",
             "biography": "Harpy von Seacouver.",
@@ -901,7 +901,7 @@
             "player_name": "",
             "clan": "Brujah",
             "affiliation": "",
-            "contact": "yes",
+            "contact": "",
             "status": "alive",
             "notes": "",
             "biography": "",
@@ -958,7 +958,7 @@
             "player_name": "",
             "clan": "Unknown",
             "affiliation": "",
-            "contact": "yes",
+            "contact": "",
             "status": "alive",
             "notes": "",
             "biography": "",
@@ -974,10 +974,10 @@
             "name": "Liora Mikhailov",
             "slug": "liora_mikhailov",
             "type": "PC",
-            "player_name": "Josephine",
+            "player_name": "",
             "clan": "Malkavian",
             "affiliation": "Camarilla?",
-            "contact": "yes",
+            "contact": "",
             "status": "alive",
             "notes": "",
             "biography": "Liora ist eine Mischung aus japanischen & russischen Merkmalen. Sie ist 1,73m groß. Etwas hatte sie verändert. Sie hat eine blasse Haut, die in einem starken Kontrast zu ihre langen pechschwarzen Haaren mit blutroten Strähnen steht. Ihre Augen sind verschieden. Das rechte Auge ist eisblau, das linke Auge ist blutrot. Ihr durchtrainierter Körper ist mit",
@@ -996,7 +996,7 @@
             "player_name": "",
             "clan": "Ravnos",
             "affiliation": "?",
-            "contact": "yes",
+            "contact": "",
             "status": "dead",
             "notes": "",
             "biography": "Stalker von Roxanne “Roxy” Cross.",
@@ -1015,7 +1015,7 @@
             "player_name": "",
             "clan": "Human",
             "affiliation": "?",
-            "contact": "yes",
+            "contact": "",
             "status": "alive",
             "notes": "",
             "biography": "Chef einer Polizeistation und Kontakt von Liora  Mikhailov",
@@ -1072,7 +1072,7 @@
             "player_name": "",
             "clan": "Unknown",
             "affiliation": "",
-            "contact": "yes",
+            "contact": "",
             "status": "alive",
             "notes": "",
             "biography": "",
@@ -1091,7 +1091,7 @@
             "player_name": "",
             "clan": "Unknown",
             "affiliation": "",
-            "contact": "yes",
+            "contact": "",
             "status": "alive",
             "notes": "",
             "biography": "",
@@ -1110,7 +1110,7 @@
             "player_name": "",
             "clan": "Unknown",
             "affiliation": "",
-            "contact": "yes",
+            "contact": "",
             "status": "alive",
             "notes": "",
             "biography": "Giaccomo Belucci unterstellt",
@@ -1129,7 +1129,7 @@
             "player_name": "",
             "clan": "Toreador",
             "affiliation": "Camarilla",
-            "contact": "yes",
+            "contact": "",
             "status": "alive",
             "notes": "",
             "biography": "Primogen der Toreador",
@@ -1145,10 +1145,10 @@
             "name": "Marius Raimondi",
             "slug": "marius_raimondi",
             "type": "PC",
-            "player_name": "Georg",
+            "player_name": "",
             "clan": "Hecata",
             "affiliation": "Camarilla?",
-            "contact": "yes",
+            "contact": "",
             "status": "alive",
             "notes": "",
             "biography": "Aus bisher unbekannten Gründen von seinem Sire nach Seacouver geschickt worden….",
@@ -1262,7 +1262,7 @@
             "player_name": "",
             "clan": "The Ministry",
             "affiliation": "",
-            "contact": "yes",
+            "contact": "",
             "status": "alive",
             "notes": "",
             "biography": "",
@@ -1281,7 +1281,7 @@
             "player_name": "",
             "clan": "Tremere",
             "affiliation": "Camarilla",
-            "contact": "yes",
+            "contact": "",
             "status": "alive",
             "notes": "",
             "biography": "“Child” von Victor Caruso",
@@ -1300,7 +1300,7 @@
             "player_name": "",
             "clan": "Malkavian",
             "affiliation": "?",
-            "contact": "yes",
+            "contact": "",
             "status": "alive",
             "notes": "",
             "biography": "Stellvertreterin für Ivanna Orlov, solang diese verschwunden ist.",
@@ -1338,7 +1338,7 @@
             "player_name": "",
             "clan": "Hecata",
             "affiliation": "",
-            "contact": "yes",
+            "contact": "",
             "status": "",
             "notes": "",
             "biography": "",
@@ -1357,7 +1357,7 @@
             "player_name": "",
             "clan": "Banu Haqim",
             "affiliation": "",
-            "contact": "yes",
+            "contact": "",
             "status": "alive",
             "notes": "",
             "biography": "",
@@ -1376,7 +1376,7 @@
             "player_name": "",
             "clan": "Toreador",
             "affiliation": "Camarilla",
-            "contact": "yes",
+            "contact": "",
             "status": "alive",
             "notes": "",
             "biography": "Schwester von Selina Lawson",
@@ -1452,7 +1452,7 @@
             "player_name": "",
             "clan": "Brujah",
             "affiliation": "",
-            "contact": "yes",
+            "contact": "",
             "status": "alive",
             "notes": "",
             "biography": "",
@@ -1528,7 +1528,7 @@
             "player_name": "",
             "clan": "Tzimisce",
             "affiliation": "",
-            "contact": "yes",
+            "contact": "",
             "status": "alive",
             "notes": "",
             "biography": "",
@@ -1547,7 +1547,7 @@
             "player_name": "",
             "clan": "Nosferatu",
             "affiliation": "",
-            "contact": "yes",
+            "contact": "",
             "status": "",
             "notes": "",
             "biography": "",
@@ -1563,15 +1563,15 @@
             "name": "Roxanne \"Roxy\" Cross",
             "slug": "roxanne__roxy__cross",
             "type": "PC",
-            "player_name": "Steffi",
+            "player_name": "",
             "clan": "Brujah",
             "affiliation": "Anarchen",
-            "contact": "yes",
+            "contact": "",
             "status": "alive",
             "notes": "",
             "biography": "Roxy ist ein 1,64m großes Energiebündel. Sie hat ein hübsches Gesicht und besonders ihre zweifarbigen Augen, rechts blau, links grün, wirken intensiv und gefährlich, verstärkt durch dunkles Make-up und eine kleine Narbe unter dem linken Auge – Das Zeichen der Brujah. Mit ihrem Bruder Slate reist sie von New York aus durch die USA, auf der Suche nach einer neuen Heimat, die sie vielleicht in Seacouver finden könnte.",
             "image_path": "res/img/pc/roxanne__roxy__cross_2.jpg",
-            "aliases": "",
+            "aliases": "Roxy",
             "friends_raw": "",
             "foes_raw": "",
             "location": null,
@@ -1642,7 +1642,7 @@
             "player_name": "",
             "clan": "Banu Haqim",
             "affiliation": "",
-            "contact": "yes",
+            "contact": "",
             "status": "alive",
             "notes": "",
             "biography": "",
@@ -1661,7 +1661,7 @@
             "player_name": "",
             "clan": "Toreador",
             "affiliation": "Camarilla",
-            "contact": "yes",
+            "contact": "",
             "status": "alive",
             "notes": "",
             "biography": "Geliebte von Sheriff Samir ibn Khaldun, Schwester von Paige Lawson. Ex-Freundin von Luciano Giovanni.",
@@ -1715,15 +1715,15 @@
             "name": "Simon \"Slate\" Cross",
             "slug": "simon__slate__cross",
             "type": "PC",
-            "player_name": "Jannick",
+            "player_name": "",
             "clan": "Nosferatu",
             "affiliation": "Roxy",
-            "contact": "yes",
+            "contact": "",
             "status": "alive",
             "notes": "",
             "biography": "Simon „Slate“ ist ein 1,90 m großer, träge wirkender Faulpelz. Er hat lange Haare, und sein Körper ist größtenteils in Verbände gehüllt, um sein wahres Aussehen zu verbergen. Seine bernsteinfarben schimmernden Augen verleihen ihm trotz seines verborgenen Äußeren eine bedrohlichere Ausstrahlung als die der meisten Nosferatu. Gemeinsam mit seiner Schwester Roxy reist er durchs Land, auf der Suche nach einem Ort, an dem sie sich etwas Dauerhaftes aufbauen können.",
             "image_path": "res/img/pc/simon__slate__cross_1.png",
-            "aliases": "",
+            "aliases": "Slate",
             "friends_raw": "",
             "foes_raw": "",
             "location": null,
@@ -1737,7 +1737,7 @@
             "player_name": "",
             "clan": "Banu Haqim",
             "affiliation": "",
-            "contact": "yes",
+            "contact": "",
             "status": "alive",
             "notes": "",
             "biography": "",
@@ -1756,7 +1756,7 @@
             "player_name": "",
             "clan": "Tremere",
             "affiliation": "Camarilla",
-            "contact": "yes",
+            "contact": "",
             "status": "alive",
             "notes": "",
             "biography": "Primogen der Tremere, Regentin der Chantry und Child des Prinzen, Schwester von Nadine Monroe",
@@ -1775,7 +1775,7 @@
             "player_name": "",
             "clan": "Thinblood",
             "affiliation": "?",
-            "contact": "yes",
+            "contact": "",
             "status": "alive",
             "notes": "",
             "biography": "Will aus der Stadt",
@@ -1813,7 +1813,7 @@
             "player_name": "",
             "clan": "Brujah",
             "affiliation": "",
-            "contact": "yes",
+            "contact": "",
             "status": "alive",
             "notes": "",
             "biography": "",
@@ -1851,7 +1851,7 @@
             "player_name": "",
             "clan": "Lasombra",
             "affiliation": "?",
-            "contact": "yes",
+            "contact": "",
             "status": "alive",
             "notes": "",
             "biography": "Gemahlin von Niccoló da Firenze",
@@ -1908,7 +1908,7 @@
             "player_name": "",
             "clan": "Tremere",
             "affiliation": "",
-            "contact": "yes",
+            "contact": "",
             "status": "alive",
             "notes": "",
             "biography": "",
@@ -2264,6 +2264,568 @@
             "plain_notes": "### 3. Sitzung – 24.09.2025\n\n- Fahrt nach Sudden Valley zu Niccolò da Firenze\n    - Anwesen → Renaissance-Stil\n    - Arbeitszimmer mit alten Gemälden & Büchern\n    - Auftrag: Bild „Il Castillo D’Arno“ aus Galerie Reinhard (Besitzer Paige Lawson will nicht verkaufen)\n        - Er gibt uns Kopie des Bildes\n    - Bücher zu True Faith & Nekromantie\n    - Fragen nach Ivanna Orlov → Niccolò verschaffte ihr Penthouse (Birchstreet 13, Sudden Valley)\n    - Liora liest Zettel von Marius\n    - Angebot: Übernachtung\n        - Liora fährt heim\n        - Slate & Roxy ins Hotel → Bettenburg, Treffen mit Valentina (Frau von Niccolò, auf dem Gemälde)\n        - Marius & Alistair bleiben → bekommen Blut\n        - In Alistairs Zimmer erscheint ein Geist\n- Roxy & Slate: Nachricht von Jonathan → Einladung Galerie Reinhard (bis Mitternacht, Celina Lawson will was)\n- Treffen an Birchstreet 13 (Penthouse Ivanna Orlov)\n    - Schwarzer SUV vor Tür, leer\n    - Slate klettert über Feuerleiter rein\n    - Gebäude: halber Rohbau\n    - Loft: Tür eingetreten, verwüstet (Einschüsse, Blut, Patronen)\n        - Meist Menschenblut, wenig Vampirblut\n        - Wand durchgeschlagen (vmtl. vampirisch)\n        - Patronen von Nestrom\n    - Schlafzimmer: beschädigter Laptop\n        - Aufnahmen:\n            - SWAT-artige Truppe stürmt Loft\n            - 10 Männer ohne Markierung, ballern auf Primogen (mit Mann mit schwarzen Haaren)\n            - Kamera zerstört\n            - Einer trägt Tattoo roter Schakalskopf → Crimson Jackals (paramilitärische US-Truppe)\n    - Abstellkammer: Asche (wohl 2 Vampire)\n    - Slate sammelt Beweise, macht Fotos\n    - Liora kollabiert im Schlafzimmer\n    - Alistair findet Tagebuch mit „sinnvollen“ Einträgen (Derek, Niccolò, Toby)\n- Auftrag: Bis 30.09. klären, wer Ivanna töten ließ (Elysium an dem Tag)\n- Vor Verdacht: Derrik (Nestrom), Niccolò, Tobias „Toby“ Crane\n- Weiteres: Peter Coleman (junger Gangrel) im Video\n- Treffen Jamal Brooks (Sheriff-Kontakt, Mann fürs Grobe) → Marius legt sich mit ihm an, wird von Schattenarmen gepackt\n- Fahrt Galerie Reinhard\n    - Treffen Paige & Celina Lawson\n    - Gespräch mit Celina:\n        - Maskeradebruch (Obdachloser + Polizei)\n        - Sheriff vermutet Aufstand des Ministry (mit Anarchen) → Auftrag: untersuchen\n        - Ministry in Everson (Norden)\n        - Alternative: 5 Ressourcenpunkte zahlen\n    - Gespräch mit Paige:\n        - Celina soll sich von Sheriff Samir trennen\n        - Ihr Ex: Luciano Giovanni (Hecata)\n\n---",
             "narrative": null,
             "summary": null
+        }
+    ],
+    "tasks": [],
+    "character_logs": [],
+    "character_relationships": [],
+    "character_aliases": [
+        {
+            "id": 1,
+            "character_id": 99,
+            "alias": "Slate"
+        },
+        {
+            "id": 2,
+            "character_id": 103,
+            "alias": "Roxy"
+        }
+    ],
+    "character_images": [
+        {
+            "id": 1,
+            "character_id": 1,
+            "image_path": "res/img/npc/eric__the_glutton__kaplan_1.jpg"
+        },
+        {
+            "id": 2,
+            "character_id": 2,
+            "image_path": "res/img/npc/alina_whitmore_1.jpg"
+        },
+        {
+            "id": 3,
+            "character_id": 3,
+            "image_path": "res/img/npc/raphael_1.jpg"
+        },
+        {
+            "id": 4,
+            "character_id": 4,
+            "image_path": "res/img/npc/brock_marianne_1.jpg"
+        },
+        {
+            "id": 5,
+            "character_id": 5,
+            "image_path": "res/img/npc/jamal_brooks_1.jpg"
+        },
+        {
+            "id": 6,
+            "character_id": 6,
+            "image_path": "res/img/npc/selina_lawson_1.jpg"
+        },
+        {
+            "id": 7,
+            "character_id": 7,
+            "image_path": "res/img/npc/erzbischof_erich_kubler_1.jpg"
+        },
+        {
+            "id": 8,
+            "character_id": 8,
+            "image_path": "res/img/npc/adrian_tepes_1.jpg"
+        },
+        {
+            "id": 9,
+            "character_id": 9,
+            "image_path": "res/img/npc/victor_caruso_1.jpg"
+        },
+        {
+            "id": 10,
+            "character_id": 10,
+            "image_path": "res/img/npc/eduardo_torres_1.jpg"
+        },
+        {
+            "id": 11,
+            "character_id": 11,
+            "image_path": "res/img/npc/caleb_o_rourke_1.jpg"
+        },
+        {
+            "id": 12,
+            "character_id": 12,
+            "image_path": "res/img/npc/bellucci_1.jpg"
+        },
+        {
+            "id": 13,
+            "character_id": 13,
+            "image_path": "res/img/npc/raven_rockwell_1.jpg"
+        },
+        {
+            "id": 14,
+            "character_id": 14,
+            "image_path": "res/img/npc/blake_harrison_1.jpg"
+        },
+        {
+            "id": 15,
+            "character_id": 15,
+            "image_path": "res/img/npc/elias_crane_1.png"
+        },
+        {
+            "id": 16,
+            "character_id": 16,
+            "image_path": "res/img/npc/marquis_1.jpg"
+        },
+        {
+            "id": 17,
+            "character_id": 17,
+            "image_path": "res/img/npc/alexa_madden_1.jpg"
+        },
+        {
+            "id": 18,
+            "character_id": 18,
+            "image_path": "res/img/npc/cardinal_frederik_rauch_1.jpg"
+        },
+        {
+            "id": 19,
+            "character_id": 19,
+            "image_path": "res/img/npc/ryan_mckinley_1.jpg"
+        },
+        {
+            "id": 20,
+            "character_id": 20,
+            "image_path": "res/img/npc/cassandra__cass__baller_1.jpg"
+        },
+        {
+            "id": 21,
+            "character_id": 21,
+            "image_path": "res/img/npc/paige_lawson_1.jpg"
+        },
+        {
+            "id": 22,
+            "character_id": 22,
+            "image_path": "res/img/npc/mara_brancovic_1.jpg"
+        },
+        {
+            "id": 23,
+            "character_id": 23,
+            "image_path": "res/img/npc/andrej_novak_1.jpg"
+        },
+        {
+            "id": 24,
+            "character_id": 24,
+            "image_path": "res/img/npc/tiffany_winters_1.jpg"
+        },
+        {
+            "id": 25,
+            "character_id": 25,
+            "image_path": "res/img/npc/fixer_307_1.jpg"
+        },
+        {
+            "id": 26,
+            "character_id": 26,
+            "image_path": "res/img/npc/sakura_1.png"
+        },
+        {
+            "id": 27,
+            "character_id": 27,
+            "image_path": "res/img/npc/luna_1.jpg"
+        },
+        {
+            "id": 28,
+            "character_id": 28,
+            "image_path": "res/img/npc/lily_parker_1.jpg"
+        },
+        {
+            "id": 29,
+            "character_id": 29,
+            "image_path": "res/img/npc/vlad_tepes_1.jpg"
+        },
+        {
+            "id": 30,
+            "character_id": 30,
+            "image_path": "res/img/npc/simba_1.jpg"
+        },
+        {
+            "id": 31,
+            "character_id": 31,
+            "image_path": "res/img/npc/samir_ibn_khaldun_1.jpg"
+        },
+        {
+            "id": 32,
+            "character_id": 32,
+            "image_path": "res/img/npc/ivanna_orlov_1.jpg"
+        },
+        {
+            "id": 33,
+            "character_id": 33,
+            "image_path": "res/img/npc/fixer_410_1.jpg"
+        },
+        {
+            "id": 34,
+            "character_id": 34,
+            "image_path": "res/img/npc/valentina_da_firenze_1.jpg"
+        },
+        {
+            "id": 35,
+            "character_id": 35,
+            "image_path": "res/img/npc/june_gallagher_1.jpg"
+        },
+        {
+            "id": 36,
+            "character_id": 36,
+            "image_path": "res/img/npc/samantha__sam__coleman_1.jpg"
+        },
+        {
+            "id": 37,
+            "character_id": 37,
+            "image_path": "res/img/npc/rory_o_donnal_1.jpg"
+        },
+        {
+            "id": 38,
+            "character_id": 38,
+            "image_path": "res/img/npc/ricki_wallace_1.jpg"
+        },
+        {
+            "id": 39,
+            "character_id": 39,
+            "image_path": "res/img/npc/jocelyn__joss__carter_1.jpg"
+        },
+        {
+            "id": 40,
+            "character_id": 40,
+            "image_path": "res/img/npc/katherine__kate__reynolds_1.jpg"
+        },
+        {
+            "id": 41,
+            "character_id": 41,
+            "image_path": "res/img/npc/luciano_giovanni_1.jpg"
+        },
+        {
+            "id": 42,
+            "character_id": 42,
+            "image_path": "res/img/npc/marisol_vega_1.jpg"
+        },
+        {
+            "id": 43,
+            "character_id": 43,
+            "image_path": "res/img/npc/nadine_monroe_1.jpg"
+        },
+        {
+            "id": 44,
+            "character_id": 44,
+            "image_path": "res/img/npc/natalie_chambers_1.jpg"
+        },
+        {
+            "id": 45,
+            "character_id": 45,
+            "image_path": "res/img/npc/michael_1.jpg"
+        },
+        {
+            "id": 46,
+            "character_id": 46,
+            "image_path": "res/img/npc/lina_1.jpg"
+        },
+        {
+            "id": 47,
+            "character_id": 47,
+            "image_path": "res/img/npc/fiona_moreau_1.jpg"
+        },
+        {
+            "id": 48,
+            "character_id": 48,
+            "image_path": "res/img/npc/matti_the_stick_1.jpg"
+        },
+        {
+            "id": 49,
+            "character_id": 49,
+            "image_path": "res/img/npc/richard_von_kaunitz_1.jpg"
+        },
+        {
+            "id": 50,
+            "character_id": 50,
+            "image_path": "res/img/npc/nadia_zinabe_1.jpg"
+        },
+        {
+            "id": 51,
+            "character_id": 51,
+            "image_path": "res/img/npc/tariq_al_rashid_1.png"
+        },
+        {
+            "id": 52,
+            "character_id": 52,
+            "image_path": "res/img/npc/mason_ward_1.jpg"
+        },
+        {
+            "id": 53,
+            "character_id": 53,
+            "image_path": "res/img/npc/jonathan__john__williams_1.jpg"
+        },
+        {
+            "id": 54,
+            "character_id": 54,
+            "image_path": "res/img/npc/elsbeth_morrison_1.jpg"
+        },
+        {
+            "id": 55,
+            "character_id": 55,
+            "image_path": "res/img/npc/adriana_cerro_1.jpg"
+        },
+        {
+            "id": 56,
+            "character_id": 56,
+            "image_path": "res/img/npc/adrian_holt_1.jpg"
+        },
+        {
+            "id": 57,
+            "character_id": 57,
+            "image_path": "res/img/npc/chin_chen_1.jpg"
+        },
+        {
+            "id": 58,
+            "character_id": 58,
+            "image_path": "res/img/npc/niccolo_da_firenze_1.jpg"
+        },
+        {
+            "id": 59,
+            "character_id": 59,
+            "image_path": "res/img/npc/rattikarl_1.png"
+        },
+        {
+            "id": 60,
+            "character_id": 60,
+            "image_path": "res/img/npc/der_arme_al_1.png"
+        },
+        {
+            "id": 61,
+            "character_id": 61,
+            "image_path": "res/img/npc/derek_sullivan_1.jpg"
+        },
+        {
+            "id": 62,
+            "character_id": 62,
+            "image_path": "res/img/npc/elias_vaughn_1.jpg"
+        },
+        {
+            "id": 63,
+            "character_id": 63,
+            "image_path": "res/img/npc/lt_charles_hopkins_1.jpg"
+        },
+        {
+            "id": 64,
+            "character_id": 64,
+            "image_path": "res/img/npc/gabriel_1.jpg"
+        },
+        {
+            "id": 65,
+            "character_id": 65,
+            "image_path": "res/img/npc/silas_mercer_1.jpg"
+        },
+        {
+            "id": 66,
+            "character_id": 66,
+            "image_path": "res/img/npc/ray_1.jpg"
+        },
+        {
+            "id": 67,
+            "character_id": 67,
+            "image_path": "res/img/npc/fiona_martice_1.jpg"
+        },
+        {
+            "id": 68,
+            "character_id": 68,
+            "image_path": "res/img/npc/gianni_marcello_1.jpg"
+        },
+        {
+            "id": 69,
+            "character_id": 69,
+            "image_path": "res/img/npc/alexej_smirnoff_1.jpg"
+        },
+        {
+            "id": 70,
+            "character_id": 70,
+            "image_path": "res/img/npc/marco_belvedere_1.jpg"
+        },
+        {
+            "id": 71,
+            "character_id": 71,
+            "image_path": "res/img/npc/thalia_mendes_1.jpg"
+        },
+        {
+            "id": 72,
+            "character_id": 72,
+            "image_path": "res/img/npc/tobias__toby__crane_1.jpg"
+        },
+        {
+            "id": 73,
+            "character_id": 73,
+            "image_path": "res/img/npc/johann_hunyadi_1.jpg"
+        },
+        {
+            "id": 74,
+            "character_id": 74,
+            "image_path": "res/img/npc/morgan_blake_1.jpg"
+        },
+        {
+            "id": 75,
+            "character_id": 75,
+            "image_path": "res/img/npc/diana_kroll_1.jpg"
+        },
+        {
+            "id": 76,
+            "character_id": 76,
+            "image_path": "res/img/npc/frank_reed_1.jpg"
+        },
+        {
+            "id": 77,
+            "character_id": 77,
+            "image_path": "res/img/npc/robert_montagua_renfield_1.jpg"
+        },
+        {
+            "id": 78,
+            "character_id": 78,
+            "image_path": "res/img/npc/ashley_1.jpg"
+        },
+        {
+            "id": 79,
+            "character_id": 79,
+            "image_path": "res/img/npc/nate_brooks_1.jpg"
+        },
+        {
+            "id": 80,
+            "character_id": 80,
+            "image_path": "res/img/npc/heather_lockheart_1.jpg"
+        },
+        {
+            "id": 81,
+            "character_id": 81,
+            "image_path": "res/img/npc/kapital_g_1.jpg"
+        },
+        {
+            "id": 82,
+            "character_id": 82,
+            "image_path": "res/img/npc/abigail_foster_1.jpg"
+        },
+        {
+            "id": 83,
+            "character_id": 83,
+            "image_path": "res/img/npc/quinn_foster_1.jpg"
+        },
+        {
+            "id": 84,
+            "character_id": 84,
+            "image_path": "res/img/npc/viktor_mikhailov_1.png"
+        },
+        {
+            "id": 85,
+            "character_id": 85,
+            "image_path": "res/img/npc/connor_doyle_1.jpg"
+        },
+        {
+            "id": 86,
+            "character_id": 86,
+            "image_path": "res/img/npc/franklin_carter_1.jpg"
+        },
+        {
+            "id": 87,
+            "character_id": 87,
+            "image_path": "res/img/npc/lucretia_borgiani_1.jpg"
+        },
+        {
+            "id": 88,
+            "character_id": 88,
+            "image_path": "res/img/npc/zoey_chapman_1.jpg"
+        },
+        {
+            "id": 89,
+            "character_id": 89,
+            "image_path": "res/img/npc/thea_1.jpg"
+        },
+        {
+            "id": 90,
+            "character_id": 90,
+            "image_path": "res/img/npc/darius_crowe_1.jpg"
+        },
+        {
+            "id": 91,
+            "character_id": 91,
+            "image_path": "res/img/npc/isabella_cornfield_1.jpg"
+        },
+        {
+            "id": 92,
+            "character_id": 92,
+            "image_path": "res/img/npc/logan_carter_1.jpg"
+        },
+        {
+            "id": 93,
+            "character_id": 93,
+            "image_path": "res/img/npc/aaliyah_khan_1.jpg"
+        },
+        {
+            "id": 94,
+            "character_id": 94,
+            "image_path": "res/img/npc/alex_kwame_1.jpg"
+        },
+        {
+            "id": 95,
+            "character_id": 95,
+            "image_path": "res/img/npc/violeta_brancini_1.jpg"
+        },
+        {
+            "id": 96,
+            "character_id": 96,
+            "image_path": "res/img/npc/omar_al_haddad_1.jpg"
+        },
+        {
+            "id": 97,
+            "character_id": 97,
+            "image_path": "res/img/npc/tommy_lee_1.jpg"
+        },
+        {
+            "id": 98,
+            "character_id": 98,
+            "image_path": "res/img/pc/liora_mikhailov_1.png"
+        },
+        {
+            "id": 99,
+            "character_id": 98,
+            "image_path": "res/img/pc/liora_mikhailov_4.png"
+        },
+        {
+            "id": 100,
+            "character_id": 98,
+            "image_path": "res/img/pc/liora_mikhailov_3.png"
+        },
+        {
+            "id": 101,
+            "character_id": 98,
+            "image_path": "res/img/pc/liora_mikhailov_2.png"
+        },
+        {
+            "id": 102,
+            "character_id": 99,
+            "image_path": "res/img/pc/simon__slate__cross_1.png"
+        },
+        {
+            "id": 103,
+            "character_id": 99,
+            "image_path": "res/img/pc/simon__slate__cross_2.png"
+        },
+        {
+            "id": 104,
+            "character_id": 100,
+            "image_path": "res/img/pc/marius_raimondi_1.png"
+        },
+        {
+            "id": 105,
+            "character_id": 101,
+            "image_path": "res/img/pc/alistar_ionman_1.png"
+        },
+        {
+            "id": 106,
+            "character_id": 101,
+            "image_path": "res/img/pc/alistar_ionman_2.png"
+        },
+        {
+            "id": 107,
+            "character_id": 102,
+            "image_path": "res/img/pc/albert_hitchens.jpeg"
+        },
+        {
+            "id": 108,
+            "character_id": 103,
+            "image_path": "res/img/pc/roxanne__roxy__cross_2.jpg"
+        },
+        {
+            "id": 109,
+            "character_id": 103,
+            "image_path": "res/img/pc/roxanne__roxy__cross_1.jpg"
         }
     ]
 }
