@@ -44,12 +44,13 @@ class LLMProcessor:
             logger.error(f"Failed to load prompt file at {path}: {e}")
             raise
 
-    def generate_chronicle(self, prev_narrative: str, notes: str, npc_list: list[dict], last_date: str) -> Optional[dict[str, Any]]:
+    def generate_chronicle(self, prev_narrative: str, notes: str, npc_list: list[dict], last_date: str, location_list: list[dict]) -> Optional[dict[str, Any]]:
         formatted_prompt = self.prompts["chronicle"].format(
             prev_narrative=prev_narrative,
             notes=notes,
             npc_list=json.dumps(npc_list),
-            last_date=last_date
+            last_date=last_date,
+            location_list=location_list
         )
         return self._call_api(formatted_prompt)
 

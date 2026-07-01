@@ -1,15 +1,9 @@
-
-2026-06-30 12:53:25,202 | INFO | llm_processor:70 | Sending request to anthropic/claude-sonnet-4.6 via OpenRouter
-2026-06-30 12:54:04,517 | INFO | session_manager:47 | Extracting metadata...
 Traceback (most recent call last):
   File "/home/keilholz/code/seacouver-by-night/scripts/update_db.py", line 34, in <module>
     main()
   File "/home/keilholz/code/seacouver-by-night/scripts/update_db.py", line 29, in main
     manager.update_session(note_file_path=file)
-  File "/home/keilholz/code/seacouver-by-night/lib/sessions_manager.py", line 48, in update_session
-    metadata = self.llm.extract_metadata(
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/keilholz/code/seacouver-by-night/lib/llm_processor.py", line 59, in extract_metadata
-    formatted_prompt = self.prompts["archivist"].format(
-                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-KeyError: '\n        "slug"'
+  File "/home/keilholz/code/seacouver-by-night/lib/sessions_manager.py", line 84, in update_session
+    self.db.log_character_interaction(
+TypeError: DatabaseManager.log_character_interaction() missing 1 required positional argument: 'session_id'
+(.venv) [ keilholz@keilhol
