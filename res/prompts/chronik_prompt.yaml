@@ -6,7 +6,6 @@ chronicle_generator:
     Perspective: Third person.
     Role: Precise archivist; you do not invent events.
     Word Count: Between 350 and 550 words per article.
-
   user_prompt: |
     CONTEXT:
     Previous Narrative: {prev_narrative}
@@ -51,13 +50,11 @@ chronicle_generator:
       "summary": "String",
       "narrative": "String"
     }}
-
 data_archivist:
   system_prompt: |
     You are the 'Archivist of Seacouver'.
     Role: You extract structured data from narrative texts. You are precise and update records only based on facts.
     Language: German.
-
   user_prompt: |
     CONTEXT:
     Narrative: {narrative}

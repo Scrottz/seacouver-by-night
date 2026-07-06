@@ -1,10 +1,11 @@
-
 import json
 import os
+
 from lib.db_manager import DatabaseManager
 from lib.log_utils import get_logger
 
 logger = get_logger("backup")
+
 
 def backup_all_to_json(output_file="data/db.json"):
     db = DatabaseManager()
@@ -18,7 +19,7 @@ def backup_all_to_json(output_file="data/db.json"):
         "character_logs": [],
         "character_relationships": [],
         "character_aliases": [],
-        "character_images": []
+        "character_images": [],
     }
 
     # Wir greifen direkt auf die Verbindungen zu, um die Tabellen zu dumpen
@@ -46,12 +47,15 @@ def backup_all_to_json(output_file="data/db.json"):
         data["character_images"] = [dict(r) for r in cursor.fetchall()]
 
     # Save to file
-    with open(output_file, 'w', encoding='utf-8') as f:
+    with open(output_file, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=4, ensure_ascii=False)
 
     logger.info(f"Backup complete: {output_file}")
-    logger.info(f"Entities: {len(data['characters'])} chars, {len(data['sessions'])} sessions, "
-                f"{len(data['character_logs'])} log entries, {len(data['character_relationships'])} relations.")
+    logger.info(
+        f"Entities: {len(data['characters'])} chars, {len(data['sessions'])} sessions, "
+        f"{len(data['character_logs'])} log entries, {len(data['character_relationships'])} relations."
+    )
+
 
 if __name__ == "__main__":
     backup_all_to_json()
