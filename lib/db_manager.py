@@ -1,6 +1,7 @@
 import json
 import os
 import sqlite3
+from typing import Optional, Union
 
 from lib.log_utils import get_logger
 
@@ -73,13 +74,14 @@ class DatabaseManager:
                 )
             ''')
 
+            # tasks table: reason now expected to be JSON string
             cursor.execute('''
                 CREATE TABLE IF NOT EXISTS tasks (
                     id INTEGER PRIMARY KEY AUTOINCREMENT,
                     description TEXT,
                     status TEXT DEFAULT 'Active',
                     session_id INTEGER,
-                    reason TEXT DEFAULT NULL,
+                    reason TEXT DEFAULT '[]', -- Default to an empty JSON array string
                     FOREIGN KEY(session_id) REFERENCES sessions(id) ON DELETE CASCADE
                 )
             ''')
@@ -140,7 +142,7 @@ class DatabaseManager:
             ''')
             conn.commit()
 
-    def add_character(self, name, slug, char_type="NPC", aliases=None, **kwargs):
+    def add_character(self, name, slug, char_type="NPC", aliases: Optional[Union[str, list[str]]] = None, **kwargs):
         """
         Adds a new character or updates an existing one based on slug.
         Includes handling for legacy 'aliases' string column and syncing with 'character_aliases' table.
@@ -218,7 +220,7 @@ class DatabaseManager:
             conn.commit()
             return char_id
 
-    def set_character_images(self, character_id, image_paths):
+    def set_character_images(self, character_id: int, image_paths: list[str]):
         """
         Sets the images for a character - replaces old images.
         Prevents duplicates.
@@ -241,7 +243,7 @@ class DatabaseManager:
 
             conn.commit()
 
-    def add_character_image(self, character_id, image_path):
+    def add_character_image(self, character_id: int, image_path: str):
         """
         Adds an image, but prevents duplicates.
         """
@@ -262,7 +264,7 @@ class DatabaseManager:
             )
             conn.commit()
 
-    def get_all_characters(self, char_type=None):
+    def get_all_characters(self, char_type: Optional[str] = None):
         """Returns all characters as real dictionaries."""
         with self.get_connection() as conn:
             cursor = conn.cursor()
@@ -273,7 +275,7 @@ class DatabaseManager:
 
             return [self._row_to_dict(row) for row in cursor.fetchall()]
 
-    def get_character_by_slug(self, slug):
+    def get_character_by_slug(self, slug: str):
         """Returns a character as a real dictionary based on its slug."""
         with self.get_connection() as conn:
             cursor = conn.cursor()
@@ -291,7 +293,7 @@ class DatabaseManager:
             row = cursor.fetchone()
             return self._row_to_dict(row)
 
-    def get_session_date_from_id(self, session_id):
+    def get_session_date_from_id(self, session_id: int):
         """Fetches the real date of a session by its ID."""
         with self.get_connection() as conn:
             cursor = conn.cursor()
@@ -299,7 +301,7 @@ class DatabaseManager:
             row = cursor.fetchone()
             return row["date"] if row else None
 
-    def get_session_ingame_date_from_id(self, session_id):
+    def get_session_ingame_date_from_id(self, session_id: int):
         """Fetches the in-game date of a session by its ID."""
         with self.get_connection() as conn:
             cursor = conn.cursor()
@@ -308,7 +310,7 @@ class DatabaseManager:
             return row["ingame_date"] if row else None
 
 
-    def get_all_sessions(self, limit=2, offset=0):
+    def get_all_sessions(self, limit: int = 2, offset: int = 0):
         """Fetches all sessions with pagination."""
         with self.get_connection() as conn:
             cursor = conn.cursor()
@@ -333,7 +335,7 @@ class DatabaseManager:
             row = cursor.fetchone()
             return row["count"] if row else 0
 
-    def get_character_by_id(self, char_id):
+    def get_character_by_id(self, char_id: int):
         """Fetches a character by ID."""
         with self.get_connection() as conn:
             cursor = conn.cursor()
@@ -341,7 +343,7 @@ class DatabaseManager:
             row = cursor.fetchone()
             return self._row_to_dict(row)
 
-    def get_character_images(self, character_id):
+    def get_character_images(self, character_id: int):
         """Fetches all images for a character."""
         with self.get_connection() as conn:
             cursor = conn.cursor()
@@ -352,7 +354,7 @@ class DatabaseManager:
             return [row["image_path"] for row in cursor.fetchall()]
 
 
-    def insert_session(self, date: str, plain_notes: str, ingame_date: str = None, title: str = None):
+    def insert_session(self, date: str, plain_notes: str, ingame_date: Optional[str] = None, title: Optional[str] = None):
         """Inserts a new session into the database."""
         with self.get_connection() as conn:
             conn.execute(
@@ -361,21 +363,21 @@ class DatabaseManager:
             )
             conn.commit()
 
-    def get_session_by_date(self, date):
+    def get_session_by_date(self, date: str):
         """Fetches a session by its real date."""
         with self.get_connection() as conn:
            cursor = conn.cursor()
            cursor.execute("SELECT * FROM sessions WHERE date = ?", (date,))
            return self._row_to_dict(cursor.fetchone())
 
-    def get_open_tasks_by_session(self, session_id):
+    def get_open_tasks_by_session(self, session_id: int):
         """Fetches all open tasks for a specific session."""
         with self.get_connection() as conn:
             cursor = conn.cursor()
             cursor.execute("SELECT description FROM tasks WHERE session_id = ? AND status = 'Open'", (session_id,))
             return [row["description"] for row in cursor.fetchall()]
 
-    def get_previous_session(self, current_date):
+    def get_previous_session(self, current_date: str):
         """Fetches the chronologically last session before the current date."""
         with self.get_connection() as conn:
             cursor = conn.cursor()
@@ -401,7 +403,7 @@ class DatabaseManager:
             conn.commit()
             logger.info(f"Deleted record {record_id} from {table}")
 
-    def get_recent_sessions(self, limit=2):
+    def get_recent_sessions(self, limit: int = 2):
         """Fetches the last N sessions, sorted from oldest to newest."""
         with self.get_connection() as conn:
             cursor = conn.cursor()
@@ -425,14 +427,15 @@ class DatabaseManager:
             )
         return "\n".join(npc_list)
 
-    def add_task(self, session_id, description, status="Open"):
+    def add_task(self, session_id: int, description: str, status: str = "Open"):
         """Adds a new task associated with a session."""
         with self.get_connection() as conn:
-            conn.execute("INSERT INTO tasks (session_id, description, status) VALUES (?, ?, ?)",
-                         (session_id, description, status))
+            # When adding a new task, initialize 'reason' as an empty JSON array
+            conn.execute("INSERT INTO tasks (session_id, description, status, reason) VALUES (?, ?, ?, ?)",
+                         (session_id, description, status, json.dumps([])))
             conn.commit()
 
-    def update_npc_from_ai(self, character_slug, status, log_entry, session_id, biography_addition=None):
+    def update_npc_from_ai(self, character_slug: str, status: str, log_entry: str, session_id: int, biography_addition: Optional[str] = None):
         """
         Updates NPC status, adds a log entry to history, and appends to biography if new info is provided.
         """
@@ -467,7 +470,7 @@ class DatabaseManager:
             conn.commit()
             return True
 
-    def update_session_ai_content(self, date, title, ingame_date, narrative, summary):
+    def update_session_ai_content(self, date: str, title: str, ingame_date: str, narrative: str, summary: str):
         """
         Updates the session content with the AI-generated output.
         """
@@ -493,7 +496,11 @@ class DatabaseManager:
             if row:
                 rel_dict = self._row_to_dict(row)
                 if rel_dict['reason']:
-                    rel_dict['reason'] = json.loads(rel_dict['reason']) # Convert JSON string back to list
+                    try:
+                        rel_dict['reason'] = json.loads(rel_dict['reason']) # Convert JSON string back to list
+                    except json.JSONDecodeError:
+                        logger.warning(f"Invalid JSON in character_relationships reason for ID {rel_dict['id']}: {rel_dict['reason']}. Treating as single string list.")
+                        rel_dict['reason'] = [rel_dict['reason']] # Fallback for old/malformed entries
                 else:
                     rel_dict['reason'] = []
                 return rel_dict
@@ -535,11 +542,11 @@ class DatabaseManager:
                     reasons_to_store = existing_relationship["reason"] # Already a list from _get_character_relationship
                     if new_reason and new_reason not in reasons_to_store:
                         reasons_to_store.append(new_reason)
-                    logger.info(f"Appended reason to existing relationship for {source_slug} and {target_slug} as {new_relation_type}.")
+                    logger.info(f"Appended reason '{new_reason}' to existing relationship for {source_slug} and {target_slug} as {new_relation_type}.")
                 else:
                     # If relation type changes, start a new list of reasons for the new type
                     reasons_to_store = [new_reason] if new_reason else []
-                    logger.info(f"Relationship type changed for {source_slug} and {target_slug} from {existing_relationship['relation_type']} to {new_relation_type}. Starting new reasons list.")
+                    logger.info(f"Relationship type changed for {source_slug} and {target_slug} from {existing_relationship['relation_type']} to {new_relation_type}. Starting new reasons list with '{new_reason}'.")
 
                 # Delete the old relationship entry (to ensure only one active entry)
                 cursor.execute("DELETE FROM character_relationships WHERE source_character_id = ? AND target_character_id = ?",
@@ -547,7 +554,7 @@ class DatabaseManager:
             else:
                 # If no existing relationship, start a new list of reasons
                 reasons_to_store = [new_reason] if new_reason else []
-                logger.info(f"Creating new relationship for {source_slug} and {target_slug} as {new_relation_type}.")
+                logger.info(f"Creating new relationship for {source_slug} and {target_slug} as {new_relation_type} with reason '{new_reason}'.")
 
             # Insert the new/updated relationship state with the JSON reasons
             cursor.execute("INSERT INTO character_relationships (source_character_id, target_character_id, relation_type, reason) VALUES (?, ?, ?, ?)",
@@ -575,20 +582,34 @@ class DatabaseManager:
         """Fetches all active tasks including their ID for LLM referencing."""
         with self.get_connection() as conn:
             cursor = conn.cursor()
-            cursor.execute("SELECT id, description, status FROM tasks WHERE status != 'Accomplished'")
-            return [dict(row) for row in cursor.fetchall()]
+            cursor.execute("SELECT id, description, status, reason FROM tasks WHERE status != 'Accomplished'")
+            # Parse 'reason' from JSON string to list for the application layer
+            tasks = []
+            for row in cursor.fetchall():
+                task_dict = self._row_to_dict(row)
+                if task_dict['reason']:
+                    try:
+                        task_dict['reason'] = json.loads(task_dict['reason'])
+                    except json.JSONDecodeError:
+                        logger.warning(f"Invalid JSON in task reason for ID {task_dict['id']}: {task_dict['reason']}. Treating as single string list.")
+                        task_dict['reason'] = [task_dict['reason']] # Fallback for old/malformed entries
+                else:
+                    task_dict['reason'] = []
+                tasks.append(task_dict)
+            return tasks
 
-    def sync_task(self, session_id, description, status, reason=None, task_id=None):
+    def sync_task(self, session_id: int, description: str, status: str, new_reason: Optional[str] = None, task_id: Optional[int] = None):
         """
         Syncs a task's status and reasons. If task_id is provided, it updates by ID.
         Otherwise, it attempts to find by description and session_id.
         If no existing task is found, a new one is inserted.
+        'reason' is stored as a JSON list, with new_reason appended if not already present.
         """
         with self.get_connection() as conn:
             cursor = conn.cursor()
 
             existing_id = None
-            existing_reason_text = ""
+            current_reasons: list[str] = [] # Initialize as empty list
 
             if task_id:
                 cursor.execute("SELECT id, reason FROM tasks WHERE id = ?", (task_id,))
@@ -599,19 +620,33 @@ class DatabaseManager:
 
             if row:
                 existing_id = row['id']
-                existing_reason_text = row['reason'] or ""
+                # Load existing reasons from JSON string
+                if row['reason']:
+                    try:
+                        current_reasons = json.loads(row['reason'])
+                    except json.JSONDecodeError:
+                        logger.warning(f"Invalid JSON in task reason for ID {existing_id}: {row['reason']}. Treating as single string list.")
+                        # If parsing fails, assume it's an old string and put it in a list
+                        current_reasons = [row['reason']]
 
-                new_reason_text = f"{existing_reason_text} | {reason}".strip(" | ") if reason else existing_reason_text
+                # Add new reason if it's not empty and not already in the list
+                if new_reason and new_reason not in current_reasons:
+                    current_reasons.append(new_reason)
 
+                # Update task with new status and JSON-dumped reasons
                 cursor.execute("UPDATE tasks SET status = ?, reason = ? WHERE id = ?",
-                               (status, new_reason_text, existing_id))
+                               (status, json.dumps(current_reasons), existing_id))
+                logger.info(f"Updated task ID {existing_id}: status '{status}', added reason '{new_reason}'.")
             else:
+                # Insert new task. Initial reason is just the new_reason in a list.
+                initial_reasons = [new_reason] if new_reason else []
                 cursor.execute("INSERT INTO tasks (session_id, description, status, reason) VALUES (?, ?, ?, ?)",
-                               (session_id, description, status, reason or "Created."))
+                               (session_id, description, status, json.dumps(initial_reasons)))
+                logger.info(f"Inserted new task for session {session_id}: '{description}' with initial reason '{new_reason}'.")
 
             conn.commit()
 
-    def add_alias_to_character(self, character_slug, new_alias):
+    def add_alias_to_character(self, character_slug: str, new_alias: str):
         """
         Adds a new alias to a character, preventing duplicates and updating the legacy aliases string.
         """
@@ -646,7 +681,7 @@ class DatabaseManager:
 
             return False
 
-    def log_character_interaction(self, source_id: int, target_id: int | None, ingame_date: str, change_desc: str, reason: str, session_id: int):
+    def log_character_interaction(self, source_id: int, target_id: Optional[int], ingame_date: str, change_desc: str, reason: str, session_id: int):
         """
         Logs a character interaction or updates an existing one if it occurred on the same day
         within the same session with the same source, target, and description. Reasons are added to a JSON array.
@@ -671,6 +706,7 @@ class DatabaseManager:
                     reasons.append(reason)
                 cursor.execute("UPDATE character_logs SET reasons = ? WHERE id = ?",
                                (json.dumps(reasons), row['id']))
+                logger.info(f"Updated interaction log for source {source_id}, target {target_id} in session {session_id}. Added reason: '{reason}'.")
             else:
                 # Create a new log entry
                 reasons_for_log = [reason] if reason else [] # Start with the current reason
@@ -679,10 +715,11 @@ class DatabaseManager:
                     (source_character_id, target_character_id, session_id, ingame_date, change_description, reasons)
                     VALUES (?, ?, ?, ?, ?, ?)
                 ''', (source_id, target_id, session_id, ingame_date, change_desc, json.dumps(reasons_for_log)))
+                logger.info(f"New interaction log created for source {source_id}, target {target_id} in session {session_id}: '{change_desc}'.")
 
             conn.commit()
 
-    def get_logs_for_character_relation(self, source_id, target_id):
+    def get_logs_for_character_relation(self, source_id: int, target_id: int):
         """Holt alle Log-Einträge zwischen zwei Charakteren."""
         with self.get_connection() as conn:
             cursor = conn.cursor()
@@ -703,26 +740,52 @@ class DatabaseManager:
             return results
 
 
-    def update_character_from_ai_data(self, slug, **kwargs):
+    def update_character_from_ai_data(self, slug: str, **kwargs):
         """Update character fields dynamically based on LLM output."""
         with self.get_connection() as conn:
             cursor = conn.cursor()
             # Only update allowed columns
-            allowed = ['status', 'contact', 'friends_raw', 'foes_raw', 'cause_of_death', 'biography']
-            fields = [f"{k} = ?" for k in kwargs if k in allowed]
-            params = [kwargs[k] for k in kwargs if k in allowed]
+            allowed = ['status', 'contact', 'friends_raw', 'foes_raw', 'cause_of_death', 'biography_addition']
+            # We need to handle 'biography_addition' separately to append
 
-            if not fields:
+            update_fields = []
+            update_params = []
+            biography_to_add = None
+
+            for k, v in kwargs.items():
+                if k == 'biography_addition' and v is not None:
+                    biography_to_add = v
+                elif k in allowed and v is not None:
+                    update_fields.append(f"{k} = ?")
+                    update_params.append(v)
+
+            if not update_fields and not biography_to_add:
                 logger.info(f"No allowed fields to update for character '{slug}' from AI data.")
                 return False
 
-            params.append(slug)
-            cursor.execute(f"UPDATE characters SET {', '.join(fields)} WHERE slug = ?", params)
-            conn.commit()
-            logger.info(f"Character '{slug}' updated from AI data.")
+            # Handle biography_addition separately if present
+            if biography_to_add:
+                char = self.get_character_by_slug(slug)
+                if char:
+                    old_bio = char.get("biography", "") or ""
+                    new_bio = f"{old_bio}\n\n{biography_to_add}".strip()
+                    update_fields.append("biography = ?")
+                    update_params.append(new_bio)
+                    logger.info(f"Appended to biography for character '{slug}'.")
+                else:
+                    logger.warning(f"Character with slug '{slug}' not found for biography_addition. Skipping.")
+
+
+            if update_fields: # Execute update only if there are fields to change
+                update_params.append(slug)
+                cursor.execute(f"UPDATE characters SET {', '.join(update_fields)} WHERE slug = ?", update_params)
+                conn.commit()
+                logger.info(f"Character '{slug}' updated from AI data.")
+
             return True
 
-    def add_location(self, name: str, slug: str, aliases: str | list[str] = None):
+
+    def add_location(self, name: str, slug: str, aliases: Optional[Union[str, list[str]]] = None):
         """
         Adds a new location or updates an existing one if the slug already exists.
         Returns the ID of the location.
@@ -768,11 +831,11 @@ class DatabaseManager:
             conn.commit()
             return loc_id
 
-    def log_location_update(self, loc_slug: str, ingame_date: str, description: str): # Parametername angepasst
+    def log_location_update(self, loc_slug: str, ingame_date: str, description: str):
         """Logs a historical update for a location."""
         with self.get_connection() as conn:
             cursor = conn.cursor()
-            cursor.execute("SELECT id FROM locations WHERE slug = ?", (loc_slug,)) # Hier loc_slug nutzen
+            cursor.execute("SELECT id FROM locations WHERE slug = ?", (loc_slug,))
             row = cursor.fetchone()
             if row:
                 loc_id = row['id']
@@ -783,7 +846,7 @@ class DatabaseManager:
                 conn.commit()
                 logger.info(f"Logged history update for location '{loc_slug}'.")
             else:
-                logger.warning(f"Location with slug '{loc_slug}' not found for logging history update.")
+                logger.warning(f"Location with slug '{loc_slug}' not found for logging history update. Event: {description}")
 
 
     def get_location_list_for_prompt(self):
@@ -813,4 +876,3 @@ class DatabaseManager:
             cursor.execute("SELECT * FROM locations WHERE slug = ? COLLATE NOCASE", (slug,))
             row = cursor.fetchone()
             return self._row_to_dict(row)
-

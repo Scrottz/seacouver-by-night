@@ -1,4 +1,3 @@
-
 chronicle_generator:
   system_prompt: |
     You are the 'Master Chronicler of Seacouver'.
@@ -82,7 +81,7 @@ data_archivist:
        - Do not use raw double quotes inside strings; use single quotes (') instead.
     8. RELATIONSHIP_TYPES: For NPC relations, the 'type' MUST be one of these: 'friend', 'foe', 'neutral'. Do not use any other values.
     9. RELATIONSHIP_REASONS: For NPC relations, the 'reason' should be a SINGLE, concise string explaining *why this particular change or initial relationship was observed in this session*. This reason will be added to a historical list in the database.
-    10. LOCATION_DESCRIPTION_CONCISENESS: Descriptions for `location_history_events` must be concise (1-2 sentences) and only describe the event itself at the location, not the location's attributes.
+    10. LOCATION_DESCRIPTION_GRANULARITY: Descriptions for `location_history_events` must be extremely concise (1-2 sentences), focused on a *single, distinct event* that happened *at that specific location*. Do NOT combine multiple events or an entire session summary into one entry. Create multiple entries if several distinct events occur at different locations or at the same location but are clearly separable.
 
     TASKS:
     1. TASKS: Compare narrative/notes with {tasks_list}.
@@ -101,13 +100,21 @@ data_archivist:
        - Biography: 'biography_addition' (if new factual information about the NPC's history/background appears).
        - Log: 'log' (A general log message for the NPC's overall involvement in the session, if any significant change/event happens to them not covered by relations/interaction_logs/biography).
     3. NEW_OR_UPDATED_LOCATIONS: Identify any locations mentioned that are NOT in `Known Locations`, or if a new `alias` is used for an existing `Known Location`.
-       - For NEW locations, provide a `name`, `slug` (create a simple, lowercase, hyphenated slug), and `aliases` (comma-separated string).
-       - For KNOWN locations where a new `alias` is discovered, provide the `slug` of the known location, its `name` (the primary name from `Known Locations`), and the `newly_discovered_alias` (single string).
-       - Do NOT create duplicate entries if a location is already fully known.
-    4. LOCATION_HISTORY_EVENTS: If the narrative describes significant events occurring at existing locations from `Known Locations`, add an entry.
-       - Use the `slug` from `Known Locations`.
-       - Provide the `ingame_date` of the event.
-       - Provide a `description` of the event (concise, 1-2 sentences).
+       - For NEW locations, provide a `name`, `slug` (create a simple, lowercase, hyphenated slug, e.g., "club-vertigo"), and `aliases` (comma-separated string, e.g., "Vertigo, The Club").
+       - For KNOWN locations where a new `alias` is discovered, provide the `slug` of the known location, its `name` (the primary name from `Known Locations`), and the `aliases` (a SINGLE new alias found for that location). The system will merge it.
+       - Do NOT create duplicate entries if a location is already fully known and no new alias is present.
+    4. LOCATION_HISTORY_EVENTS: If the narrative describes *distinct, significant events* occurring at existing locations from `Known Locations`, add an entry for *each individual event*.
+       - `slug`: The unique slug from `Known Locations` for the specific place where the event happened.
+       - `ingame_date`: The in-game date of *this specific event*.
+       - `description`: A clear, concise summary (1-2 sentences) of *only this particular event* at this location.
+       - Example for LOCATION_HISTORY_EVENTS:
+         # From notes: "Marius and Slate visited Club Vertigo. Later, Ivanna was shot near the Library."
+         # Expected Output:
+         # [
+         #   {"slug": "club-vertigo", "ingame_date": "2015-09-25", "description": "Marius Raimondi and Slate visited Club Vertigo to gather information."},
+         #   {"slug": "seattle-public-library", "ingame_date": "2015-09-25", "description": "Ivanna Orlov was shot outside the library and fled in a black SUV."}
+         # ]
+
 
     OUTPUT FORMAT (Strict JSON):
     {{
@@ -144,18 +151,12 @@ data_archivist:
       ],
       "new_or_updated_locations": [ # For creating new location entries or updating aliases
         {{
-          "name": "{{name}}",
-          "slug": "{{slug}}",
-          "aliases": "{{comma_separated_aliases}}" # Example: "Library, Public Library"
+          "name": "{{name}}", # Required for new locations, primary name for updates
+          "slug": "{{slug}}", # Unique identifier
+          "aliases": "{{comma_separated_aliases}}" # Example: "Vertigo, The Club" or "New Alias" for existing
         }}
-        # OR for adding a new alias to an existing location:
-        # {{
-        #   "slug": "{{existing_location_slug}}",
-        #   "name": "{{existing_location_name}}", # Primary name of the existing location
-        #   "aliases": "{{newly_discovered_alias}}" # Just the new alias, will be merged by Python
-        # }}
       ],
-      "location_history_events": [ # For logging events at existing locations
+      "location_history_events": [ # For logging *individual* events at existing locations
         {{
           "slug": "{{slug}}",
           "ingame_date": "{{ingame_date}}",
