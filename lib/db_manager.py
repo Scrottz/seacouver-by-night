@@ -2,6 +2,7 @@ import json
 import os
 import sqlite3
 from typing import Optional, Union
+
 from lib.log_utils import get_logger
 
 logger = get_logger("db")
