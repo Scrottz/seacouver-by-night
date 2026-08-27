@@ -12,6 +12,7 @@ BACKUP_FILE = Path("data/db.json")
 NOTES_PATH = Path("res/notes")
 IMAGES_DIRS = [Path("res/img/npc"), Path("res/img/pc")]
 
+
 def main():
     manager = SessionManager()
     logger.info("Starting database import process...")
@@ -25,10 +26,11 @@ def main():
 
     logger.info(f"Starting batch process for {len(files)} sessions.")
     for file in files:
-        logger.info(f'--- Processing session: {file.name} ---')
+        logger.info(f"--- Processing session: {file.name} ---")
         manager.update_session(note_file_path=file)
-        logger.info(f'Sucessfully finished {file.name}')
+        logger.info(f"Sucessfully finished {file.name}")
     print_summary(new_chars=new_chars, new_sessions=new_sessions)
+
 
 if __name__ == "__main__":
     main()

@@ -1,5 +1,4 @@
 import json
-import os
 
 from lib.db_manager import DatabaseManager
 from lib.log_utils import get_logger
@@ -10,8 +9,6 @@ logger = get_logger("backup")
 def backup_all_to_json(output_file="data/db.json"):
     db = DatabaseManager()
 
-    # Data collection: Wir ziehen uns ALLES, damit wir bei einem Restore
-    # exakt den gleichen Zustand der Welt haben.
     data = {
         "characters": [dict(c) for c in db.get_all_characters()],
         "sessions": db.get_all_sessions_raw(),
@@ -22,7 +19,6 @@ def backup_all_to_json(output_file="data/db.json"):
         "character_images": [],
     }
 
-    # Wir greifen direkt auf die Verbindungen zu, um die Tabellen zu dumpen
     with db.get_connection() as conn:
         cursor = conn.cursor()
 
@@ -30,11 +26,11 @@ def backup_all_to_json(output_file="data/db.json"):
         cursor.execute("SELECT * FROM tasks")
         data["tasks"] = [dict(r) for r in cursor.fetchall()]
 
-        # Collect character_logs (Die Historie!)
+        # Collect character_logs
         cursor.execute("SELECT * FROM character_logs")
         data["character_logs"] = [dict(r) for r in cursor.fetchall()]
 
-        # Collect relationships (Das Geflecht!)
+        # Collect relationships
         cursor.execute("SELECT * FROM character_relationships")
         data["character_relationships"] = [dict(r) for r in cursor.fetchall()]
 
